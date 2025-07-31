@@ -28,7 +28,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
          </div>
 
          {/* Scrollable Content */}
-         <div className="flex-1 overflow-y-auto scroll-thin relative">
+         <div className="flex-1 overflow-y-auto scroll-club-detail relative">
             <div className="p-3 sm:p-4 space-y-4 sm:space-y-6 pb-24">
                {/* Main Image */}
                <Card className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border-0">

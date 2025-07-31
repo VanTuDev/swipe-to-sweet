@@ -138,6 +138,31 @@
   .scroll-card::-webkit-scrollbar-thumb:hover {
     background: rgba(236, 72, 153, 0.4);
   }
+
+  /* Club detail specific scroll */
+  .scroll-club-detail {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(236, 72, 153, 0.4) transparent;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scroll-club-detail::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scroll-club-detail::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 3px;
+  }
+
+  .scroll-club-detail::-webkit-scrollbar-thumb {
+    background: rgba(236, 72, 153, 0.4);
+    border-radius: 3px;
+  }
+
+  .scroll-club-detail::-webkit-scrollbar-thumb:hover {
+    background: rgba(236, 72, 153, 0.6);
+  }
 }
 
 @layer base {
