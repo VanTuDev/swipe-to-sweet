@@ -22,6 +22,122 @@
   .pr-safe {
     padding-right: env(safe-area-inset-right);
   }
+
+  /* Line clamp utilities */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  .line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+
+  /* Mobile-specific utilities */
+  .mobile-only {
+    @apply block sm:hidden;
+  }
+
+  .desktop-only {
+    @apply hidden sm:block;
+  }
+
+  /* Touch-friendly buttons */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Scroll thin utilities */
+  .scroll-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(236, 72, 153, 0.3) transparent;
+  }
+
+  .scroll-thin::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .scroll-thin::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 2px;
+  }
+
+  .scroll-thin::-webkit-scrollbar-thumb {
+    background: rgba(236, 72, 153, 0.3);
+    border-radius: 2px;
+  }
+
+  .scroll-thin::-webkit-scrollbar-thumb:hover {
+    background: rgba(236, 72, 153, 0.5);
+  }
+
+  /* Scroll thin for horizontal scroll */
+  .scroll-thin-x {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(236, 72, 153, 0.3) transparent;
+  }
+
+  .scroll-thin-x::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .scroll-thin-x::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 2px;
+  }
+
+  .scroll-thin-x::-webkit-scrollbar-thumb {
+    background: rgba(236, 72, 153, 0.3);
+    border-radius: 2px;
+  }
+
+  .scroll-thin-x::-webkit-scrollbar-thumb:hover {
+    background: rgba(236, 72, 153, 0.5);
+  }
+
+  /* Custom scroll for specific components */
+  .scroll-card {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(236, 72, 153, 0.2) transparent;
+  }
+
+  .scroll-card::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .scroll-card::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scroll-card::-webkit-scrollbar-thumb {
+    background: rgba(236, 72, 153, 0.2);
+    border-radius: 1.5px;
+  }
+
+  .scroll-card::-webkit-scrollbar-thumb:hover {
+    background: rgba(236, 72, 153, 0.4);
+  }
 }
 
 @layer base {
@@ -109,6 +225,15 @@
     user-select: none;
   }
 
+  html {
+    height: 100%;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
@@ -117,6 +242,20 @@
     height: 100dvh;
     overflow: hidden;
     overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Prevent zoom on input focus on iOS */
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+
+  /* Smooth scrolling for iOS */
+  * {
     -webkit-overflow-scrolling: touch;
   }
 }
@@ -146,9 +285,35 @@
   .h-screen {
     height: -webkit-fill-available;
   }
+
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
 }
 
+/* iOS Safari specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .fixed {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
 
+/* Prevent horizontal scroll */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Touch-friendly button sizes */
+button,
+[role="button"] {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Smooth animations */
 .animate-in {
   animation: fadeIn 0.4s ease forwards;
 }
@@ -162,5 +327,37 @@
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+/* Zoom animations */
+.zoom-in-95 {
+  animation: zoomIn95 0.2s ease-out;
+}
+
+@keyframes zoomIn95 {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Fade animations */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }

@@ -34,7 +34,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-400 via-pink-300 to-orange-300">
+    <div className="min-h-screen w-full bg-gradient-to-br from-pink-400 via-pink-300 to-orange-300 overflow-hidden scroll-thin">
       {currentView === "splash" && <SplashScreen />}
       {currentView === "swipe" && <SwipeInterface onClubSelect={handleClubSelect} onMessage={handleMessage} />}
       {currentView === "detail" && selectedClub && (

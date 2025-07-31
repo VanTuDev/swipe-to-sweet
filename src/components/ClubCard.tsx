@@ -37,7 +37,7 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
       return (
          <motion.div
             ref={ref}
-            className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl border-0 cursor-grab active:cursor-grabbing select-none bg-white"
+            className="absolute inset-0 rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border-0 cursor-grab active:cursor-grabbing select-none bg-white"
             animate={{ x: dragOffset, rotate: rotation, opacity }}
             transition={{ duration: isDragging ? 0 : 0.3 }}
             onMouseDown={(e) => {
@@ -72,12 +72,12 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                   {dragOffset > 60 && (
-                     <div className="absolute top-4 right-4 bg-green-500 text-white px-4 py-2 rounded-full font-bold text-sm transform rotate-12 shadow-lg">
+                     <div className="absolute top-2 sm:top-4 right-2 sm:right-4 bg-green-500 text-white px-2 sm:px-4 py-1 sm:py-2 rounded-full font-bold text-xs sm:text-sm transform rotate-12 shadow-lg">
                         ❤️ THÍCH
                      </div>
                   )}
                   {dragOffset < -60 && (
-                     <div className="absolute top-4 left-4 bg-red-500 text-white px-4 py-2 rounded-full font-bold text-sm transform -rotate-12 shadow-lg">
+                     <div className="absolute top-2 sm:top-4 left-2 sm:left-4 bg-red-500 text-white px-2 sm:px-4 py-1 sm:py-2 rounded-full font-bold text-xs sm:text-sm transform -rotate-12 shadow-lg">
                         ❌ BỎ QUA
                      </div>
                   )}
@@ -85,23 +85,23 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
 
                {/* Content section */}
                <div
-                  className="h-2/5 p-4 flex flex-col justify-start overflow-y-auto scrollbar-thin scrollbar-thumb-pink-300 scrollbar-track-transparent"
+                  className="h-2/5 p-2 sm:p-4 flex flex-col justify-start overflow-y-auto scroll-card"
                   style={{ scrollbarWidth: "thin" }}
                >
-                  <div className="space-y-3">
+                  <div className="space-y-2 sm:space-y-3">
                      <div className="flex items-center justify-between">
-                        <h2 className="text-xl font-bold text-gray-800">{club.name}</h2>
+                        <h2 className="text-base sm:text-xl font-bold text-gray-800 truncate">{club.name}</h2>
                      </div>
                      <div className="text-xs text-gray-600 space-y-1">
-                        <div>🔹 <b>Lĩnh vực:</b> {club.field}</div>
-                        <div>🔹 <b>Vị trí:</b> {club.position}</div>
-                        <div>🔹 <b>Đang tìm:</b> <span className="text-pink-600 italic">"{club.looking}"</span></div>
+                        <div className="truncate">🔹 <b>Lĩnh vực:</b> {club.field}</div>
+                        <div className="truncate">🔹 <b>Vị trí:</b> {club.position}</div>
+                        <div className="truncate">🔹 <b>Đang tìm:</b> <span className="text-pink-600 italic">"{club.looking}"</span></div>
                      </div>
-                     <div className="mt-2 text-xs text-gray-700 space-y-2">
-                        <p>{club.emoji} {club.shortIntro}</p>
-                        <p>{club.description}</p>
-                        <p className="italic text-pink-700 bg-pink-50 border-l-2 border-pink-500 p-2 rounded">
-                           “{club.quote}”
+                     <div className="mt-1 sm:mt-2 text-xs text-gray-700 space-y-1 sm:space-y-2">
+                        <p className="line-clamp-2">{club.emoji} {club.shortIntro}</p>
+                        <p className="line-clamp-3 text-xs">{club.description}</p>
+                        <p className="italic text-pink-700 bg-pink-50 border-l-2 border-pink-500 p-1 sm:p-2 rounded text-xs line-clamp-2">
+                           "{club.quote}"
                         </p>
                      </div>
                   </div>

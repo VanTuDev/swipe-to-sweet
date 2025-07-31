@@ -4,16 +4,16 @@ import { Heart } from "lucide-react"
 
 export default function SplashScreen() {
    return (
-      <div className="fixed inset-0 bg-gradient-to-br from-pink-500 via-pink-400 to-purple-400 flex items-center justify-center">
+      <div className="fixed inset-0 bg-gradient-to-br from-pink-500 via-pink-400 to-purple-400 flex items-center justify-center p-4">
          <div className="text-center animate-pulse">
-            <div className="flex items-center justify-center mb-4">
-               <Heart className="w-12 h-12 text-white mr-3 fill-white" />
+            <div className="flex items-center justify-center mb-3 sm:mb-4">
+               <Heart className="w-8 h-8 sm:w-12 sm:h-12 text-white mr-2 sm:mr-3 fill-white" />
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-white tracking-wider">SWIPE TO SWEET</h1>
-            <div className="mt-8 flex justify-center space-x-2">
-               <div className="w-3 h-3 bg-white rounded-full animate-bounce"></div>
-               <div className="w-3 h-3 bg-white rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></div>
-               <div className="w-3 h-3 bg-white rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
+            <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold text-white tracking-wider leading-tight">SWIPE TO SWEET</h1>
+            <div className="mt-6 sm:mt-8 flex justify-center space-x-1 sm:space-x-2">
+               <div className="w-2 h-2 sm:w-3 sm:h-3 bg-white rounded-full animate-bounce"></div>
+               <div className="w-2 h-2 sm:w-3 sm:h-3 bg-white rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></div>
+               <div className="w-2 h-2 sm:w-3 sm:h-3 bg-white rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
             </div>
          </div>
       </div>
