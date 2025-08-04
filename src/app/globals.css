@@ -163,6 +163,77 @@
   .scroll-club-detail::-webkit-scrollbar-thumb:hover {
     background: rgba(236, 72, 153, 0.6);
   }
+
+  /* Mobile optimization utilities */
+  .mobile-optimized {
+    @apply text-sm sm:text-base;
+  }
+
+  .mobile-padding {
+    @apply p-2 sm:p-3 md:p-4;
+  }
+
+  .mobile-margin {
+    @apply m-2 sm:m-3 md:m-4;
+  }
+
+  .mobile-gap {
+    @apply gap-2 sm:gap-3 md:gap-4;
+  }
+
+  .mobile-space {
+    @apply space-y-2 sm:space-y-3 md:space-y-4;
+  }
+
+  /* Touch feedback */
+  .touch-feedback {
+    transition: transform 0.1s ease-out;
+  }
+
+  .touch-feedback:active {
+    transform: scale(0.95);
+  }
+
+  /* Mobile card optimization */
+  .mobile-card {
+    @apply rounded-lg sm:rounded-xl md:rounded-2xl;
+  }
+
+  .mobile-text {
+    @apply text-xs sm:text-sm md:text-base;
+  }
+
+  .mobile-heading {
+    @apply text-sm sm:text-base md:text-lg lg:text-xl;
+  }
+
+  .mobile-icon {
+    @apply w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6;
+  }
+
+  /* Image optimization for mobile */
+  .mobile-image-contain {
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .mobile-image-cover {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Landscape image optimization */
+  .landscape-image {
+    object-fit: contain;
+    object-position: center;
+    background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  }
+
+  @media (min-width: 640px) {
+    .landscape-image {
+      object-fit: cover;
+    }
+  }
 }
 
 @layer base {
@@ -384,5 +455,147 @@ button,
 
   to {
     opacity: 1;
+  }
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 640px) {
+
+  /* Reduce font sizes on mobile */
+  .mobile-text-sm {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  /* Optimize card spacing */
+  .mobile-card-spacing {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  /* Touch-friendly spacing */
+  .mobile-touch-spacing {
+    gap: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  /* Optimize images for mobile */
+  .mobile-image {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Improve button accessibility */
+  .mobile-button {
+    min-height: 48px;
+    min-width: 48px;
+    padding: 0.75rem;
+  }
+
+  /* Optimize scrolling */
+  .mobile-scroll {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+
+  /* Reduce motion for better performance */
+  .mobile-reduce-motion {
+    animation-duration: 0.2s;
+    transition-duration: 0.2s;
+  }
+
+  /* Optimize landscape images for mobile */
+  .mobile-landscape-image {
+    object-fit: contain;
+    object-position: center;
+    background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  }
+
+  /* Card image optimization for mobile */
+  .mobile-card-image {
+    object-fit: contain;
+    object-position: center;
+    background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  }
+}
+
+/* High DPI display optimizations */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .high-dpi-image {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Landscape orientation optimizations */
+@media (orientation: landscape) and (max-height: 500px) {
+  .landscape-optimized {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .landscape-card {
+    max-height: 80vh;
+  }
+
+  .landscape-image {
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+/* Dark mode support for mobile */
+@media (prefers-color-scheme: dark) {
+  .mobile-dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Image loading optimization */
+.image-loading {
+  background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Optimize for different screen sizes */
+@media (max-width: 480px) {
+  .xs-optimized {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xs-card {
+    padding: 0.75rem;
+    margin: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md-optimized {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }

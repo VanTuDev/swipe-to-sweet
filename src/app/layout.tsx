@@ -1,41 +1,32 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Swipe to Sweet",
-  description: "Swipe to Sweet - Ứng dụng kết nối CLB",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
-};
+  title: "Swipe to Sweet - Khám phá CLB",
+  description: "Ứng dụng tương tự Tinder để khám phá các Câu lạc bộ tại trường đại học",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover",
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="vi">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
         <meta name="theme-color" content="#ec4899" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Swipe to Sweet" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
-      >
-        {children}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
-  );
+  )
 }

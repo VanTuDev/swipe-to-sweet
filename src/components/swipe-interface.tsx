@@ -84,19 +84,19 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center justify-center p-2 sm:p-4 pb-safe relative overflow-hidden bg-gradient-to-br from-pink-400 via-pink-300 to-orange-300">
-      {/* Header - Nâng lên cao hơn */}
-      <div className="w-full max-w-xs sm:max-w-sm mb-4 sm:mb-6 flex-shrink-0 px-2 pt-4 sm:pt-6">
-        <div className="flex items-center justify-center mb-3 sm:mb-4">
-          <HeartOutlined className="text-xl sm:text-3xl text-pink-600 mr-3" />
-          <h1 className="text-xl sm:text-2xl font-bold text-white">SWIPE TO SWEET</h1>
+      {/* Header - Tối ưu cho mobile */}
+      <div className="w-full max-w-sm sm:max-w-md mb-2 sm:mb-4 flex-shrink-0 px-2 pt-2 sm:pt-4">
+        <div className="flex items-center justify-center mb-2 sm:mb-3">
+          <HeartOutlined className="text-lg sm:text-2xl text-pink-600 mr-2 sm:mr-3" />
+          <h1 className="text-lg sm:text-xl font-bold text-white">SWIPE TO SWEET</h1>
         </div>
-        <div className="text-center text-white/80 text-sm sm:text-base">
+        <div className="text-center text-white/80 text-xs sm:text-sm">
           CLB {currentIndex + 1} / {clubs.length}
         </div>
       </div>
 
-      {/* Card - Tăng chiều dài */}
-      <div className="relative w-full max-w-sm sm:max-w-md flex-1 max-h-[70vh] sm:max-h-[75vh] px-2">
+      {/* Card - Tối ưu kích thước cho mobile */}
+      <div className="relative w-full max-w-sm sm:max-w-md flex-1 max-h-[75vh] sm:max-h-[80vh] px-2">
         <ClubCard
           ref={cardRef}
           club={currentClub}
@@ -108,45 +108,45 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
         />
       </div>
 
-      {/* Action Buttons */}
-      <div className="flex items-center justify-center space-x-4 sm:space-x-8 mt-4 sm:mt-6 mb-3 sm:mb-4 px-2">
+      {/* Action Buttons - Tăng kích thước cho mobile */}
+      <div className="flex items-center justify-center space-x-3 sm:space-x-6 mt-3 sm:mt-4 mb-2 sm:mb-3 px-2">
         <Button
           size="icon"
-          className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white/80 text-red-500 border border-red-400 shadow-md hover:scale-110 transition-transform"
+          className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/90 text-red-500 border-2 border-red-400 shadow-lg hover:scale-110 transition-transform touch-target"
           onClick={handlePass}
         >
-          <CloseOutlined className="text-xl sm:text-2xl" />
+          <CloseOutlined className="text-lg sm:text-xl" />
         </Button>
 
         <Button
           size="icon"
-          className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/80 text-blue-500 border border-blue-400 shadow-md hover:scale-110 transition-transform"
+          className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/90 text-blue-500 border-2 border-blue-400 shadow-lg hover:scale-110 transition-transform touch-target"
           onClick={() => onMessage(currentClub)}
         >
-          <MessageOutlined className="text-lg sm:text-xl" />
+          <MessageOutlined className="text-base sm:text-lg" />
         </Button>
 
         <Button
           size="icon"
-          className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white/80 text-green-500 border border-green-400 shadow-md hover:scale-110 transition-transform"
+          className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/90 text-green-500 border-2 border-green-400 shadow-lg hover:scale-110 transition-transform touch-target"
           onClick={handleLike}
         >
-          <HeartOutlined className="text-xl sm:text-2xl" />
+          <HeartOutlined className="text-lg sm:text-xl" />
         </Button>
       </div>
 
-      {/* Instructions */}
-      <div className="text-center text-white/70 text-sm flex-shrink-0 px-4 pb-4 overflow-y-auto scroll-thin max-h-20">
-        <p className="text-sm">Vuốt trái để bỏ qua • Vuốt phải để thích</p>
-        <p className="text-sm">Hoặc sử dụng các nút bên dưới</p>
+      {/* Instructions - Tối ưu cho mobile */}
+      <div className="text-center text-white/70 text-xs sm:text-sm flex-shrink-0 px-4 pb-2 sm:pb-4 overflow-y-auto scroll-thin max-h-16">
+        <p className="text-xs sm:text-sm">Vuốt trái để bỏ qua • Vuốt phải để thích</p>
+        <p className="text-xs sm:text-sm">Hoặc sử dụng các nút bên dưới</p>
       </div>
 
-      {/* Match Popup */}
+      {/* Match Popup - Tối ưu cho mobile */}
       {showMatchPopup && (
         <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
-          <div className="bg-white text-pink-600 px-6 sm:px-8 py-4 sm:py-6 rounded-3xl shadow-2xl text-center animate-in zoom-in-95 fade-in duration-500 max-w-xs sm:max-w-sm">
-            <h1 className="text-2xl sm:text-4xl md:text-6xl font-extrabold">💖 MATCH 💖</h1>
-            <p className="text-xs sm:text-sm mt-2 text-gray-500">Bạn và <strong>{currentClub.name}</strong> đã kết nối!</p>
+          <div className="bg-white text-pink-600 px-4 sm:px-6 py-3 sm:py-4 rounded-2xl sm:rounded-3xl shadow-2xl text-center animate-in zoom-in-95 fade-in duration-500 max-w-xs sm:max-w-sm">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold">💖 MATCH 💖</h1>
+            <p className="text-xs sm:text-sm mt-1 sm:mt-2 text-gray-500">Bạn và <strong>{currentClub.name}</strong> đã kết nối!</p>
           </div>
         </div>
       )}
