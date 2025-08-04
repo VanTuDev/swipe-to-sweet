@@ -3,9 +3,10 @@
 import { ArrowLeft, MapPin, Users, Calendar, Star, MessageCircle, Heart, Award, Clock, Users2, Target, Lightbulb } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { ClubDetail } from "@/data/clubs"
 
 interface ClubDetailProps {
-   club: any
+   club: ClubDetail
    onBack: () => void
    onMessage: () => void
 }
@@ -77,15 +78,55 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                {/* Description - Tối ưu cho mobile */}
                <Card className="rounded-lg sm:rounded-xl md:rounded-2xl border-0 bg-white/90 backdrop-blur-sm shadow-lg">
                   <CardContent className="p-2 sm:p-3 md:p-4 lg:p-6">
-                     <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">Giới thiệu bản thân</h3>
-                     <p className="text-gray-700 leading-relaxed mb-2 sm:mb-3 md:mb-4 text-xs sm:text-sm md:text-base">
-                        {club.description}
-                        <br /><br />
-                        Chúng tôi là một cộng đồng năng động với sứ mệnh mang lại những trải nghiệm tuyệt vời cho sinh viên.
-                        Với đội ngũ thành viên đầy nhiệt huyết và sáng tạo, chúng tôi luôn nỗ lực tạo ra những hoạt động
-                        ý nghĩa và bổ ích cho cộng đồng.
-                     </p>
-                     <div className="p-2 sm:p-3 md:p-4 bg-pink-50 rounded-lg sm:rounded-xl border-l-4 border-pink-400">
+                     <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4 flex items-center">
+                        <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-pink-500 mr-2" />
+                        Giới thiệu bản thân
+                     </h3>
+                     <div className="space-y-1.5 sm:space-y-2 md:space-y-3">
+                        <div className="flex items-start space-x-2 sm:space-x-3">
+                           <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
+                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">{club.shortIntro}</p>
+                        </div>
+                        {club.description.split('\n').map((paragraph, index) => {
+                           // Kiểm tra nếu paragraph bắt đầu với bullet point
+                           if (paragraph.trim().startsWith('•')) {
+                              return (
+                                 <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                                    <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
+                                    <p className="text-gray-700 text-xs sm:text-sm md:text-base">{paragraph.trim().substring(1).trim()}</p>
+                                 </div>
+                              )
+                           }
+                           // Nếu có emoji ở đầu (như 🌟, ✨, 🎒)
+                           else if (paragraph.trim().match(/^[🌟✨🎒]/)) {
+                              return (
+                                 <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                                    <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
+                                    <p className="text-gray-700 text-xs sm:text-sm md:text-base font-semibold">{paragraph.trim()}</p>
+                                 </div>
+                              )
+                           }
+                           // Nếu là paragraph bình thường
+                           else if (paragraph.trim()) {
+                              return (
+                                 <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                                    <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
+                                    <p className="text-gray-700 text-xs sm:text-sm md:text-base">{paragraph.trim()}</p>
+                                 </div>
+                              )
+                           }
+                           return null
+                        })}
+                        <div className="flex items-start space-x-2 sm:space-x-3">
+                           <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
+                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Chúng tôi là một cộng đồng năng động với sứ mệnh mang lại những trải nghiệm tuyệt vời cho sinh viên.</p>
+                        </div>
+                        <div className="flex items-start space-x-2 sm:space-x-3">
+                           <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
+                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Với đội ngũ thành viên đầy nhiệt huyết và sáng tạo, chúng tôi luôn nỗ lực tạo ra những hoạt động ý nghĩa và bổ ích cho cộng đồng.</p>
+                        </div>
+                     </div>
+                     <div className="mt-3 sm:mt-4 p-2 sm:p-3 md:p-4 bg-pink-50 rounded-lg sm:rounded-xl border-l-4 border-pink-500">
                         <p className="text-pink-700 italic font-medium text-xs sm:text-sm md:text-base">"{club.quote}"</p>
                      </div>
                   </CardContent>
@@ -118,27 +159,15 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         Thành tựu nổi bật
                      </h3>
                      <div className="space-y-2 sm:space-y-3">
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <div>
-                              <p className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">Giải nhất cuộc thi sáng tạo 2023</p>
-                              <p className="text-gray-500 text-xs">Dự án "Sáng tạo vì cộng đồng"</p>
+                        {club.achievements?.map((achievement, index) => (
+                           <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                              <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
+                              <div>
+                                 <p className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">{achievement.title}</p>
+                                 <p className="text-gray-500 text-xs">{achievement.description}</p>
+                              </div>
                            </div>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <div>
-                              <p className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">CLB xuất sắc nhất năm 2022</p>
-                              <p className="text-gray-500 text-xs">Được công nhận bởi Hội sinh viên</p>
-                           </div>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <div>
-                              <p className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">Tổ chức thành công 50+ sự kiện</p>
-                              <p className="text-gray-500 text-xs">Thu hút hơn 10,000+ người tham gia</p>
-                           </div>
-                        </div>
+                        ))}
                      </div>
                   </CardContent>
                </Card>
@@ -151,22 +180,12 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         Hoạt động thường xuyên
                      </h3>
                      <div className="space-y-2 sm:space-y-3">
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Họp định kỳ hàng tuần vào thứ 7</p>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Workshop kỹ năng mỗi tháng</p>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Sự kiện networking hàng quý</p>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Dự án cộng đồng theo học kỳ</p>
-                        </div>
+                        {club.activities?.map((activity, index) => (
+                           <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                              <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
+                              <p className="text-gray-700 text-xs sm:text-sm md:text-base">{activity}</p>
+                           </div>
+                        ))}
                      </div>
                   </CardContent>
                </Card>
@@ -179,22 +198,12 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         Cơ cấu tổ chức
                      </h3>
                      <div className="space-y-2 sm:space-y-3">
-                        <div className="flex items-center justify-between p-2 bg-pink-50 rounded-lg">
-                           <span className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">Chủ tịch CLB</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">1 người</span>
-                        </div>
-                        <div className="flex items-center justify-between p-2 bg-pink-50 rounded-lg">
-                           <span className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">Phó chủ tịch</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">2 người</span>
-                        </div>
-                        <div className="flex items-center justify-between p-2 bg-pink-50 rounded-lg">
-                           <span className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">Ban chuyên môn</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">15 người</span>
-                        </div>
-                        <div className="flex items-center justify-between p-2 bg-pink-50 rounded-lg">
-                           <span className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">Thành viên</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">12 người</span>
-                        </div>
+                        {club.teamStructure?.map((member, index) => (
+                           <div key={index} className="flex items-center justify-between p-2 bg-pink-50 rounded-lg">
+                              <span className="text-gray-700 text-xs sm:text-sm md:text-base font-medium">{member.role}</span>
+                              <span className="text-pink-600 text-xs sm:text-sm">{member.count}</span>
+                           </div>
+                        ))}
                      </div>
                   </CardContent>
                </Card>
@@ -207,22 +216,12 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         Mục tiêu 2024
                      </h3>
                      <div className="space-y-2 sm:space-y-3">
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Tăng số lượng thành viên lên 50+</p>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Tổ chức 20+ sự kiện lớn nhỏ</p>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Mở rộng hợp tác với 10+ đối tác</p>
-                        </div>
-                        <div className="flex items-start space-x-2 sm:space-x-3">
-                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">Phát triển 5 dự án cộng đồng mới</p>
-                        </div>
+                        {club.goals2024?.map((goal, index) => (
+                           <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                              <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-pink-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0" />
+                              <p className="text-gray-700 text-xs sm:text-sm md:text-base">{goal}</p>
+                           </div>
+                        ))}
                      </div>
                   </CardContent>
                </Card>
@@ -268,19 +267,19 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                      <div className="space-y-1.5 sm:space-y-2">
                         <div className="flex items-center space-x-2">
                            <span className="text-gray-600 text-xs sm:text-sm">📧 Email:</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">fclub@university.edu.vn</span>
+                           <span className="text-pink-600 text-xs sm:text-sm">{club.contactInfo?.email || 'N/A'}</span>
                         </div>
                         <div className="flex items-center space-x-2">
                            <span className="text-gray-600 text-xs sm:text-sm">📱 Hotline:</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">0123 456 789</span>
+                           <span className="text-pink-600 text-xs sm:text-sm">{club.contactInfo?.hotline || 'N/A'}</span>
                         </div>
                         <div className="flex items-center space-x-2">
                            <span className="text-gray-600 text-xs sm:text-sm">📍 Văn phòng:</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">Phòng 101, Tòa A</span>
+                           <span className="text-pink-600 text-xs sm:text-sm">{club.contactInfo?.office || 'N/A'}</span>
                         </div>
                         <div className="flex items-center space-x-2">
                            <span className="text-gray-600 text-xs sm:text-sm">⏰ Giờ làm việc:</span>
-                           <span className="text-pink-600 text-xs sm:text-sm">8:00 - 17:00 (T2-T6)</span>
+                           <span className="text-pink-600 text-xs sm:text-sm">{club.contactInfo?.workingHours || 'N/A'}</span>
                         </div>
                      </div>
                   </CardContent>

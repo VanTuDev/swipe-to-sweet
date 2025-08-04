@@ -229,9 +229,18 @@
     background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
   }
 
+  /* Card image optimization for landscape photos */
+  .card-landscape-image {
+    object-fit: contain;
+    object-position: center;
+    background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+    width: 100%;
+    height: 100%;
+  }
+
   @media (min-width: 640px) {
     .landscape-image {
-      object-fit: cover;
+      object-fit: contain;
     }
   }
 }
@@ -517,6 +526,15 @@ button,
     object-position: center;
     background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
   }
+
+  /* Optimize card image container for landscape photos */
+  .mobile-card-image-container {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  }
 }
 
 /* High DPI display optimizations */
@@ -597,5 +615,130 @@ button,
   .md-optimized {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+/* Card image specific optimizations */
+.card-image-landscape {
+  object-fit: contain;
+  object-position: center;
+  background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  transition: height 0.3s ease-in-out;
+}
+
+.card-image-container img {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.card-image-container img:hover {
+  transform: scale(1.02);
+}
+
+/* Auto-fit image container */
+.auto-fit-image-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fce7f3 0%, #fed7aa 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.auto-fit-image-container img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.auto-fit-image-container img.loaded {
+  opacity: 1;
+}
+
+/* Aspect ratio responsive classes */
+.aspect-landscape {
+  height: 75%;
+}
+
+.aspect-portrait {
+  height: 50%;
+}
+
+.aspect-square {
+  height: 66.67%;
+}
+
+@media (min-width: 640px) {
+  .aspect-landscape {
+    height: 80%;
+  }
+
+  .aspect-portrait {
+    height: 66.67%;
+  }
+
+  .aspect-square {
+    height: 60%;
+  }
+}
+
+/* Smooth image loading animation */
+.image-loading-animation {
+  animation: imageLoad 0.5s ease-in-out;
+}
+
+@keyframes imageLoad {
+  from {
+    opacity: 0.7;
+    transform: scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Dynamic content height */
+.content-dynamic-height {
+  transition: height 0.3s ease-in-out;
+}
+
+.content-landscape {
+  height: 25%;
+}
+
+.content-portrait {
+  height: 50%;
+}
+
+.content-square {
+  height: 33.33%;
+}
+
+@media (min-width: 640px) {
+  .content-landscape {
+    height: 20%;
+  }
+
+  .content-portrait {
+    height: 33.33%;
+  }
+
+  .content-square {
+    height: 40%;
   }
 }
