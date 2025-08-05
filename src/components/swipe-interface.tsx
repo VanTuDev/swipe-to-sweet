@@ -87,8 +87,12 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
       {/* Header - Tối ưu cho mobile */}
       <div className="w-full max-w-sm sm:max-w-md mb-2 sm:mb-4 flex-shrink-0 px-2 pt-2 sm:pt-4">
         <div className="flex items-center justify-center mb-2 sm:mb-3">
-          <HeartOutlined className="text-lg sm:text-2xl text-pink-600 mr-2 sm:mr-3" />
-          <h1 className="text-lg sm:text-xl font-bold text-white">SWIPE TO SWEET</h1>
+          <img
+            src="/images/logoCT.png"
+            alt="Logo chương trình"
+            className="w-96 h-auto sm:w-96 sm:h-auto object-contain drop-shadow-lg"
+            style={{ maxHeight: 96 }}
+          />
         </div>
         <div className="text-center text-white/80 text-xs sm:text-sm">
           CLB {currentIndex + 1} / {clubs.length}

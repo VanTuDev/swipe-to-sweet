@@ -53,7 +53,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         <Users className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-pink-500 mt-1 flex-shrink-0" />
                         <div className="min-w-0 flex-1">
                            <h3 className="font-semibold text-gray-800 text-xs sm:text-sm md:text-base">Lĩnh vực hoạt động</h3>
-                           <p className="text-gray-600 text-xs sm:text-sm md:text-base">{club.field}</p>
+                           <p className="text-gray-600 text-xs sm:text-sm md:text-base" style={{ whiteSpace: 'pre-line' }}>{club.field}</p>
                         </div>
                      </div>
 
@@ -69,7 +69,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         <Heart className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-pink-500 mt-1 fill-pink-500 flex-shrink-0" />
                         <div className="min-w-0 flex-1">
                            <h3 className="font-semibold text-gray-800 text-xs sm:text-sm md:text-base">Đang tìm</h3>
-                           <p className="text-gray-600 italic text-xs sm:text-sm md:text-base">"{club.looking}"</p>
+                           <p className="text-pink-600 italic text-xs sm:text-sm md:text-base" style={{ whiteSpace: 'pre-line' }}>"{club.looking}"</p>
                         </div>
                      </div>
                   </CardContent>
@@ -85,7 +85,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                      <div className="space-y-1.5 sm:space-y-2 md:space-y-3">
                         <div className="flex items-start space-x-2 sm:space-x-3">
                            <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
-                           <p className="text-gray-700 text-xs sm:text-sm md:text-base">{club.shortIntro}</p>
+                           <p className="text-gray-700 text-xs sm:text-sm md:text-base" style={{ whiteSpace: 'pre-line' }}>{club.shortIntro}</p>
                         </div>
                         {club.description.split('\n').map((paragraph, index) => {
                            // Kiểm tra nếu paragraph bắt đầu với bullet point
@@ -94,6 +94,15 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                                  <div key={index} className="flex items-start space-x-2 sm:space-x-3">
                                     <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
                                     <p className="text-gray-700 text-xs sm:text-sm md:text-base">{paragraph.trim().substring(1).trim()}</p>
+                                 </div>
+                              )
+                           }
+                           // Kiểm tra nếu paragraph bắt đầu với "" (bullet point)
+                           else if (paragraph.trim().startsWith('""')) {
+                              return (
+                                 <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                                    <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
+                                    <p className="text-gray-700 text-xs sm:text-sm md:text-base">• {paragraph.trim().substring(2).trim()}</p>
                                  </div>
                               )
                            }
@@ -111,7 +120,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                               return (
                                  <div key={index} className="flex items-start space-x-2 sm:space-x-3">
                                     <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 md:w-2 md:h-2 bg-pink-500 rounded-full mt-1 sm:mt-1.5 md:mt-2 flex-shrink-0" />
-                                    <p className="text-gray-700 text-xs sm:text-sm md:text-base">{paragraph.trim()}</p>
+                                    <p className="text-gray-700 text-xs sm:text-sm md:text-base" style={{ whiteSpace: 'pre-line' }}>{paragraph.trim()}</p>
                                  </div>
                               )
                            }
@@ -213,7 +222,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                   <CardContent className="p-2 sm:p-3 md:p-4 lg:p-6">
                      <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4 flex items-center">
                         <Target className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-pink-500 mr-2" />
-                        Mục tiêu 2024
+                        Mục tiêu hoạt động
                      </h3>
                      <div className="space-y-2 sm:space-y-3">
                         {club.goals2024?.map((goal, index) => (

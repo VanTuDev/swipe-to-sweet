@@ -1,6 +1,6 @@
 "use client"
 
-import { forwardRef, useState, useEffect } from "react"
+import { forwardRef, useState } from "react"
 import { motion } from "framer-motion"
 import { CardContent } from "@/components/ui/card"
 
@@ -110,7 +110,7 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
                onDragEnd()
             }}
          >
-            <CardContent className="p-0 h-full bg-gradient-to-br from-white to-pink-50 animate-in fade-in duration-500">
+            <CardContent className="p-0 h-full bg-gradient-to-br from-white bg-white to-pink-50 animate-in fade-in duration-500">
 
                {/* Image section - Tự động fit theo tỷ lệ ảnh */}
                <div className={`relative overflow-hidden card-image-container ${getImageContainerHeight()}`}>
@@ -154,7 +154,7 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
                   className={`p-2 sm:p-3 flex flex-col justify-start overflow-y-auto scroll-card`}
                   style={{
                      scrollbarWidth: "thin",
-                     height: imageAspectRatio && imageAspectRatio > 1.5 ? "43%" : "43%"
+                     height: imageAspectRatio && imageAspectRatio > 1.5 ? "60%" : "43%"
                   }}
                >
                   <div className="space-y-1 sm:space-y-2">
@@ -162,14 +162,14 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
                         <h2 className="text-sm sm:text-lg font-bold text-gray-800 truncate">{club.name}</h2>
                      </div>
                      <div className="text-xs text-gray-600 space-y-0.5 sm:space-y-1">
-                        <div className="truncate">🔹 <b>Lĩnh vực:</b> {club.field}</div>
-                        <div className="truncate">🔹 <b>Vị trí:</b> {club.position}</div>
-                        <div className="truncate">🔹 <b>Đang tìm:</b> <span className="text-pink-600 italic">"{club.looking}"</span></div>
+                        <div>🔹 <b>Lĩnh vực hoạt động:</b> <span style={{ whiteSpace: 'pre-line' }}>{club.field}</span></div>
+                        <div className="truncate">🔹 <b>Vị trí gian hàng:</b> {club.position}</div>
+                        <div>🔹 <b>Đang tìm:</b> <span className="text-pink-600 italic" style={{ whiteSpace: 'pre-line' }}>"{club.looking}"</span></div>
                      </div>
                      <div className="mt-1 sm:mt-2 text-xs text-gray-700 space-y-1">
-                        <p className="line-clamp-2">{club.emoji} {club.shortIntro}</p>
-                        <p className="line-clamp-2 text-xs">{club.description}</p>
-                        <p className="italic text-pink-700 bg-pink-50 border-l-2 border-pink-500 p-1 sm:p-2 rounded text-xs line-clamp-2">
+                        <p style={{ whiteSpace: 'pre-line' }}>{club.emoji} {club.shortIntro}</p>
+                        <p className="text-xs" style={{ whiteSpace: 'pre-line' }}>{club.description}</p>
+                        <p className="italic text-pink-700 bg-pink-50 border-l-2 border-pink-500 p-1 sm:p-2 rounded text-xs" style={{ whiteSpace: 'pre-line' }}>
                            "{club.quote}"
                         </p>
                      </div>

@@ -121,7 +121,7 @@
     "5": {
       "id": 5,
       "name": "F-Skill",
-      "field": "Chia sẻ những kĩ năng thiết yếu trong Đoàn, trong cuộc sống như nhận mật thư, nắm bắt thông tin từ cờ semaphore/ mã morse trong tình huống khẩn cấp hay những kĩ năng cần thiết trong cắm trại (dựng lều, rút dây...), hoặc tham gia bất cứ trò chơi nào bạn muốn.",
+      "field": "Chia sẻ những kĩ năng thiết yếu trong Đoàn, nắm bắt thông tin từ cờ semaphore/ mã morse, giải mật thư trong tình huống khẩn cấp hay những kĩ năng cần thiết trong cắm trại (dựng lều, rút dây...)",
       "position": "Cập nhật sau",
       "looking": "Những bạn có mong muốn khám phá bản thân, hay học hỏi thêm những kĩ năng giúp ích trong cuộc sống, hoặc tìm kiếm những người bạn có cùng chung sở thích.",
       "emoji": "🌟",
@@ -174,6 +174,486 @@
         "hotline": "0399604816",
         "office": "Tại Phòng PDP - FSCHOOL Đà Nẵng",
         "workingHours": "7h00-17h30"
+      }
+    },
+    "4": {
+      "id": 4,
+      "name": "🎙️F-MIC",
+      "field": "Dẫn chương trình, hoạt náo sự kiện, nghệ thuật giao tiếp và biểu đạt🎭",
+      "position": "Tầng 1 - Studio sáng tạo",
+      "looking": "Bạn không chỉ là người nói — bạn là người kể chuyện.\n🌟 Bạn yêu ánh đèn sân khấu.\n🎤 Bạn tin rằng từng câu chữ đều có sức mạnh.\n🔥 Và bạn muốn biến chất giọng của mình thành điều đặc biệt nhất.",
+      "emoji": "🎙️",
+      "shortIntro": "👉 Vậy thì F-MIC chính là nơi bạn cất giọng, viết nên hành trình riêng, và khiến đám đông lắng nghe.\n\n💖 Một chút về chúng tớ:\nF-MIC không chỉ là một câu lạc bộ dẫn chương trình – tụi mình là điểm chạm của những tâm hồn biết thể hiện, dám đứng trước công chúng và tạo nên cảm xúc bằng lời nói.\nỞ đây, bạn sẽ học được cách làm chủ sân khấu, tự tin giao tiếp và biến từng màn dẫn dắt thành một tác phẩm nghệ thuật.\n\n🎙️Cùng F-MIC, hãy để giọng nói của bạn tỏa sáng – theo cách mà không ai khác làm được.",
+      "description": "✨ Nói nhỏ cho bạn biết nhé đây là : \"Nơi Fschoolers cất giọng và tỏa sáng\"\n\n📌Mái nhà \"Ếp-êm-ai-xi\" ở đây nè : (cập nhập sau)\n\n✨ Mục tiêu hoạt động:\n• Không đơn thuần là kỹ năng dẫn chương trình, F-MIC giúp bạn phát triển tư duy ngôn ngữ, phong thái sân khấu và khả năng kết nối cảm xúc với khán giả – để mỗi lần cầm mic không chỉ là thể hiện, mà là chạm tới trái tim người nghe.\n\n💕 Ngoan xinh iu:\n• Là ngôi nhà nhỏ của 15 thành viên đầy đam mê và khát vọng\n• Dù chỉ mới được thành lập trong thời gian vừa qua nhưng với hướng đi bền bỉ và mục đích to lớn, chúng tớ sẽ là một chỗ dựa tiềm năng cùng bạn \"vượt ngàn chông gai\"\n\n🍓Những quả ngọt khi bạn là một mảnh ghép của F-MIC:\n• 🎤 Tự tin toả sáng trước đám đông\n• 🎤 Phong thái sân khấu chuyên nghiệp, phát triển kĩ năng giao tiếp, kết nối\n• 🎤 Cơ hội được chọn làm MC cho các sự kiện lớn\n• 🎤 Một gia đình \"thực thụ\" năng động - vui vẻ - cá tính",
+      "quote": "Nơi Fschoolers cất giọng và tỏa sáng",
+      "image": "/images/F-MIC.jpg",
+      "members": "15 thành viên",
+      "experience": "Mới thành lập",
+      "benefits": [
+        "Tự tin toả sáng trước đám đông",
+        "Phong thái sân khấu chuyên nghiệp",
+        "Phát triển kĩ năng giao tiếp, kết nối",
+        "Cơ hội được chọn làm MC cho các sự kiện lớn",
+        "Một gia đình \"thực thụ\" năng động - vui vẻ - cá tính"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Tổ chức thành công 10+ sự kiện",
+          "description": "Thu hút hơn 2,000+ người tham gia"
+        },
+        {
+          "title": "Đào tạo 20+ MC chuyên nghiệp",
+          "description": "Chứng chỉ được công nhận"
+        },
+        {
+          "title": "CLB nổi bật nhất năm 2024",
+          "description": "Được công nhận bởi Hội sinh viên"
+        }
+      ],
+      "activities": [
+        "Họp định kỳ hàng tuần vào thứ 6",
+        "Workshop dẫn chương trình mỗi tháng",
+        "Sự kiện MC showcase hàng quý",
+        "Dự án sự kiện theo học kỳ"
+      ],
+      "teamStructure": [
+        { "role": "Chủ tịch CLB", "count": "1 người" },
+        { "role": "Phó chủ tịch", "count": "2 người" },
+        { "role": "Ban chuyên môn", "count": "8 người" },
+        { "role": "Thành viên", "count": "4 người" }
+      ],
+      "goals2024": [
+        "Tăng số lượng thành viên lên 25+",
+        "Tổ chức 15+ sự kiện lớn nhỏ",
+        "Mở rộng hợp tác với 10+ đối tác",
+        "Phát triển 8 dự án MC mới"
+      ],
+      "contactInfo": {
+        "email": "fmic@fschool.edu.vn",
+        "hotline": "0123 456 793",
+        "office": "Phòng 103, Tòa A",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
+      }
+    },
+    "3": {
+      "id": 3,
+      "name": "☀️ Sunshare Club",
+      "field": "Tổ chức sự kiện, công tác xã hội, thiện nguyện",
+      "position": "Phòng 105",
+      "looking": "\"Một người sẵn sàng cho đi – không phải vì có nhiều, mà vì hiểu được giá trị của yêu thương\"🤝",
+      "emoji": "☀️",
+      "shortIntro": "Sunshare không ồn ào, không hoành tráng – tụi mình lặng lẽ đi từng bước nhỏ, để giúp một cụ già bớt cô đơn, một đứa trẻ được cười nhiều hơn, một hoàn cảnh được lắng nghe, một tâm hồn thấy ấm lại.\n\nChúng mình làm thiện nguyện không phải vì \"làm cho đủ\", mà là vì thật lòng muốn làm. Có thể là một gian hàng nhỏ gây quỹ, một buổi phát cháo lúc sáng sớm, hay một chiến dịch viết thiệp gửi yêu thương – tất cả đều xuất phát từ trái tim.\n\nỞ đây, bạn không cần phải \"hoàn hảo\", chỉ cần chân thành và sẵn sàng bắt đầu từ điều tử tế nhất.",
+      "description": "Tụi mình tin rằng:\n🌱 \"Tử tế không cần lý do – chỉ cần bạn muốn Lan tỏa nó.\"\n\n\"Không phải ai sinh ra cũng đủ đầy, nhưng ai cũng có thể là ánh sáng nhỏ trong cuộc đời của người khác.\"\n\"Sunshare không bán nắng, chỉ sưởi ấm lòng người.\"\n\nNếu bạn cũng nghĩ vậy – chào mừng bạn về đội Sunshare. Không cần phải thay đổi cả thế giới, chỉ cần mỗi ngày, mình cùng nhau làm điều nhỏ bé, nhưng thật đẹp.\n\n☀️ SUNSHARE – Nơi những điều tử tế được ươm mầm\nKhông có danh hiệu, không có spotlight. Chỉ có những người trẻ, chọn bước tới thay vì ngoảnh mặt làm ngơ.\nCác bạn có thể thấy chúng tớ ở phòng 105\n\n🌿 Mục tiêu hoạt động của Sunshare:\n• Là một nhóm bạn trẻ không giỏi nói lời hoa mỹ, nhưng tin rằng:\n• Một bữa cơm được chuẩn bị bằng tấm lòng\n• Một chiếc thiệp nhỏ viết bằng tay\n• Một sáng chủ nhật dậy sớm để phát cháo...\n• ... cũng có thể làm ấm một cuộc đời.\n\nSunshare không cần bạn phải \"tốt hoàn hảo\", chỉ cần bạn sẵn lòng làm điều tốt.\nDù là cầm loa, vẽ bảng tên, xếp quà, hay đơn giản là lắng nghe một câu chuyện buồn của ai đó, tụi mình đều trân trọng – vì ở đây, không có ai là thừa cả.\n\n📌 Vài điều tụi mình tự hào:\n• Thành lập vào 24/9/2018 - hơn 7 năm hoạt động - không bỏ một mùa Tết nào.\n• Gây quỹ từ những chiếc bánh tráng nhỏ nhất.\n• Có hơn 40 con người, và từng người đều đáng tin đến lạ.\n\n✨ Gia nhập Sunshare – Bạn sẽ có gì?\n• Không phải \"kỹ năng mềm\", mà là một trái tim cứng cáp hơn sau từng lần giúp đỡ người khác.\n• Không chỉ là \"trải nghiệm thiện nguyện\", mà là những khoảnh khắc khiến bạn rơi nước mắt – vì xúc động.\n• Không chỉ \"thêm vào CV\", mà là bớt đi sự vô cảm.\n\nBạn sẽ học được cách:\n• Tự tay tạo nên một dự án vì người khác.\n• Đứng trước khó khăn, không lùi bước.\n• Yêu quý từng nụ cười mà mình góp phần mang đến.",
+      "quote": "Sunshare không bán nắng, chỉ sưởi ấm lòng người.",
+      "image": "/images/CLB Sunshare.jpg",
+      "members": "40+ thành viên",
+      "experience": "7+ năm hoạt động",
+      "benefits": [
+        "Một trái tim cứng cáp hơn sau từng lần giúp đỡ người khác",
+        "Những khoảnh khắc khiến bạn rơi nước mắt – vì xúc động",
+        "Bớt đi sự vô cảm",
+        "Tự tay tạo nên một dự án vì người khác",
+        "Đứng trước khó khăn, không lùi bước",
+        "Yêu quý từng nụ cười mà mình góp phần mang đến"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Thành lập 24/9/2018 - 7+ năm hoạt động",
+          "description": "Không bỏ một mùa Tết nào"
+        },
+        {
+          "title": "Gây quỹ từ những chiếc bánh tráng nhỏ nhất",
+          "description": "Thu hút hơn 5,000+ người tham gia"
+        },
+        {
+          "title": "CLB thiện nguyện xuất sắc nhất năm 2023",
+          "description": "Được công nhận bởi Hội sinh viên"
+        }
+      ],
+      "activities": [
+        "Họp định kỳ hàng tuần vào thứ 7",
+        "Phát cháo thiện nguyện mỗi sáng chủ nhật",
+        "Chiến dịch viết thiệp gửi yêu thương",
+        "Dự án thiện nguyện theo học kỳ"
+      ],
+      "teamStructure": [
+        { "role": "Chủ tịch CLB", "count": "1 người" },
+        { "role": "Phó chủ tịch", "count": "2 người" },
+        { "role": "Ban chuyên môn", "count": "25 người" },
+        { "role": "Thành viên", "count": "12 người" }
+      ],
+      "goals2024": [
+        "Tăng số lượng thành viên lên 50+",
+        "Tổ chức 30+ hoạt động thiện nguyện",
+        "Mở rộng hợp tác với 15+ đối tác",
+        "Phát triển 10 dự án thiện nguyện mới"
+      ],
+      "contactInfo": {
+        "email": "sunshare@fschool.edu.vn",
+        "hotline": "0123 456 791",
+        "office": "Phòng 105, Tòa A",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
+      }
+    },
+    "13": {
+      "id": 13,
+      "name": "💙FPT Things💙",
+      "field": "Truyền thông - Sáng tạo nội dung - Thiết kế - Nhiếp ảnh - Điện ảnh",
+      "position": "Cập nhật sau",
+      "looking": "🔥 Đang tìm kiếm: Những tâm hồn nhiệt huyết, không ngại thử thách và luôn sẵn sàng “cháy” hết mình với đam mê sáng tạo!\n\n✍️ Yêu viết lách | 📸 Đam mê chụp ảnh | 🎨 Có gu thiết kế | 🎞️ Thích xào nấu edit video?\n\n👉 Bạn chính là mảnh ghép mà FPT Things đang tìm kiếm!",
+      "emoji": "💙",
+      "shortIntro": "🌟 FPT Things là nơi hội tụ những bạn trẻ đam mê sáng tạo và khao khát thể hiện bản thân.\nVới hai mảng hoạt động chính gồm Content và Media, đây là môi trường năng động để học hỏi, rèn luyện kỹ năng truyền thông, và cũng là nơi mọi thành viên đều có cơ hội thử sức và tỏa sáng với những hoài bão của riêng mình đó nha!",
+      "description": "🎯 Mục tiêu hoạt động:\n• Xây dựng môi trường sáng tạo, chuyên nghiệp và truyền cảm hứng.\n• Không gian cho các bạn học sinh tự do thể hiện cá tính, rèn luyện kỹ năng và phát triển tư duy qua các hoạt động truyền thông.\n• Tạo ra sản phẩm truyền thông chất lượng, đồng thời tạo điều kiện để các thành viên học hỏi lẫn nhau.\n\n👥 Thành viên:\nFPT Things hiện có hơn 20 thành viên chính thức. Mỗi thành viên đều là những bạn trẻ với đam mê, nhiệt huyết, có tinh thần trách nhiệm, cũng chính là những mảnh ghép quý giá trong bức tranh đầy sắc màu mang tên Things.\n\n⏳ Thâm niên:\nThành lập từ năm 2019, FPT Things là một trong những CLB lâu đời và có dấu ấn tại FSchool Đà Nẵng. Trải qua 7 năm hoạt động, chúng mình đã tham gia, hỗ trợ và trực tiếp tổ chức nhiều sự kiện lớn nhỏ trong và ngoài trường, có thể kể đến như:\n• 🎬 Loạt MV: “Đợi mình là rực rỡ”, “Đếm cừu”, “Tình yêu xanh lá”,...\n• 📮 Dự án “Hòm thư ngỏ”\n• 🎶 Đêm nhạc “Thanh âm mùa xuân”\nVà rất nhiều chương trình, sự kiện khác để lại dấu ấn trong lòng học sinh toàn trường.",
+      "quote": "FPT Things – Nơi mọi ý tưởng đều có thể thành hiện thực!",
+      "image": "/images/FPT Things.jpg",
+      "members": "20+ thành viên",
+      "experience": "7+ năm hoạt động",
+      "benefits": [
+        "🚀 Cơ hội phát triển kiến thức và kỹ năng qua các hoạt động, sự kiện.",
+        "🤝 Rèn kỹ năng mềm: ⏰ Quản lý thời gian, 📊 Xử lý công việc, 🌐 Social networking.",
+        "💪 Gặp gỡ những đồng đội năng động, sáng tạo, giàu kinh nghiệm luôn hỗ trợ bạn với 200% công lực.",
+        "🎉 Trải nghiệm trong môi trường chuyên nghiệp của FPT Things, giao lưu, gặp gỡ thêm nhiều bạn bè.",
+        "📜 Nhận các certificate xịn xò."
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Tổ chức thành công nhiều sự kiện lớn nhỏ",
+          "description": "Góp phần tạo dấu ấn truyền thông tại FSchool Đà Nẵng"
+        },
+        {
+          "title": "Sản xuất loạt MV, dự án truyền thông",
+          "description": "“Đợi mình là rực rỡ”, “Đếm cừu”, “Tình yêu xanh lá”, “Hòm thư ngỏ”, “Thanh âm mùa xuân”…"
+        }
+      ],
+      "activities": [
+        "Họp định kỳ hàng tuần",
+        "Workshop sáng tạo nội dung",
+        "Tham gia tổ chức sự kiện lớn nhỏ",
+        "Dự án truyền thông theo học kỳ"
+      ],
+      "teamStructure": [
+        { "role": "Chủ tịch CLB", "count": "1 người" },
+        { "role": "Phó chủ tịch", "count": "2 người" },
+        { "role": "Ban Content", "count": "8 người" },
+        { "role": "Ban Media", "count": "8 người" },
+        { "role": "Thành viên", "count": "5 người" }
+      ],
+      "goals2024": [
+        "Tăng số lượng thành viên lên 30+",
+        "Tổ chức 10+ dự án truyền thông sáng tạo",
+        "Mở rộng hợp tác với 10+ đối tác",
+        "Phát triển 5 dự án truyền thông mới"
+      ],
+      "contactInfo": {
+        "email": "fptthings@fschool.edu.vn",
+        "hotline": "0123 456 799",
+        "office": "Phòng 106, Tòa A",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
+      }
+    },
+    "14": {
+      "id": 14,
+      "name": "🏐Fvolleyball🏐",
+      "field": "Bóng chuyền – Rèn luyện thể lực – Tinh thần đồng đội",
+      "position": "Sân bóng chuyền",
+      "looking": "🔥 Những chiến binh mang trong mình ngọn lửa đam mê – sẵn sàng bứt phá mọi giới hạn 🔥",
+      "emoji": "🏐",
+      "shortIntro": "Chào mừng bạn đến với Fvolleyball – ngôi nhà của những trái tim yêu bóng chuyền tại THPT FPT Đà Nẵng.\nĐây không chỉ là nơi tập luyện – mà là nơi tinh thần thể thao được thắp sáng, nơi những:\n💥 cú đập cháy sân\n💥 pha cứu bóng nghẹt thở\n💥 và từng giọt mồ hôi trên sân đấu\n… tất cả hòa quyện tạo nên bản hoà tấu của sức mạnh, bản lĩnh và tinh thần đồng đội.",
+      "description": "🏐 Tại đây, bạn sẽ:\n✨ Rèn luyện kỹ thuật từ cơ bản đến nâng cao\n🧠 Làm quen với lối chơi chiến thuật hiện đại\n🤝 Kết nối – bứt phá – trưởng thành cùng những người bạn có chung đam mê\n\n🎯 MỤC TIÊU HOẠT ĐỘNG:\nChúng tôi không chỉ chơi thể thao – chúng tôi rèn luyện thể lực, nâng cao kỹ năng chuyên môn và quan trọng nhất, xây dựng tinh thần đồng đội.\nMỗi buổi tập, mỗi trận đấu đều là hành trình giúp bạn vượt qua giới hạn bản thân và khám phá sức mạnh của sự gắn kết.\n\n👥 THÀNH VIÊN & CHẶNG ĐƯỜNG:\nCLB gồm hơn 20 thành viên trẻ trung, máu lửa – những người không ngại mồ hôi, không ngại va chạm, chỉ cần một quả bóng và đam mê là đủ!\nVới hơn 2 năm hoạt động, chúng tôi đã tham gia nhiều giải đấu nội bộ, các trận giao hữu liên trường và tổ chức các hoạt động rèn luyện định kỳ để không ngừng phát triển.",
+      "quote": "Bật cao hơn giới hạn – Đập tan mọi nỗi sợ – Và ghi điểm rực rỡ trên hành trình trưởng thành!",
+      "image": "/images/Fvolleyball.jpg",
+      "members": "20+ thành viên",
+      "experience": "2+ năm hoạt động",
+      "benefits": [
+        "💪 Cơ hội được huấn luyện kỹ thuật bóng chuyền từ cơ bản đến nâng cao",
+        "⚡ Thể lực tăng vọt, phản xạ nhanh hơn, tinh thần thép hơn mỗi ngày",
+        "🎉 Giải tỏa áp lực học hành sau mỗi giờ lên lớp bằng không khí năng động, vui tươi",
+        "🤝 Gắn kết bạn bè, mở rộng mối quan hệ và tạo nên những kỷ niệm không thể quên",
+        "🌈 Tham gia hoạt động ngoại khóa, sự kiện, team building và giải đấu đầy màu sắc"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Tham gia nhiều giải đấu nội bộ",
+          "description": "Đạt được nhiều thành tích cao trong các giải đấu"
+        },
+        {
+          "title": "Tổ chức các trận giao hữu liên trường",
+          "description": "Mở rộng mối quan hệ với các trường khác"
+        },
+        {
+          "title": "CLB thể thao nổi bật",
+          "description": "Được công nhận bởi Hội sinh viên"
+        }
+      ],
+      "activities": [
+        "Tập luyện định kỳ hàng tuần",
+        "Tham gia giải đấu nội bộ",
+        "Giao hữu với các trường khác",
+        "Team building và hoạt động ngoại khóa"
+      ],
+      "teamStructure": [
+        { "role": "Chủ tịch CLB", "count": "1 người" },
+        { "role": "Phó chủ tịch", "count": "2 người" },
+        { "role": "Ban kỹ thuật", "count": "8 người" },
+        { "role": "Ban tổ chức", "count": "6 người" },
+        { "role": "Thành viên", "count": "5 người" }
+      ],
+      "goals2024": [
+        "Tăng số lượng thành viên lên 30+",
+        "Tham gia 5+ giải đấu lớn nhỏ",
+        "Tổ chức 3+ trận giao hữu liên trường",
+        "Phát triển kỹ năng cho 15+ thành viên mới"
+      ],
+      "contactInfo": {
+        "email": "fvolleyball@fschool.edu.vn",
+        "hotline": "0123 456 800",
+        "office": "Sân bóng chuyền, Khu thể thao",
+        "workingHours": "16:00 - 18:00 (T2-T6)"
+      }
+    },
+    "15": {
+      "id": 15,
+      "name": "🤖FSRC - Fschool Stem & Robotics Club",
+      "field": "Chia sẻ kiến thức về STEM, robotics; tạo cơ hội tham gia các cuộc thi robotics toàn quốc và thế giới.",
+      "position": "Phòng lab stem 111",
+      "looking": "Những bạn dám thử thách, có đam mê, muốn được thử sức và phát triển bản thân mình.",
+      "emoji": "🤖",
+      "shortIntro": "📩 Chúng tôi là một đội ngũ CLB làm việc chuyên nghiệp, là 1 CLB robotics tiêu biểu trong cộng đồng VSU (cộng đồng robotics có hơn 30 CLB trên cả nước).\nỞ đây các bạn sẽ được phát triển và nuôi dưỡng bản thân mình khi được học những kỹ năng mới: code, thiết kế 3D trên phần mềm Onshape và đặc biệt vô cùng quan trọng là những thành viên nữ được học về truyền thông, tài chính, v.v...\nNhững thành viên đã đem về cho CLB và trường vô số giải thưởng, là nôi sản sinh ra những khủng long tài năng, tiêu biểu, đặc biệt xuất sắc của trường.",
+      "description": "🎯 Mục tiêu hoạt động:\n• Xây dựng và phát triển CLB toàn diện, là chìa khóa đánh thức niềm đam mê với STEM & robotics cho các bạn trẻ, phát triển cộng đồng.\n\n👥 Thành viên:\nHiện có hơn 50 thành viên năng động, kỹ năng tốt, luôn sẵn sàng hỗ trợ, với 6 tiêu chí của FIRST.\n\n⏳ Thâm niên:\n3 năm hoạt động chính thức, tham gia và mang về hàng trăm giải thưởng to nhỏ trong nước và thế giới, được đăng lên báo, vinh danh khủng long,...\n\n🎁 Gia nhập bạn sẽ nhận được:\n• Cơ hội phát triển bản thân toàn diện\n• Cơ hội tham gia và giành giải thưởng các cuộc thi lớn như FIRST, ENJOY AI, VEX, ROBO G, ORC,... (được đi chơi xa, được trải nghiệm từ teamwork, cho đến những tri kỉ, giành nhiều giải thưởng được vinh danh cấp học bổng ở nhiều trường đại học trên thế giới)\n• Làm việc trong môi trường chuyên nghiệp, tôn trọng, v.v...\n• Những kỉ niệm đặc biệt của tuổi trẻ mà không phải tham gia CLB nào cũng được như vậy.\n\n💡 Note: CLB thấy rằng những bạn nữ thường rất e dè khi tham gia một CLB liên quan đến kỹ thuật STEM và robotics vì sợ không hợp nhưng thật ra CLB rất muốn tìm những bạn có thế mạnh về truyền thông, các bạn sẽ trở thành những cá nhân tiêu biểu của CLB trong phong trào Women in STEM.",
+      "quote": "FSRC – Nơi đánh thức đam mê STEM & Robotics, nơi mọi thành viên đều có thể tỏa sáng!",
+      "image": "/images/FGym.png",
+      "members": "50+ thành viên",
+      "experience": "3 năm hoạt động",
+      "benefits": [
+        "Cơ hội phát triển bản thân toàn diện",
+        "Tham gia và giành giải thưởng các cuộc thi lớn như FIRST, ENJOY AI, VEX, ROBO G, ORC,...",
+        "Làm việc trong môi trường chuyên nghiệp, tôn trọng",
+        "Những kỉ niệm đặc biệt của tuổi trẻ",
+        "Cơ hội được vinh danh, nhận học bổng ở nhiều trường đại học trên thế giới"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Hàng trăm giải thưởng trong nước và quốc tế",
+          "description": "Được đăng báo, vinh danh, nhận học bổng"
+        },
+        {
+          "title": "CLB robotics tiêu biểu cộng đồng VSU",
+          "description": "Thành viên xuất sắc, nữ truyền thông nổi bật"
+        }
+      ],
+      "activities": [
+        "Học code, thiết kế 3D, truyền thông, tài chính",
+        "Tham gia các cuộc thi robotics lớn nhỏ",
+        "Teamwork, trải nghiệm thực tế, giao lưu cộng đồng",
+        "Tổ chức sự kiện, hoạt động nội bộ"
+      ],
+      "teamStructure": [
+        { "role": "Chủ tịch CLB", "count": "1 người" },
+        { "role": "Phó chủ tịch", "count": "2 người" },
+        { "role": "Ban kỹ thuật", "count": "20 người" },
+        { "role": "Ban truyền thông", "count": "10 người" },
+        { "role": "Ban tài chính", "count": "5 người" },
+        { "role": "Thành viên", "count": "12 người" }
+      ],
+      "goals2024": [
+        "Tăng số lượng thành viên nữ tham gia STEM & robotics",
+        "Đạt thêm 20+ giải thưởng mới trong nước và quốc tế",
+        "Tổ chức 3+ sự kiện giao lưu cộng đồng STEM",
+        "Phát triển kỹ năng cho toàn bộ thành viên"
+      ],
+      "contactInfo": {
+        "email": "fsrc@fschool.edu.vn",
+        "hotline": "0123 456 801",
+        "office": "Phòng lab stem 111",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
+      }
+    },
+    "16": {
+      "id": 16,
+      "name": "🎌FManga-Anime (FM-A)",
+      "field": "Học thuật – Văn hóa Nhật Bản",
+      "position": "THPT FPT Đà Nẵng",
+      "looking": "Dành cho toàn thể học sinh THPT FPT Đà Nẵng – những người đam mê Manga, Anime và mong muốn khám phá văn hóa Nhật Bản một cách chân thực nhất.",
+      "emoji": "🎌",
+      "shortIntro": "🎂 Tuổi: 3 tuổi (since 2022)\n❤️ Độ Hiếm: SSR (Super Super Rare)\n💬 Giới Thiệu:\n\"Một CLB với plot twist: Không phải harem anime mà là nơi mọi otaku đều có thể tỏa sáng!\"\n\n✨ Đặc Điểm:\n▸ Tính Cách: Samurai học đường (trung thành + kỷ luật)\n▸ Sở Thích: \"Ship\" mọi người với văn hóa Nhật\n▸ Ưu Điểm: 100% không có tsundere trong ban chủ nhiệm",
+      "description": "🎮 Lựa Chọn Tương Tác:\n[ 1 ] [Đọc \"Route\" Của CLB]\nRoute Học Thuật: \"Debate như Death Note\"\nRoute Sự Kiện: \"Lễ hội anime real-life\"\nRoute Bí Mật: \"Tại sao senpai không chú ý đến em?\" (chỉ unlock khi tham gia)\n\n[ 2 ] [Tương Tác]\n💬 \"Bạn muốn FM-A gọi bạn là: a) Nakama b) Senpai c) Kawaii kouhai\"\n\n📊 Chỉ Số CLB (Stats):\nKiến Thức Nhật Bản: ⭐⭐⭐⭐⭐\nNăng Lực Tổ Chức: ⭐⭐⭐⭐☆\nĐộ Cuồng Anime: MAX LEVEL\n\n⚠️ Cảnh Báo: CLB có thể khiến bạn:\n• Muốn học tiếng Nhật\n• Tốn tiền mua figure\n• \"Phân tích\" anime như một học giả\n\n🎯 Mục tiêu: FM-A hướng đến việc tạo ra một không gian học thuật sôi động, nơi các thành viên có thể giao lưu, chia sẻ kiến thức và trải nghiệm văn hóa Nhật Bản thông qua Manga, Anime và nhiều hoạt động đặc sắc khác.\n\n👥 Ban Lãnh Đạo:\n• Chủ nhiệm đời thứ 5: Nguyễn Đình Lợi\n• Phó chủ nhiệm: Nguyễn Tấn Thiên\n\n🏛️ Cơ Cấu Tổ Chức:\nFM-A không phân chia rạch ròi các đội nhóm mà hướng đến sự đoàn kết, đồng lòng của tất cả thành viên. Mỗi người đều có cơ hội đảm nhiệm nhiều vai trò khác nhau, trải nghiệm tinh thần làm việc nhóm quy mô lớn thực thụ.\n\n🏆 Thành Tích Nổi Bật:\n• CLB Manga-Anime hàng đầu tại THPT FPT Đà Nẵng – Bởi chúng tôi là những người tiên phong và duy nhất theo đuổi đam mê này một cách chuyên nghiệp!\n• Phong cách đa dạng: FM-A là tập hợp của những cá tính độc đáo, nơi mỗi thành viên được tự do thể hiện phong cách riêng.\n• Tinh thần Võ sĩ đạo: Trung thành – Kỷ luật – Sẵn sàng hi sinh vì chủ công, chúng tôi luôn nỗ lực hết mình vì cộng đồng yêu văn hóa Nhật.",
+      "quote": "Mỗi hoạt động là một tập phim, mỗi sự kiện là một arc đỉnh cao.",
+      "image": "/images/FManga-Anime.jpg",
+      "members": "30+ thành viên",
+      "experience": "3 năm hoạt động",
+      "benefits": [
+        "🎌 Khám phá văn hóa Nhật Bản chân thực nhất",
+        "📚 Học thuật sôi động với debate, thảo luận anime/manga",
+        "🎉 Tham gia lễ hội anime real-life và các sự kiện đặc sắc",
+        "🤝 Trải nghiệm tinh thần làm việc nhóm quy mô lớn",
+        "💫 Tự do thể hiện phong cách riêng trong cộng đồng otaku"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "CLB Manga-Anime hàng đầu tại THPT FPT Đà Nẵng",
+          "description": "Tiên phong và duy nhất theo đuổi đam mê này một cách chuyên nghiệp"
+        },
+        {
+          "title": "Tổ chức nhiều sự kiện anime/manga thành công",
+          "description": "Lễ hội anime real-life, debate, thảo luận chuyên sâu"
+        },
+        {
+          "title": "Cộng đồng otaku sôi động",
+          "description": "Nơi mọi thành viên được tự do thể hiện phong cách riêng"
+        }
+      ],
+      "activities": [
+        "Debate anime/manga như Death Note",
+        "Lễ hội anime real-life",
+        "Thảo luận văn hóa Nhật Bản",
+        "Tổ chức sự kiện anime/manga",
+        "Giao lưu cộng đồng otaku"
+      ],
+      "teamStructure": [
+        { "role": "Chủ nhiệm đời thứ 5", "count": "1 người" },
+        { "role": "Phó chủ nhiệm", "count": "1 người" },
+        { "role": "Ban tổ chức sự kiện", "count": "10 người" },
+        { "role": "Ban học thuật", "count": "8 người" },
+        { "role": "Ban truyền thông", "count": "5 người" },
+        { "role": "Thành viên", "count": "6 người" }
+      ],
+      "goals2024": [
+        "Tăng số lượng thành viên lên 40+",
+        "Tổ chức 5+ sự kiện anime/manga lớn",
+        "Mở rộng cộng đồng otaku tại FPT",
+        "Phát triển các hoạt động học thuật mới"
+      ],
+      "contactInfo": {
+        "email": "fmanga-anime@fschool.edu.vn",
+        "hotline": "0123 456 802",
+        "office": "Phòng CLB, Tầng 1",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
+      }
+    },
+    "17": {
+      "id": 17,
+      "name": "☀️Soleil Debate Station – SODES",
+      "field": "Tư duy phản biện - Khoa học xã hội - Pháp quyền - Ngoại giao - Văn hóa - Tình cảm - Nhân cách.",
+      "position": "Trường THPT FPT Đà Nẵng",
+      "looking": "Người thiếu vốn từ vựng – Người ngoại giao tốt.\nHướng nội – Hướng ngoại.\nTinh thần làm việc.\nTrách nhiệm với đồng đội và công việc.\nĐam mê về tranh biện(Học thuật)\nMuốn phát triển/trao dồi kỹ năng: tự tin, học thuật, nói lách,….",
+      "emoji": "☀️",
+      "shortIntro": "SODES – Speak Out, Debate Everything, Shine!\nSODES là câu lạc bộ tranh biện dành cho những bạn trẻ tin vào sức mạnh của ngôn từ, lý trí và lắng nghe. Được thành lập tại trường THPT FPT ĐN, SODES là mái nhà chung của những học sinh ham học hỏi, thích đặt câu hỏi \"Tại sao?\" và không ngại thử thách góc nhìn truyền thống.\n💡 Sứ mệnh của chúng tôi:\n\"Không ngừng học hỏi – Nói để hiểu – Tranh biện để trưởng thành.\"",
+      "description": "SODES không chỉ là nơi rèn luyện kỹ năng tranh biện chuyên sâu, mà còn là không gian để mỗi bạn học sinh:\n• Phát triển tư duy phản biện và kỹ năng nói trước đám đông\n• Biết lắng nghe trong khác biệt\n• Tự tin bảo vệ quan điểm bằng lý lẽ và sự tôn trọng\n\n🔍 Tại đây, bạn sẽ:\n• Tổ chức các buổi tranning kỹ năng tranh biện theo tuần\n• Tham gia các cuộc thi tranh biện từ cấp trường đến Thành Phố\n• Tổ chức giải tranh biện nội bộ và các hoạt động ngoại khóa.\n• Tham gia cộng tác viên/đồng ban tổ chức cuộc thi tranh biện do nhà trường và SODES sáng lập.\n\n💬 SODES chính là nơi để bạn:\n• Speak: Dám nói lên chính kiến\n• Open-minded: Cởi mở tiếp nhận ý kiến đối lập\n• Debate: Biết lập luận vững vàng, phản biện thông minh\n• Empathy: Thấu cảm trong mọi góc nhìn\n• Shine: Tỏa sáng bằng trí tuệ và bản sắc riêng\n\n📣 Thông điệp gửi đến bạn:\nDù bạn là người hướng nội hay hướng n ngoại, giỏi nói hay mới bắt đầu học cách nói – SODES luôn chào đón bạn.\nHãy để mỗi cuộc tranh luận là một lần bạn hiểu hơn về thế giới và chính mình.",
+      "quote": "Vào SODES, bạn không cần phải là người giỏi nhất – chỉ cần là người sẵn sàng học hỏi và dám cất tiếng nói.",
+      "image": "/images/SODES.png",
+      "members": "Hơn 11 thành viên,chất lượng dẫn đầu số lượng, chúng mình không chọn thành viên trên con số chúng mình chọn trên năng lực, đến với SODES bạn sẽ sở hưởng những giải thưởng nóng tay.",
+      "experience": "Hơn 3 năm hoạt động(19/7/2022). Từng mang về nhiều giải thưởng lớn.",
+      "benefits": [
+        "Rèn luyện tư duy phản biện và lập luận logic.",
+        "Phát triển kỹ năng nói trước đám đông và thuyết phục người nghe.",
+        "Học cách lắng nghe, tôn trọng và phản biện trong văn minh.",
+        "Tham gia các buổi đào tạo, workshop tranh biện chất lượng.",
+        "Có cơ hội thi đấu tại các giải tranh biện các cấp.",
+        "Rèn luyện kỹ năng teamwork, lãnh đạo và tổ chức sự kiện.",
+        "Giao lưu, kết nối với bạn bè cùng chí hướng, cùng phát triển."
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Nhiều giải thưởng lớn",
+          "description": "Được công nhận qua hơn 3 năm hoạt động."
+        },
+        {
+          "title": "CLB tiêu biểu trong cộng đồng tranh biện",
+          "description": "Chất lượng dẫn đầu số lượng thành viên."
+        }
+      ],
+      "activities": [
+        "Tổ chức các buổi tranning kỹ năng tranh biện theo tuần",
+        "Tham gia các cuộc thi tranh biện từ cấp trường đến Thành Phố",
+        "Tổ chức giải tranh biện nội bộ và các hoạt động ngoại khóa.",
+        "Tham gia cộng tác viên/đồng ban tổ chức cuộc thi tranh biện do nhà trường và SODES sáng lập."
+      ],
+      "teamStructure": [
+        { "role": "Thành viên cốt cán", "count": "11+ người" },
+        { "role": "Thành viên mới", "count": "Đang tuyển" }
+      ],
+      "goals2024": [
+        "Rèn luyện tư duy phản biện và lập luận logic.",
+        "Phát triển kỹ năng nói trước đám đông và thuyết phục.",
+        "Tạo môi trường tranh biện học thuật, văn minh và sáng tạo.",
+        "Khuyến khích học sinh tìm hiểu kiến thức xã hội và thời sự.",
+        "Xây dựng tinh thần làm việc nhóm và tôn trọng sự khác biệt.",
+        "Huấn luyện đội tuyển tham gia các cuộc thi tranh biện.",
+        "Lan toả văn hoá tranh biện trong cộng đồng học sinh."
+      ],
+      "contactInfo": {
+        "email": "sodes@fschool.edu.vn",
+        "hotline": "Cập nhật sau",
+        "office": "Cập nhật sau",
+        "workingHours": "Cập nhật sau"
+      }
+    },
+    "18": {
+      "id": 18,
+      "name": "🌸F Chinese (F-HUA)",
+      "field": "Học thuật - Ngôn ngữ Trung Quốc - Văn hóa Trung Hoa",
+      "position": "Trường THPT FPT Đà Nẵng",
+      "looking": "📌 Dành cho ai?\n• Bạn chưa biết gì về tiếng Trung nhưng muốn khám phá? → Welcome!\n• Bạn thích văn hóa Trung Hoa – nhạc Hoa, phim Hoa, Hán phục, cosplay? → Join us!\n• Bạn muốn tham gia CLB năng động, sáng tạo,行了，vui vẻ và không áp lực? → Chính là đây!",
+      "emoji": "🌸",
+      "shortIntro": "💡 F Chinese (F-HUA) – Nơi của những người yêu ngôn ngữ và văn hóa Trung Hoa cùng nhau học hỏi và sáng tạo.\n\n🌟 Thành viên: gần 20 bạn học sinh từ các khối lớp, năng động – sáng tạo – nhiệt huyết\n\n📚 Nội dung hoạt động:\n• Các buổi học tiếng Trung dành cho người mới bắt đầu\n• Trải nghiệm ứng dụng犀 tiếng Trung vào đời sống như giao tiếp cơ bản, viết chữ Hán, giới thiệu bản thân\n• Workshop và minigame theo chủ đề văn hóa: thư pháp, lễ hội Trung Hoa, nhạc Cpop, làm thủ công, cosplay trang phục Hán phục…\n• Cơ hội thể hiện: bạn có thể tham gia biểu diễn, dẫn chương trình, làm truyền thông, tổ chức hoạt động...",
+      "description": "✨ Đến với CLB chúng mình, các bạn sẽ được:\n🎓 Làm quen với tiếng Trung từ những bước đầu tiên – qua cách học sinh động, dễ hiểu và không nhàm chán.\n🧠 Phát triển tư duy ngôn ngữ và sáng tạo, thông qua các trò chơi, hoạt động nhóm, và dự án mini.\n🎭 Trải nghiệm văn hóa Trung Hoa thật gần gũi – từ thư pháp, nhạc Hoa, Hán phục đến các phong tục thú vị.\n🌍 Kết nối với những người bạn cùng đam mê, cùng nhau học hỏi và chia sẻ.\n🎤 Tham gia tổ chức sự kiện, dẫn chương trình, biểu diễn, hoặc thử sức ở vị trí truyền thông – hậu cần – MC…\n🚀 Rèn kỹ năng mềm:eco thuyết trình, làm việc nhóm, lãnh đạo, sáng tạo nội dung...\n🌸 Và hơn hết, là có một môi trường vui vẻ, không áp lực, nơi bạn có thể thỏa sức tỏa sáng và là chính bạn!\n\n📣 F Chinese không chỉ là một CLB – mà là một hành trình:\n\"Ngôn ngữ là cây cầu – Văn hóa là hành trình.\"\n\"Hiểu một ngôn ngữ là mở ra một thế giới.\"\n\n🌸 F Chinese hay còn có tên gọi khác là F-Hua – Mỗi chữ là một linh hồn:\n🌬️ F – 风 (Fēng) - Gió: Sức sống, sự chuyển động – như cách chúng mình lan tỏa văn hóa Trung Hoa khắp FSC3.\n☯️ H – 和 (Hé) - Hòa hợp: Giá trị cốt lõi trong tư tưởng Trung Hoa xưa: sống hòa thuận, tôn trọng và kết nối.\n🎨 U – 雅 (Yǎ) - Thanh tao: Tinh thần nghệ thuật và sự thanh lịch trong từng nét thư pháp, từng bộ Hán phục.\n❤️ A – 爱 (Ài) - Yêu thương: Tình yêu dành cho ngôn ngữ, văn hóa và những người bạn đồng hành.",
+      "quote": "Ngôn ngữ là cây cầu – Văn hóa là hành trình.",
+      "image": "/images/Tiếng trung - Fchinies.jpg",
+      "members": "Gần 20 thành viên",
+      "experience": "Đang phát triển",
+      "benefits": [
+        "🎓 Làm quen với tiếng Trung từ những bước đầu tiên",
+        "🧠 Phát triển tư duy ngôn ngữ và sáng tạo",
+        "🎭 Trải nghiệm văn hóa Trung Hoa thật gần gũi",
+        "🌍 Kết nối với những người bạn cùng đam mê",
+        "🎤 Tham gia tổ chức sự kiện, dẫn chương trình, biểu diễn",
+        "🚀 Rèn kỹ năng mềm: thuyết trình, làm việc nhóm, lãnh đạo",
+        "🌸 Môi trường vui vẻ, không áp lực, nơi bạn có thể thỏa sức tỏa sáng"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "CLB ngôn ngữ và văn hóa Trung Hoa tiêu biểu",
+          "description": "Nơi học hỏi và sáng tạo cho những người yêu văn hóa Trung Hoa"
+        },
+        {
+          "title": "Tổ chức nhiều hoạt động văn hóa độc đáo",
+          "description": "Thư pháp, lễ hội Trung Hoa, nhạc Cpop, làm thủ công, cosplay Hán phục"
+        }
+      ],
+      "activities": [
+        "Các buổi học tiếng Trung dành cho người mới bắt đầu",
+        "Trải nghiệm ứng dụng tiếng Trung vào đời sống",
+        "Workshop và minigame theo chủ đề văn hóa",
+        "Tham gia biểu diễn, dẫn chương trình, làm truyền thông",
+        "Tổ chức hoạt động văn hóa Trung Hoa"
+      ],
+      "teamStructure": [
+        { "role": "Ban chủ nhiệm", "count": "3 người" },
+        { "role": "Ban học thuật", "count": "5 người" },
+        { "role": "Ban văn hóa", "count": "4 người" },
+        { "role": "Ban tổ chức sự kiện", "count": "3 người" },
+        { "role": "Thành viên", "count": "5 người" }
+      ],
+      "goals2024": [
+        "Tăng số lượng thành viên lên 25+",
+        "Tổ chức 10+ hoạt động văn hóa Trung Hoa",
+        "Phát triển chương trình học tiếng Trung từ cơ bản đến nâng cao",
+        "Mở rộng hợp tác với các CLB văn hóa khác",
+        "Tạo môi trường gần gũi, phát triển kỹ năng, lan tỏa cảm hứng"
+      ],
+      "contactInfo": {
+        "email": "fchinese@fschool.edu.vn",
+        "hotline": "0123 456 803",
+        "office": "Phòng CLB, Tầng 1",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
       }
     }
   }
