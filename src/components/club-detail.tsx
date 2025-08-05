@@ -3,7 +3,7 @@
 import { ArrowLeft, MapPin, Users, Calendar, Star, MessageCircle, Heart, Award, Clock, Users2, Target, Lightbulb } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ClubDetail } from "@/data/clubs"
+import type { ClubDetail } from "@/data/clubs"
 
 interface ClubDetailProps {
    club: ClubDetail
