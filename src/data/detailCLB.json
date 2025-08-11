@@ -41,10 +41,22 @@
         "Dự án cộng đồng theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "15 người" },
-        { "role": "Thành viên", "count": "12 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "15 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "12 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 50+",
@@ -100,10 +112,22 @@
         "Dự án khởi nghiệp theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "20 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "20 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 40+",
@@ -116,6 +140,73 @@
         "hotline": "0123 456 790",
         "office": "Phòng 102, Tòa A",
         "workingHours": "8:00 - 17:00 (T2-T6)"
+      }
+    },
+    "9": {
+      "id": 9,
+      "name": "FDN-Events",
+      "field": "Tổ chức sự kiện, truyền thông & sáng tạo",
+      "position": "Cập nhật sau",
+      "looking": "🎤 Cộng sự cháy hết mình - bạn đồng hành rực rỡ",
+      "emoji": "🎤",
+      "shortIntro": "Team đứng sau mọi spotlight! Nơi quy tụ những con người luôn cháy hết mình với đam mê tổ chức, sáng tạo và làm nên những khoảnh khắc đáng nhớ.",
+      "description": "FDN-Events không chỉ là một câu lạc bộ chạy sự kiện – mà còn là nơi tụi mình biến ý tưởng thành trải nghiệm có thật. Từ các chương trình hoành tráng đến sự kiện nhỏ, học thuật hay giải trí, bọn mình luôn cháy hết mình để mỗi chương trình đều trở thành spotlight!\n\nĐây là mái nhà của những bạn trẻ năng động, thích ứng nhanh và không ngại thử thách – đúng chất ‘Crew sự kiện’.\n\nChúng mình tin rằng:\n✨ Không có sự kiện nào là giống nhau – vì bạn chính là nhân tố tạo nên sự khác biệt!\n\nChúng mình ở: (cập nhật sau)\n\nMục tiêu hoạt động:\n• Tổ chức sự kiện, hỗ trợ các hoạt động truyền thông, thiết kế và hiện thực hóa ý tưởng sáng tạo dành cho học sinh.\n\nThành viên:\n• Hiện có hơn 100 thành viên năng động, kỹ năng tốt, luôn sẵn sàng phối hợp tổ chức sự kiện từ A đến Z.\n\nThâm niên:\n• 7 năm hoạt động chính thức, từng tham gia tổ chức hơn 20 sự kiện lớn nhỏ như Lễ Tôn Vinh, Tôn vinh phái đẹp, Tri ân thầy cô, Tri ân cựu học sinh, FClub,...\n\nGia nhập bạn sẽ nhận được:\n• Kỹ năng tổ chức và điều phối sự kiện chuyên nghiệp\n• Cơ hội phát triển khả năng sáng tạo, truyền thông và teamwork\n• Môi trường trẻ trung, vui nhộn, nhiệt huyết\n• Những đêm chạy sự kiện quên cả deadline nhưng không bao giờ quên tiếng cười!",
+      "quote": "Không có sự kiện nào là giống nhau – vì bạn chính là nhân tố tạo nên sự khác biệt!",
+      "image": "/images/FDN-Events.jpg",
+      "members": "100+ thành viên",
+      "experience": "7+ năm hoạt động",
+      "benefits": [
+        "Kỹ năng tổ chức và điều phối sự kiện chuyên nghiệp",
+        "Cơ hội phát triển khả năng sáng tạo, truyền thông và teamwork",
+        "Môi trường trẻ trung, vui nhộn, nhiệt huyết",
+        "Những đêm chạy sự kiện quên cả deadline nhưng không bao giờ quên tiếng cười!"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Tham gia >20 sự kiện lớn nhỏ",
+          "description": "Lễ Tôn Vinh, Tôn vinh phái đẹp, Tri ân thầy cô, Tri ân cựu học sinh, FClub,..."
+        }
+      ],
+      "activities": [
+        "Lên kế hoạch và điều phối sự kiện",
+        "Truyền thông – thiết kế nội dung",
+        "Vận hành chương trình tại hiện trường",
+        "Họp – training crew định kỳ"
+      ],
+      "teamStructure": [
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban tổ chức sự kiện",
+          "count": "15+ người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "20+ người"
+        },
+        {
+          "role": "Ban thiết kế",
+          "count": "10+ người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "50+ người"
+        }
+      ],
+      "goals2024": [
+        "Tổ chức thêm 10+ sự kiện chất lượng",
+        "Chuẩn hóa quy trình crew sự kiện",
+        "Mở rộng hợp tác với các CLB và phòng ban",
+        "Phát triển đội ngũ MC/Host, điều phối, hậu cần"
+      ],
+      "contactInfo": {
+        "email": "fdn-events@fschool.edu.vn",
+        "hotline": "Cập nhật sau",
+        "office": "Cập nhật sau",
+        "workingHours": "Cập nhật sau"
       }
     },
     "5": {
@@ -158,10 +249,22 @@
         "Dự án cộng đồng theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "15 người" },
-        { "role": "Thành viên", "count": "7 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "15 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "7 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 35+",
@@ -218,10 +321,22 @@
         "Dự án sự kiện theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "8 người" },
-        { "role": "Thành viên", "count": "4 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "8 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "4 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 25+",
@@ -243,9 +358,9 @@
       "position": "Phòng 105",
       "looking": "\"Một người sẵn sàng cho đi – không phải vì có nhiều, mà vì hiểu được giá trị của yêu thương\"🤝",
       "emoji": "☀️",
-      "shortIntro": "Sunshare không ồn ào, không hoành tráng – tụi mình lặng lẽ đi từng bước nhỏ, để giúp một cụ già bớt cô đơn, một đứa trẻ được cười nhiều hơn, một hoàn cảnh được lắng nghe, một tâm hồn thấy ấm lại.\n\nChúng mình làm thiện nguyện không phải vì \"làm cho đủ\", mà là vì thật lòng muốn làm. Có thể là một gian hàng nhỏ gây quỹ, một buổi phát cháo lúc sáng sớm, hay một chiến dịch viết thiệp gửi yêu thương – tất cả đều xuất phát từ trái tim.\n\nỞ đây, bạn không cần phải \"hoàn hảo\", chỉ cần chân thành và sẵn sàng bắt đầu từ điều tử tế nhất.",
+      "shortIntro": "Sunshare không ồn ào, không hoành tráng – tụi mình lặng lẽ đi từng bước nhỏ, để giúp một cụ già bớt cô đơn, một đứa trẻ được cười nhiều hơn, một hoàn cảnh được lắng nghe, một tâm hồn thấy ấm lại.\nChúng mình làm thiện nguyện không phải vì \"làm cho đủ\", mà là vì thật lòng muốn làm. Có thể là một gian hàng nhỏ gây quỹ, một buổi phát cháo lúc sáng sớm, hay một chiến dịch viết thiệp gửi yêu thương – tất cả đều xuất phát từ trái tim.\nỞ đây, bạn không cần phải “hoàn hảo”, chỉ cần chân thành và sẵn sàng bắt đầu từ điều tử tế nhất.",
       "description": "Tụi mình tin rằng:\n🌱 \"Tử tế không cần lý do – chỉ cần bạn muốn Lan tỏa nó.\"\n\n\"Không phải ai sinh ra cũng đủ đầy, nhưng ai cũng có thể là ánh sáng nhỏ trong cuộc đời của người khác.\"\n\"Sunshare không bán nắng, chỉ sưởi ấm lòng người.\"\n\nNếu bạn cũng nghĩ vậy – chào mừng bạn về đội Sunshare. Không cần phải thay đổi cả thế giới, chỉ cần mỗi ngày, mình cùng nhau làm điều nhỏ bé, nhưng thật đẹp.\n\n☀️ SUNSHARE – Nơi những điều tử tế được ươm mầm\nKhông có danh hiệu, không có spotlight. Chỉ có những người trẻ, chọn bước tới thay vì ngoảnh mặt làm ngơ.\nCác bạn có thể thấy chúng tớ ở phòng 105\n\n🌿 Mục tiêu hoạt động của Sunshare:\n• Là một nhóm bạn trẻ không giỏi nói lời hoa mỹ, nhưng tin rằng:\n• Một bữa cơm được chuẩn bị bằng tấm lòng\n• Một chiếc thiệp nhỏ viết bằng tay\n• Một sáng chủ nhật dậy sớm để phát cháo...\n• ... cũng có thể làm ấm một cuộc đời.\n\nSunshare không cần bạn phải \"tốt hoàn hảo\", chỉ cần bạn sẵn lòng làm điều tốt.\nDù là cầm loa, vẽ bảng tên, xếp quà, hay đơn giản là lắng nghe một câu chuyện buồn của ai đó, tụi mình đều trân trọng – vì ở đây, không có ai là thừa cả.\n\n📌 Vài điều tụi mình tự hào:\n• Thành lập vào 24/9/2018 - hơn 7 năm hoạt động - không bỏ một mùa Tết nào.\n• Gây quỹ từ những chiếc bánh tráng nhỏ nhất.\n• Có hơn 40 con người, và từng người đều đáng tin đến lạ.\n\n✨ Gia nhập Sunshare – Bạn sẽ có gì?\n• Không phải \"kỹ năng mềm\", mà là một trái tim cứng cáp hơn sau từng lần giúp đỡ người khác.\n• Không chỉ là \"trải nghiệm thiện nguyện\", mà là những khoảnh khắc khiến bạn rơi nước mắt – vì xúc động.\n• Không chỉ \"thêm vào CV\", mà là bớt đi sự vô cảm.\n\nBạn sẽ học được cách:\n• Tự tay tạo nên một dự án vì người khác.\n• Đứng trước khó khăn, không lùi bước.\n• Yêu quý từng nụ cười mà mình góp phần mang đến.",
-      "quote": "Sunshare không bán nắng, chỉ sưởi ấm lòng người.",
+      "quote": "“Sunshare không bán nắng, chỉ sưởi ấm lòng người.”",
       "image": "/images/CLB Sunshare.jpg",
       "members": "40+ thành viên",
       "experience": "7+ năm hoạt động",
@@ -279,10 +394,22 @@
         "Dự án thiện nguyện theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "25 người" },
-        { "role": "Thành viên", "count": "12 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "25 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "12 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 50+",
@@ -335,11 +462,26 @@
         "Dự án truyền thông theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban Content", "count": "8 người" },
-        { "role": "Ban Media", "count": "8 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban Content",
+          "count": "8 người"
+        },
+        {
+          "role": "Ban Media",
+          "count": "8 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 30+",
@@ -354,18 +496,101 @@
         "workingHours": "8:00 - 17:00 (T2-T6)"
       }
     },
+    "12": {
+      "id": 12,
+      "name": "🎼FMelodies 🫶🏻",
+      "field": "Biểu diễn ca nhạc, trải nghiệm nghệ thuật",
+      "position": "Cập nhật sau",
+      "looking": "Người 'Yêu nhạc đong đầy - bùng cháy từng ngày'",
+      "emoji": "🎵",
+      "shortIntro": "Đây là nơi mà các bạn được 'Cháy hết mình trên từng giai điệu!' – Nơi kết nối âm nhạc, chắp cánh cùng đam mê, để mỗi bước chân đều tỏa sáng rực rỡ trên sân khấu.",
+      "description": "Với FMelodies, chúng mình không chỉ đơn thuần là câu lạc bộ âm nhạc mà còn là nơi hội tụ của đam mê, sáng tạo và tài năng. Chúng mình hoạt động sôi nổi trong lĩnh vực ca nhạc, trình diễn sân khấu và chơi các nhạc cụ nhằm tạo nên những trải nghiệm âm nhạc đẳng cấp và đầy cảm xúc bằng sự kết hợp hài hòa của những giọng ca vàng cùng các tay chơi nhạc cụ đỉnh cao tại đây.\n\n🏠 Nơi để các bạn tìm đến chúng mình: (cập nhật sau)\n\n💫 Mục tiêu hoạt động: Tạo cơ hội cho các tài năng được trải nghiệm và tỏa sáng trên đa dạng sân khấu.\n\n🧚🏻‍♀️ Thành viên: Là nơi tụ họp của hơn 30 mảnh ghép đam mê thể hiện cá tính riêng của mình qua những giai điệu.\n\n🕵🏻 Thâm niên: Hơn 6 năm kể từ ngày 11.9.2018.\n\n🎁 Đã bỏ túi: FMelodies tự hào vì đã từng tham gia tổ chức và đồng tổ chức các liveshow âm nhạc trong và ngoài trường, tham gia đóng góp văn nghệ các sự kiện lớn nhỏ và hơn hết là tạo nên các MV ca nhạc 'nhà làm' nổi bật như:\n• Liveshow đêm nhạc 'Thanh âm mùa Xuân'\n• Liveshow đêm nhạc 'Vào hạ'\n• Liveshow đêm nhạc 'Những mùa hoa'\n• MV Live session 1: 'NỐT mùa Valentine'\n• MV ca nhạc: 'Hòa nhịp giáng sinh'\n• MV rap: 'Back to school'\n… và còn rất nhiều sự kiện khác đang chờ cùng các bạn tạo nên!\n\nCuối cùng, chúng mình hứa hẹn ngôi nhà chung FMe là nơi mà các bạn sẽ có được 'K-ICM':\nK - Kỹ năng trở thành một nghệ sĩ trình diễn 'thực thụ'\nI - Iu thương, học hỏi và mở ra nhiều sự kết nối\nC - Cơ hội được thể hiện tài năng và các khả năng xử lý tình huống\nM - Môi trường thân thiện, năng động, có hơi 'mát mát'",
+      "quote": "Nơi kết nối âm nhạc, chắp cánh cùng đam mê, để mỗi bước chân đều tỏa sáng rực rỡ trên sân khấu.",
+      "image": "/images/FMelodies.jpg",
+      "members": "30+ thành viên",
+      "experience": "6+ năm hoạt động (từ 11.9.2018)",
+      "benefits": [
+        "Kỹ năng trở thành một nghệ sĩ trình diễn thực thụ",
+        "Iu thương, học hỏi và mở ra nhiều sự kết nối",
+        "Cơ hội được thể hiện tài năng và xử lý tình huống",
+        "Môi trường thân thiện, năng động, có hơi 'mát mát'"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Liveshow 'Thanh âm mùa Xuân'",
+          "description": "Đêm nhạc nội bộ quy mô"
+        },
+        {
+          "title": "Liveshow 'Vào hạ'",
+          "description": "Trình diễn đa phong cách"
+        },
+        {
+          "title": "Liveshow 'Những mùa hoa'",
+          "description": "Sân khấu chủ đề bốn mùa"
+        },
+        {
+          "title": "MV Live session 'NỐT mùa Valentine'",
+          "description": "Sản xuất MV live session"
+        },
+        {
+          "title": "MV 'Hòa nhịp giáng sinh'",
+          "description": "MV chủ đề lễ hội"
+        },
+        {
+          "title": "MV rap 'Back to school'",
+          "description": "Sản phẩm rap học đường"
+        }
+      ],
+      "activities": [
+        "Tập luyện thanh nhạc và nhạc cụ",
+        "Biểu diễn tại sân khấu trường và sự kiện",
+        "Sản xuất MV và live session",
+        "Workshop âm nhạc – biểu diễn"
+      ],
+      "teamStructure": [
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban vocal",
+          "count": "10+ người"
+        },
+        {
+          "role": "Ban nhạc cụ",
+          "count": "10+ người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "5+ người"
+        }
+      ],
+      "goals2024": [
+        "Tổ chức 3+ liveshow nội bộ",
+        "Sản xuất 3+ MV/live session mới",
+        "Mở rộng hợp tác với CLB nghệ thuật khác",
+        "Phát triển chương trình đào tạo vocal/nhạc cụ"
+      ],
+      "contactInfo": {
+        "email": "fmelodies@fschool.edu.vn",
+        "hotline": "Cập nhật sau",
+        "office": "Cập nhật sau",
+        "workingHours": "Cập nhật sau"
+      }
+    },
     "14": {
       "id": 14,
-      "name": "🏐Fvolleyball🏐",
+      "name": "Fvolleyball",
       "field": "Bóng chuyền – Rèn luyện thể lực – Tinh thần đồng đội",
       "position": "Sân bóng chuyền",
       "looking": "🔥 Những chiến binh mang trong mình ngọn lửa đam mê – sẵn sàng bứt phá mọi giới hạn 🔥",
       "emoji": "🏐",
       "shortIntro": "Chào mừng bạn đến với Fvolleyball – ngôi nhà của những trái tim yêu bóng chuyền tại THPT FPT Đà Nẵng.\nĐây không chỉ là nơi tập luyện – mà là nơi tinh thần thể thao được thắp sáng, nơi những:\n💥 cú đập cháy sân\n💥 pha cứu bóng nghẹt thở\n💥 và từng giọt mồ hôi trên sân đấu\n… tất cả hòa quyện tạo nên bản hoà tấu của sức mạnh, bản lĩnh và tinh thần đồng đội.",
-      "description": "🏐 Tại đây, bạn sẽ:\n✨ Rèn luyện kỹ thuật từ cơ bản đến nâng cao\n🧠 Làm quen với lối chơi chiến thuật hiện đại\n🤝 Kết nối – bứt phá – trưởng thành cùng những người bạn có chung đam mê\n\n🎯 MỤC TIÊU HOẠT ĐỘNG:\nChúng tôi không chỉ chơi thể thao – chúng tôi rèn luyện thể lực, nâng cao kỹ năng chuyên môn và quan trọng nhất, xây dựng tinh thần đồng đội.\nMỗi buổi tập, mỗi trận đấu đều là hành trình giúp bạn vượt qua giới hạn bản thân và khám phá sức mạnh của sự gắn kết.\n\n👥 THÀNH VIÊN & CHẶNG ĐƯỜNG:\nCLB gồm hơn 20 thành viên trẻ trung, máu lửa – những người không ngại mồ hôi, không ngại va chạm, chỉ cần một quả bóng và đam mê là đủ!\nVới hơn 2 năm hoạt động, chúng tôi đã tham gia nhiều giải đấu nội bộ, các trận giao hữu liên trường và tổ chức các hoạt động rèn luyện định kỳ để không ngừng phát triển.",
-      "quote": "Bật cao hơn giới hạn – Đập tan mọi nỗi sợ – Và ghi điểm rực rỡ trên hành trình trưởng thành!",
+      "description": "🎯 MỤC TIÊU HOẠT ĐỘNG\nChúng tôi không chỉ chơi thể thao – chúng tôi rèn luyện thể lực, nâng cao kỹ năng chuyên môn và quan trọng nhất, xây dựng tinh thần đồng đội.\nMỗi buổi tập, mỗi trận đấu đều là hành trình giúp bạn vượt qua giới hạn bản thân và khám phá sức mạnh của sự gắn kết.\n\n👥 THÀNH VIÊN & CHẶNG ĐƯỜNG\nCLB gồm hơn 20 thành viên trẻ trung, máu lửa – những người không ngại mồ hôi, không ngại va chạm, chỉ cần một quả bóng và đam mê là đủ!\nVới hơn 2 năm hoạt động, chúng tôi đã tham gia nhiều giải đấu nội bộ, các trận giao hữu liên trường và tổ chức các hoạt động rèn luyện định kỳ để không ngừng phát triển.\n\n🎁 GIA NHẬP FVOLLEYBALL – BẠN SẼ NHẬN ĐƯỢC:\n💪 Cơ hội được huấn luyện kỹ thuật bóng chuyền từ cơ bản đến nâng cao\n⚡ Thể lực tăng vọt, phản xạ nhanh hơn, tinh thần thép hơn mỗi ngày\n🎉 Giải tỏa áp lực học hành sau mỗi giờ lên lớp bằng không khí năng động, vui tươi\n🤝 Gắn kết bạn bè, mở rộng mối quan hệ và tạo nên những kỷ niệm không thể quên\n🌈 Tham gia hoạt động ngoại khóa, sự kiện, team building và giải đấu đầy màu sắc\n\n🔥 FVOLLEYBALL – CHÁY HẾT MÌNH, ĐẬP TAN GIỚI HẠN!\nTuổi trẻ là để sống trọn từng khoảnh khắc – và tại đây, bạn sẽ được bật cao, tung cú đập thật mạnh, để cảm nhận từng nhịp đập con tim hoà cùng tiếng bóng.\n\n💌 HÃY GIA NHẬP CHÚNG TÔI!\nDù bạn là người mới bắt đầu hay đã có kinh nghiệm, chỉ cần bạn đam mê – chúng tôi luôn sẵn sàng đồng hành và hỗ trợ hết mình.\nCùng nhau, chúng ta sẽ tạo nên một mùa thanh xuân bùng nổ và rực rỡ nhất!",
+      "quote": "“Bật cao hơn giới hạn – Đập tan mọi nỗi sợ – Và ghi điểm rực rỡ trên hành trình trưởng thành!”",
       "image": "/images/Fvolleyball.jpg",
-      "members": "20+ thành viên",
+      "members": "Hơn 20 thành viên",
       "experience": "2+ năm hoạt động",
       "benefits": [
         "💪 Cơ hội được huấn luyện kỹ thuật bóng chuyền từ cơ bản đến nâng cao",
@@ -396,11 +621,26 @@
         "Team building và hoạt động ngoại khóa"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban kỹ thuật", "count": "8 người" },
-        { "role": "Ban tổ chức", "count": "6 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban kỹ thuật",
+          "count": "8 người"
+        },
+        {
+          "role": "Ban tổ chức",
+          "count": "6 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 30+",
@@ -413,6 +653,69 @@
         "hotline": "0123 456 800",
         "office": "Sân bóng chuyền, Khu thể thao",
         "workingHours": "16:00 - 18:00 (T2-T6)"
+      }
+    },
+    "10": {
+      "id": 10,
+      "name": "🏋️‍♂️ FGYM CLUB",
+      "field": "Calisthenics – Tập luyện thể chất – Kỷ luật – Sức khỏe",
+      "position": "Sân thể thao - Khu vực ngoài trời",
+      "looking": "Những người sẵn sàng vượt giới hạn bản thân 💪\n🔥 Có đam mê, tinh thần thép và khát khao thay đổi",
+      "emoji": "🏋️‍♂️",
+      "shortIntro": "FGYM là nơi tụ hội của những con người có khát khao rèn luyện mỗi ngày để trở thành phiên bản tốt nhất của chính mình.\nDù bạn là người mới hay đã tập lâu, chỉ cần có quyết tâm – FGYM sẽ luôn đồng hành cùng bạn.",
+      "description": "🌟 Mục tiêu hoạt động:\nRèn luyện thể chất, nâng cao sức khỏe, rèn ý chí và kỷ luật – hướng tới một lối sống mạnh mẽ, chủ động và tích cực.\n\n📆 Thâm niên:\nHơn 2 năm, đã và đang trau dồi thêm nhiều kinh nghiệm quý báu.\n\n🎒 Dắt túi ngay khi gia nhập:\n✔️ Các đồng môn luôn sẵn sàng giải đáp mọi kiến thức về tập luyện\n✔️ Kỹ năng kiểm soát cơ thể, hơi thở và ý chí\n✔️ Môi trường tập luyện đầy năng lượng, kỷ luật nhưng vui vẻ\n✔️ Thử thách cá nhân, thi đấu nội bộ – nơi bạn va chạm và trưởng thành\n\n💡 FGYM không chỉ là tập luyện, mà là:\n🔥 Rèn ý chí – Định hình bản lĩnh – Vượt giới hạn mỗi ngày\n🔥 Trở nên tốt hơn từng buổi tập\n🔥 Tìm thấy phiên bản mạnh mẽ và tự tin nhất của chính mình\n\n📣 FGYM CLUB – Rèn cơ bắp, luyện bản lĩnh – Sống kỷ luật, sống chất!",
+      "quote": "FGYM không phải phòng tập – mà là phong cách sống.",
+      "image": "/images/FGym.png",
+      "members": "35+ thành viên",
+      "experience": "4+ năm hoạt động",
+      "benefits": [
+        "Rèn luyện thể chất với động lực bất tận",
+        "Rèn ý chí – định hình bản lĩnh – vượt giới hạn",
+        "Môi trường kỷ luật, năng lượng và tích cực",
+        "Workshop, thử thách, thi đấu nội bộ"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Tổ chức workshop và thử thách định kỳ",
+          "description": "Nâng cao thể lực và ý chí cho thành viên"
+        }
+      ],
+      "activities": [
+        "Tập luyện calisthenics nhóm/đơn",
+        "Workshop kỹ thuật và form động tác",
+        "Thử thách cá nhân và thi đấu nội bộ",
+        "Team bonding – xây dựng kỷ luật và tinh thần"
+      ],
+      "teamStructure": [
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban huấn luyện",
+          "count": "6+ người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "4+ người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "20+ người"
+        }
+      ],
+      "goals2024": [
+        "Mở rộng cộng đồng tập luyện kỷ luật và tích cực",
+        "Tổ chức 6+ workshop và 3+ giải đấu nội bộ",
+        "Xây dựng lộ trình tập luyện rõ ràng cho thành viên mới",
+        "Lan tỏa tinh thần sống kỷ luật – sống chất"
+      ],
+      "contactInfo": {
+        "email": "fgym@fschool.edu.vn",
+        "hotline": "Cập nhật sau",
+        "office": "Sân thể thao - Khu vực ngoài trời",
+        "workingHours": "Cập nhật sau"
       }
     },
     "15": {
@@ -453,12 +756,30 @@
         "Tổ chức sự kiện, hoạt động nội bộ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban kỹ thuật", "count": "20 người" },
-        { "role": "Ban truyền thông", "count": "10 người" },
-        { "role": "Ban tài chính", "count": "5 người" },
-        { "role": "Thành viên", "count": "12 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban kỹ thuật",
+          "count": "20 người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "10 người"
+        },
+        {
+          "role": "Ban tài chính",
+          "count": "5 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "12 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên nữ tham gia STEM & robotics",
@@ -516,12 +837,30 @@
         "Giao lưu cộng đồng otaku"
       ],
       "teamStructure": [
-        { "role": "Chủ nhiệm đời thứ 5", "count": "1 người" },
-        { "role": "Phó chủ nhiệm", "count": "1 người" },
-        { "role": "Ban tổ chức sự kiện", "count": "10 người" },
-        { "role": "Ban học thuật", "count": "8 người" },
-        { "role": "Ban truyền thông", "count": "5 người" },
-        { "role": "Thành viên", "count": "6 người" }
+        {
+          "role": "Chủ nhiệm đời thứ 5",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ nhiệm",
+          "count": "1 người"
+        },
+        {
+          "role": "Ban tổ chức sự kiện",
+          "count": "10 người"
+        },
+        {
+          "role": "Ban học thuật",
+          "count": "8 người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "5 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "6 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 40+",
@@ -576,8 +915,14 @@
         "Tham gia cộng tác viên/đồng ban tổ chức cuộc thi tranh biện do nhà trường và SODES sáng lập."
       ],
       "teamStructure": [
-        { "role": "Thành viên cốt cán", "count": "11+ người" },
-        { "role": "Thành viên mới", "count": "Đang tuyển" }
+        {
+          "role": "Thành viên cốt cán",
+          "count": "11+ người"
+        },
+        {
+          "role": "Thành viên mới",
+          "count": "Đang tuyển"
+        }
       ],
       "goals2024": [
         "Rèn luyện tư duy phản biện và lập luận logic.",
@@ -593,6 +938,76 @@
         "hotline": "Cập nhật sau",
         "office": "Cập nhật sau",
         "workingHours": "Cập nhật sau"
+      }
+    },
+    "6": {
+      "id": 6,
+      "name": "FAS",
+      "field": "CLB trình diễn múa nghệ thuật",
+      "position": "Phòng nghệ thuật - Tầng 3",
+      "looking": "Những bạn từng thấy trái tim mình rung lên theo từng nhịp nhạc, tin rằng múa không chỉ là biểu diễn, mà là cách để bộc lộ bản ngã, giải phóng cảm xúc và kể nên những điều không lời",
+      "emoji": "💃",
+      "shortIntro": "Nơi những nhịp thở hóa thành chuyển động. FAS theo đuổi múa hiện đại và múa dân gian đương đại, kết hợp yếu tố truyền thống và hơi thở đương thời, tạo nên những phần trình diễn vừa gần gũi, vừa đầy sức sống.",
+      "description": "💥Tên Câu Lạc Bộ: FAS\nLĩnh vực hoạt động: CLB trình diễn múa nghệ thuật\nNơi những nhịp thở hóa thành chuyển động.\n\nBạn từng thấy trái tim mình rung lên theo từng nhịp nhạc?\nBạn tin rằng múa không chỉ là biểu diễn, mà là cách để bộc lộ bản ngã, giải phóng cảm xúc và kể nên những điều không lời?\n\nChào mừng bạn đến với FAS – một không gian nghệ thuật nơi tự do và cảm xúc là cốt lõi.\nTụi mình theo đuổi múa hiện đại và múa dân gian đương đại, kết hợp yếu tố truyền thống và hơi thở đương thời, tạo nên những phần trình diễn vừa gần gũi, vừa đầy sức sống.\n\n🌿 Ở FAS, bạn sẽ...\n✨ Được chuyển động bằng cảm xúc, không áp lực kỹ thuật, không sợ phán xét – chỉ cần bạn dám bắt đầu.\n✨ Thử nghiệm và khám phá bản thân qua từng chủ đề biểu diễn, từ nhẹ nhàng sâu lắng đến mạnh mẽ bùng nổ.\n✨ Tham gia các sân khấu lớn nhỏ, nơi bạn không chỉ đứng dưới ánh đèn, mà thực sự sống trong từng khoảnh khắc.\n✨ Gắn kết với những người bạn đồng hành cùng chung tình yêu với múa, cùng tạo nên những kỷ niệm không thể lặp lại.\n\n💫 FAS không đặt nặng \"đúng\" hay \"đẹp\"\nThay vào đó, chúng mình tìm kiếm:\n🔥 Cảm xúc thật – Chuyển động thật – Kết nối thật.\nDù bạn từng học múa hay chưa bao giờ nhảy trước đám đông – FAS luôn chừa chỗ cho bạn.\n\nHãy để cơ thể bạn lên tiếng,\nHãy để đam mê được thấy ánh sáng.",
+      "quote": "Hãy để cơ thể bạn lên tiếng, hãy để đam mê được thấy ánh sáng!",
+      "image": "/images/FAS .jpg",
+      "members": "11 thành viên",
+      "experience": "Từ 2022",
+      "benefits": [
+        "Khám phá bản thân qua từng nhịp chuyển động – hiểu rõ cơ thể và cảm xúc của chính mình",
+        "Đắm chìm trong không gian đầy âm nhạc, nơi bạn được tự do thể hiện mà không lo bị đánh giá",
+        "Học cách lắng nghe cơ thể – và để nó lên tiếng thay cho lời nói",
+        "Trở thành một phần của cộng đồng nhỏ gắn bó, nơi mỗi thành viên đều truyền cảm hứng cho nhau",
+        "Rèn luyện sự kiên nhẫn, kỷ luật và khả năng cảm nhận cái đẹp – không chỉ trong nghệ thuật mà trong cả cuộc sống"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "CLB múa nghệ thuật tiêu biểu",
+          "description": "Nơi tự do thể hiện cảm xúc qua múa, không áp lực kỹ thuật"
+        },
+        {
+          "title": "Phát triển múa hiện đại và múa dân gian đương đại",
+          "description": "Kết hợp yếu tố truyền thống và hơi thở đương thời"
+        },
+        {
+          "title": "Tổ chức nhiều buổi biểu diễn nghệ thuật",
+          "description": "Tạo cơ hội cho thành viên tỏa sáng trên sân khấu"
+        }
+      ],
+      "activities": [
+        "Tập luyện múa hiện đại và múa dân gian đương đại",
+        "Tham gia các buổi biểu diễn nghệ thuật",
+        "Workshop múa và cảm nhận âm nhạc",
+        "Tổ chức các sự kiện văn hóa nghệ thuật",
+        "Giao lưu với các CLB múa khác"
+      ],
+      "teamStructure": [
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn múa",
+          "count": "6 người"
+        },
+        {
+          "role": "Ban tổ chức sự kiện",
+          "count": "3 người"
+        }
+      ],
+      "goals2024": [
+        "Tạo không gian tự do cho mọi người thể hiện cảm xúc qua múa",
+        "Phát triển múa hiện đại và múa dân gian đương đại",
+        "Tổ chức các buổi biểu diễn và sự kiện nghệ thuật",
+        "Xây dựng cộng đồng yêu thích múa nghệ thuật",
+        "Mở rộng hợp tác với các CLB nghệ thuật khác"
+      ],
+      "contactInfo": {
+        "email": "fas@fschool.edu.vn",
+        "hotline": "0123 456 806",
+        "office": "Phòng nghệ thuật - Tầng 3",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
       }
     },
     "18": {
@@ -636,11 +1051,26 @@
         "Tổ chức hoạt động văn hóa Trung Hoa"
       ],
       "teamStructure": [
-        { "role": "Ban chủ nhiệm", "count": "3 người" },
-        { "role": "Ban học thuật", "count": "5 người" },
-        { "role": "Ban văn hóa", "count": "4 người" },
-        { "role": "Ban tổ chức sự kiện", "count": "3 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "3 người"
+        },
+        {
+          "role": "Ban học thuật",
+          "count": "5 người"
+        },
+        {
+          "role": "Ban văn hóa",
+          "count": "4 người"
+        },
+        {
+          "role": "Ban tổ chức sự kiện",
+          "count": "3 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 25+",
@@ -657,4 +1087,4 @@
       }
     }
   }
-} 
+}
