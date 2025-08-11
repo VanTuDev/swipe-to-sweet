@@ -41,10 +41,22 @@
         "Dự án cộng đồng theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "15 người" },
-        { "role": "Thành viên", "count": "12 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "15 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "12 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 50+",
@@ -100,10 +112,22 @@
         "Dự án khởi nghiệp theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "20 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "20 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 40+",
@@ -158,10 +182,22 @@
         "Dự án cộng đồng theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "15 người" },
-        { "role": "Thành viên", "count": "7 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "15 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "7 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 35+",
@@ -218,10 +254,22 @@
         "Dự án sự kiện theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "8 người" },
-        { "role": "Thành viên", "count": "4 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "8 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "4 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 25+",
@@ -279,10 +327,22 @@
         "Dự án thiện nguyện theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban chuyên môn", "count": "25 người" },
-        { "role": "Thành viên", "count": "12 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn",
+          "count": "25 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "12 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 50+",
@@ -335,11 +395,26 @@
         "Dự án truyền thông theo học kỳ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban Content", "count": "8 người" },
-        { "role": "Ban Media", "count": "8 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban Content",
+          "count": "8 người"
+        },
+        {
+          "role": "Ban Media",
+          "count": "8 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 30+",
@@ -396,11 +471,26 @@
         "Team building và hoạt động ngoại khóa"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban kỹ thuật", "count": "8 người" },
-        { "role": "Ban tổ chức", "count": "6 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban kỹ thuật",
+          "count": "8 người"
+        },
+        {
+          "role": "Ban tổ chức",
+          "count": "6 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 30+",
@@ -453,12 +543,30 @@
         "Tổ chức sự kiện, hoạt động nội bộ"
       ],
       "teamStructure": [
-        { "role": "Chủ tịch CLB", "count": "1 người" },
-        { "role": "Phó chủ tịch", "count": "2 người" },
-        { "role": "Ban kỹ thuật", "count": "20 người" },
-        { "role": "Ban truyền thông", "count": "10 người" },
-        { "role": "Ban tài chính", "count": "5 người" },
-        { "role": "Thành viên", "count": "12 người" }
+        {
+          "role": "Chủ tịch CLB",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ tịch",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban kỹ thuật",
+          "count": "20 người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "10 người"
+        },
+        {
+          "role": "Ban tài chính",
+          "count": "5 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "12 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên nữ tham gia STEM & robotics",
@@ -516,12 +624,30 @@
         "Giao lưu cộng đồng otaku"
       ],
       "teamStructure": [
-        { "role": "Chủ nhiệm đời thứ 5", "count": "1 người" },
-        { "role": "Phó chủ nhiệm", "count": "1 người" },
-        { "role": "Ban tổ chức sự kiện", "count": "10 người" },
-        { "role": "Ban học thuật", "count": "8 người" },
-        { "role": "Ban truyền thông", "count": "5 người" },
-        { "role": "Thành viên", "count": "6 người" }
+        {
+          "role": "Chủ nhiệm đời thứ 5",
+          "count": "1 người"
+        },
+        {
+          "role": "Phó chủ nhiệm",
+          "count": "1 người"
+        },
+        {
+          "role": "Ban tổ chức sự kiện",
+          "count": "10 người"
+        },
+        {
+          "role": "Ban học thuật",
+          "count": "8 người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "5 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "6 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 40+",
@@ -576,8 +702,14 @@
         "Tham gia cộng tác viên/đồng ban tổ chức cuộc thi tranh biện do nhà trường và SODES sáng lập."
       ],
       "teamStructure": [
-        { "role": "Thành viên cốt cán", "count": "11+ người" },
-        { "role": "Thành viên mới", "count": "Đang tuyển" }
+        {
+          "role": "Thành viên cốt cán",
+          "count": "11+ người"
+        },
+        {
+          "role": "Thành viên mới",
+          "count": "Đang tuyển"
+        }
       ],
       "goals2024": [
         "Rèn luyện tư duy phản biện và lập luận logic.",
@@ -593,6 +725,76 @@
         "hotline": "Cập nhật sau",
         "office": "Cập nhật sau",
         "workingHours": "Cập nhật sau"
+      }
+    },
+    "6": {
+      "id": 6,
+      "name": "FAS",
+      "field": "CLB trình diễn múa nghệ thuật",
+      "position": "Phòng nghệ thuật - Tầng 3",
+      "looking": "Những bạn từng thấy trái tim mình rung lên theo từng nhịp nhạc, tin rằng múa không chỉ là biểu diễn, mà là cách để bộc lộ bản ngã, giải phóng cảm xúc và kể nên những điều không lời",
+      "emoji": "💃",
+      "shortIntro": "Nơi những nhịp thở hóa thành chuyển động. FAS theo đuổi múa hiện đại và múa dân gian đương đại, kết hợp yếu tố truyền thống và hơi thở đương thời, tạo nên những phần trình diễn vừa gần gũi, vừa đầy sức sống.",
+      "description": "💥Tên Câu Lạc Bộ: FAS\nLĩnh vực hoạt động: CLB trình diễn múa nghệ thuật\nNơi những nhịp thở hóa thành chuyển động.\n\nBạn từng thấy trái tim mình rung lên theo từng nhịp nhạc?\nBạn tin rằng múa không chỉ là biểu diễn, mà là cách để bộc lộ bản ngã, giải phóng cảm xúc và kể nên những điều không lời?\n\nChào mừng bạn đến với FAS – một không gian nghệ thuật nơi tự do và cảm xúc là cốt lõi.\nTụi mình theo đuổi múa hiện đại và múa dân gian đương đại, kết hợp yếu tố truyền thống và hơi thở đương thời, tạo nên những phần trình diễn vừa gần gũi, vừa đầy sức sống.\n\n🌿 Ở FAS, bạn sẽ...\n✨ Được chuyển động bằng cảm xúc, không áp lực kỹ thuật, không sợ phán xét – chỉ cần bạn dám bắt đầu.\n✨ Thử nghiệm và khám phá bản thân qua từng chủ đề biểu diễn, từ nhẹ nhàng sâu lắng đến mạnh mẽ bùng nổ.\n✨ Tham gia các sân khấu lớn nhỏ, nơi bạn không chỉ đứng dưới ánh đèn, mà thực sự sống trong từng khoảnh khắc.\n✨ Gắn kết với những người bạn đồng hành cùng chung tình yêu với múa, cùng tạo nên những kỷ niệm không thể lặp lại.\n\n💫 FAS không đặt nặng \"đúng\" hay \"đẹp\"\nThay vào đó, chúng mình tìm kiếm:\n🔥 Cảm xúc thật – Chuyển động thật – Kết nối thật.\nDù bạn từng học múa hay chưa bao giờ nhảy trước đám đông – FAS luôn chừa chỗ cho bạn.\n\nHãy để cơ thể bạn lên tiếng,\nHãy để đam mê được thấy ánh sáng.",
+      "quote": "Hãy để cơ thể bạn lên tiếng, hãy để đam mê được thấy ánh sáng!",
+      "image": "/images/FAS .jpg",
+      "members": "11 thành viên",
+      "experience": "Từ 2022",
+      "benefits": [
+        "Khám phá bản thân qua từng nhịp chuyển động – hiểu rõ cơ thể và cảm xúc của chính mình",
+        "Đắm chìm trong không gian đầy âm nhạc, nơi bạn được tự do thể hiện mà không lo bị đánh giá",
+        "Học cách lắng nghe cơ thể – và để nó lên tiếng thay cho lời nói",
+        "Trở thành một phần của cộng đồng nhỏ gắn bó, nơi mỗi thành viên đều truyền cảm hứng cho nhau",
+        "Rèn luyện sự kiên nhẫn, kỷ luật và khả năng cảm nhận cái đẹp – không chỉ trong nghệ thuật mà trong cả cuộc sống"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "CLB múa nghệ thuật tiêu biểu",
+          "description": "Nơi tự do thể hiện cảm xúc qua múa, không áp lực kỹ thuật"
+        },
+        {
+          "title": "Phát triển múa hiện đại và múa dân gian đương đại",
+          "description": "Kết hợp yếu tố truyền thống và hơi thở đương thời"
+        },
+        {
+          "title": "Tổ chức nhiều buổi biểu diễn nghệ thuật",
+          "description": "Tạo cơ hội cho thành viên tỏa sáng trên sân khấu"
+        }
+      ],
+      "activities": [
+        "Tập luyện múa hiện đại và múa dân gian đương đại",
+        "Tham gia các buổi biểu diễn nghệ thuật",
+        "Workshop múa và cảm nhận âm nhạc",
+        "Tổ chức các sự kiện văn hóa nghệ thuật",
+        "Giao lưu với các CLB múa khác"
+      ],
+      "teamStructure": [
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban chuyên môn múa",
+          "count": "6 người"
+        },
+        {
+          "role": "Ban tổ chức sự kiện",
+          "count": "3 người"
+        }
+      ],
+      "goals2024": [
+        "Tạo không gian tự do cho mọi người thể hiện cảm xúc qua múa",
+        "Phát triển múa hiện đại và múa dân gian đương đại",
+        "Tổ chức các buổi biểu diễn và sự kiện nghệ thuật",
+        "Xây dựng cộng đồng yêu thích múa nghệ thuật",
+        "Mở rộng hợp tác với các CLB nghệ thuật khác"
+      ],
+      "contactInfo": {
+        "email": "fas@fschool.edu.vn",
+        "hotline": "0123 456 806",
+        "office": "Phòng nghệ thuật - Tầng 3",
+        "workingHours": "8:00 - 17:00 (T2-T6)"
       }
     },
     "18": {
@@ -636,11 +838,26 @@
         "Tổ chức hoạt động văn hóa Trung Hoa"
       ],
       "teamStructure": [
-        { "role": "Ban chủ nhiệm", "count": "3 người" },
-        { "role": "Ban học thuật", "count": "5 người" },
-        { "role": "Ban văn hóa", "count": "4 người" },
-        { "role": "Ban tổ chức sự kiện", "count": "3 người" },
-        { "role": "Thành viên", "count": "5 người" }
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "3 người"
+        },
+        {
+          "role": "Ban học thuật",
+          "count": "5 người"
+        },
+        {
+          "role": "Ban văn hóa",
+          "count": "4 người"
+        },
+        {
+          "role": "Ban tổ chức sự kiện",
+          "count": "3 người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "5 người"
+        }
       ],
       "goals2024": [
         "Tăng số lượng thành viên lên 25+",
@@ -657,4 +874,4 @@
       }
     }
   }
-} 
+}
