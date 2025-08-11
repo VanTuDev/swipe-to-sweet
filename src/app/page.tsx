@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import SwipeInterface from "@/components/swipe-interface"
 import ClubDetail from "@/components/club-detail"
 import MessageInterface from "@/components/message-interface"
+import { getClubDetailById } from "@/lib/clubData"
 import SplashScreen from "@/components/splash-screen"
 
 export default function Home() {
@@ -19,12 +20,14 @@ export default function Home() {
   }, [])
 
   const handleClubSelect = (club: any) => {
-    setSelectedClub(club)
+    const detail = getClubDetailById(club.id) || club
+    setSelectedClub(detail)
     setCurrentView("detail")
   }
 
   const handleMessage = (club: any) => {
-    setSelectedClub(club)
+    const detail = getClubDetailById(club.id) || club
+    setSelectedClub(detail)
     setCurrentView("message")
   }
 

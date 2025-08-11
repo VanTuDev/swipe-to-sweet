@@ -1,5 +1,6 @@
-import { Club, ClubDetail, clubs } from '@/data/clubs'
-import detailCLB from '@/data/detailCLB.json'
+import type { Club, ClubDetail } from '@/data/clubs'
+import { clubs } from '@/data/clubs'
+import detailCLB from '@/data/detailCLB.json' assert { type: 'json' }
 
 export function getClubById(id: number): Club | undefined {
    return clubs.find(club => club.id === id)
