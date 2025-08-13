@@ -24,7 +24,7 @@ export default function MessageInterface({ club, onBack }: MessageInterfaceProps
          {/* Header - Tối ưu cho mobile */}
          <div className="flex-shrink-0 bg-white/90 backdrop-blur-sm border-b border-pink-200 z-10">
             <div className="flex items-center justify-between p-2 sm:p-3 md:p-4">
-               <Button variant="ghost" size="sm" onClick={onBack} className="text-pink-600 hover:bg-pink-50 p-1 sm:p-2 touch-target">
+               <Button variant="ghost" size="sm" aria-label="Quay lại" onClick={onBack} className="text-pink-600 hover:bg-pink-50 p-1 sm:p-2 touch-target">
                   <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
                   <span className="hidden sm:inline">Quay lại</span>
                </Button>
@@ -164,6 +164,7 @@ export default function MessageInterface({ club, onBack }: MessageInterfaceProps
                <Button
                   variant="outline"
                   size="sm"
+                  aria-label="Xem CLB khác"
                   className="rounded-lg sm:rounded-xl border-2 border-pink-400 text-pink-600 hover:bg-pink-50 transition-all text-xs sm:text-sm touch-target"
                   onClick={onBack}
                >
@@ -172,6 +173,7 @@ export default function MessageInterface({ club, onBack }: MessageInterfaceProps
                </Button>
                <Button
                   size="sm"
+                  aria-label="Mở Google Form đăng ký"
                   className="rounded-lg sm:rounded-xl bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white shadow-lg transition-all text-xs sm:text-sm touch-target"
                   onClick={handleGoogleForm}
                >

@@ -5,6 +5,7 @@ import { HeartOutlined, CloseOutlined, MessageOutlined } from "@ant-design/icons
 import { Button } from "@/components/ui/button"
 import { clubs } from "@/data/clubs"
 import ClubCard from "@/components/ClubCard"
+import Image from "next/image"
 
 interface SwipeInterfaceProps {
   onClubSelect: (club: any) => void
@@ -67,7 +68,11 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
     setIsDragging(false)
 
     if (Math.abs(dragOffset) > 80) {
-      dragOffset > 0 ? handleLike() : handlePass()
+      if (dragOffset > 0) {
+        handleLike()
+      } else {
+        handlePass()
+      }
     } else {
       if (animationRef.current) cancelAnimationFrame(animationRef.current)
       const animate = () => {
@@ -87,11 +92,14 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
       {/* Header - Tối ưu cho mobile */}
       <div className="w-full max-w-sm sm:max-w-md mb-2 sm:mb-4 flex-shrink-0 px-2 pt-2 sm:pt-4">
         <div className="flex items-center justify-center mb-2 sm:mb-3">
-          <img
+          <Image
             src="/images/logoCT.png"
             alt="Logo chương trình"
-            className="w-96 h-auto sm:w-96 sm:h-auto object-contain drop-shadow-lg"
+            width={240}
+            height={96}
+            className="w-40 h-auto sm:w-60 sm:h-auto object-contain drop-shadow-lg"
             style={{ maxHeight: 96 }}
+            priority
           />
         </div>
         <div className="text-center text-white/80 text-xs sm:text-sm">
@@ -116,6 +124,7 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
       <div className="flex items-center justify-center space-x-3 sm:space-x-6 mt-3 sm:mt-4 mb-2 sm:mb-3 px-2">
         <Button
           size="icon"
+          aria-label="Bỏ qua CLB"
           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/90 text-red-500 border-2 border-red-400 shadow-lg hover:scale-110 transition-transform touch-target"
           onClick={handlePass}
         >
@@ -124,6 +133,7 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
 
         <Button
           size="icon"
+          aria-label="Nhắn tin với CLB"
           className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/90 text-blue-500 border-2 border-blue-400 shadow-lg hover:scale-110 transition-transform touch-target"
           onClick={() => onMessage(currentClub)}
         >
@@ -132,6 +142,7 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
 
         <Button
           size="icon"
+          aria-label="Thích CLB"
           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/90 text-green-500 border-2 border-green-400 shadow-lg hover:scale-110 transition-transform touch-target"
           onClick={handleLike}
         >

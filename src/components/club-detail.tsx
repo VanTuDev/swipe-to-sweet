@@ -1,6 +1,7 @@
 "use client"
 
 import { ArrowLeft, MapPin, Users, Calendar, Star, MessageCircle, Heart, Award, Clock, Users2, Target, Lightbulb } from "lucide-react"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import type { ClubDetail } from "@/data/clubs"
@@ -17,12 +18,12 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
          {/* Header - Fixed - Tối ưu cho mobile */}
          <div className="flex-shrink-0 bg-white/90 backdrop-blur-sm border-b border-pink-200 z-10">
             <div className="flex items-center justify-between p-2 sm:p-3 md:p-4">
-               <Button variant="ghost" size="sm" onClick={onBack} className="text-pink-600 hover:bg-pink-50 p-1 sm:p-2 touch-target">
+               <Button variant="ghost" size="sm" aria-label="Quay lại danh sách CLB" onClick={onBack} className="text-pink-600 hover:bg-pink-50 p-1 sm:p-2 touch-target">
                   <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
                   <span className="hidden sm:inline">Quay lại</span>
                </Button>
                <h1 className="text-sm sm:text-base md:text-lg font-bold text-pink-700 truncate max-w-[100px] sm:max-w-[120px] md:max-w-none">{club.name}</h1>
-               <Button variant="ghost" size="sm" onClick={onMessage} className="text-pink-600 hover:bg-pink-50 p-1 sm:p-2 touch-target">
+               <Button variant="ghost" size="sm" aria-label="Nhắn tin với CLB" onClick={onMessage} className="text-pink-600 hover:bg-pink-50 p-1 sm:p-2 touch-target">
                   <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" />
                </Button>
             </div>
@@ -34,7 +35,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                {/* Main Image - Tối ưu cho mobile */}
                <Card className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden shadow-xl border-0">
                   <div className="h-40 sm:h-48 md:h-64 lg:h-80 relative">
-                     <img src={club.image || "/placeholder.svg"} alt={club.name} className="w-full h-full object-cover" />
+                     <Image src={club.image || "/placeholder.svg"} alt={club.name} width={1200} height={800} className="w-full h-full object-cover" />
                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                      <div className="absolute bottom-2 sm:bottom-3 md:bottom-4 left-2 sm:left-3 md:left-4 right-2 sm:right-3 md:right-4">
                         <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-1 sm:mb-2 truncate">{club.name}</h2>
@@ -269,6 +270,25 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                   </CardContent>
                </Card>
 
+               {/* PDF Viewer - nếu có */}
+               {club.pdfUrl && (
+                  <Card className="rounded-lg sm:rounded-xl md:rounded-2xl border-0 bg-white/90 backdrop-blur-sm shadow-lg">
+                     <CardContent className="p-2 sm:p-3 md:p-4 lg:p-6">
+                        <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-800 mb-2 sm:mb-3 md:mb-4">Tài liệu PDF</h3>
+                        <div className="rounded-lg overflow-hidden border border-pink-100">
+                           <iframe
+                              src={`${club.pdfUrl}#view=FitH`}
+                              title="Tài liệu CLB"
+                              className="w-full h-64 sm:h-80 md:h-96"
+                           />
+                        </div>
+                        <div className="mt-2 text-xs sm:text-sm text-gray-600">
+                           Không hiển thị? <a href={club.pdfUrl} target="_blank" rel="noopener noreferrer" className="text-pink-600 underline">Mở trong tab mới</a>
+                        </div>
+                     </CardContent>
+                  </Card>
+               )}
+
                {/* Contact Info - Tối ưu cho mobile */}
                <Card className="rounded-lg sm:rounded-xl md:rounded-2xl border-0 bg-white/90 backdrop-blur-sm shadow-lg">
                   <CardContent className="p-2 sm:p-3 md:p-4 lg:p-6">
@@ -301,10 +321,11 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
 
          {/* Fixed Action Buttons - Tối ưu cho mobile */}
          <div className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-t border-pink-200 px-2 sm:px-3 md:px-4 py-2 sm:py-3 md:py-4 lg:py-6">
-            <div className="max-w-xs sm:max-w-md mx-auto grid grid-cols-2 gap-2 sm:gap-3">
+            <div className={`max-w-xs sm:max-w-md mx-auto grid ${club.pdfUrl ? 'grid-cols-3' : 'grid-cols-2'} gap-2 sm:gap-3`}>
                <Button
                   variant="outline"
                   size="sm"
+                  aria-label="Xem CLB khác"
                   className="rounded-lg sm:rounded-xl border-2 border-pink-400 text-pink-600 hover:bg-pink-50 transition-all text-xs sm:text-sm touch-target"
                   onClick={onBack}
                >
@@ -313,6 +334,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                </Button>
                <Button
                   size="sm"
+                  aria-label="Nhắn tin"
                   className="rounded-lg sm:rounded-xl bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white shadow-lg transition-all text-xs sm:text-sm touch-target"
                   onClick={onMessage}
                >
@@ -320,6 +342,17 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                   <span className="hidden sm:inline">Nhắn tin</span>
                   <span className="sm:hidden">Chat</span>
                </Button>
+               {club.pdfUrl && (
+                  <Button
+                     size="sm"
+                     variant="outline"
+                     aria-label="Xem tài liệu PDF"
+                     className="rounded-lg sm:rounded-xl border-2 border-pink-400 text-pink-600 hover:bg-pink-50 transition-all text-xs sm:text-sm touch-target"
+                     onClick={() => window.open(club.pdfUrl!, '_blank')}
+                  >
+                     Tài liệu PDF
+                  </Button>
+               )}
             </div>
          </div>
 

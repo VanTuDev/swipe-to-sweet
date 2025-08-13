@@ -12,6 +12,7 @@ export interface Club {
   quote: string
   image: string
   logoImg?: string
+  pdfUrl?: string
   members: string
   experience: string
   benefits: string[]
@@ -34,6 +35,7 @@ export interface ClubDetail {
   experience: string
   benefits: string[]
   googleForm: string
+  pdfUrl?: string
   achievements: Array<{
     title: string
     description: string
@@ -81,6 +83,30 @@ export const clubs: Club[] = [
       "Giúp các bạn cải thiện kỹ năng làm đồ handmade từ vật liệu tái chế.",
       "Tạo môi trường trao đổi kiến thức sinh học và các hoạt động sáng tạo xanh giữa các thành viên."
     ],
+  },
+  {
+    id: 22,
+    name: "⚽ CLB Bóng đá",
+    field: "Bóng đá – Thể thao – Teamwork – Kỷ luật – Sức bền",
+    position: "Sân thể thao",
+    looking:
+      "Những bạn đam mê bóng đá, ưa vận động, kỷ luật và tinh thần đồng đội. Không cần giỏi – chỉ cần chịu khó luyện tập.",
+    emoji: "⚽",
+    shortIntro:
+      "Nơi hội tụ những người yêu bóng đá – rèn thể lực, kỹ thuật và tinh thần đồng đội. Ra sân là chơi hết mình!",
+    description:
+      "CLB Bóng đá tạo môi trường tập luyện nghiêm túc nhưng vui vẻ, có lịch giao hữu và tham gia các giải phong trào trong trường.",
+    quote: "Đã ra sân là cháy hết mình!",
+    image: "/images/bongda.png",
+    logoImg: "/images/logos/football-logo.png",
+    members: "25+ thành viên",
+    experience: "Nhiều mùa giải phong trào",
+    benefits: [
+      "Nâng cao thể lực và kỹ thuật",
+      "Tinh thần đồng đội – kỷ luật",
+      "Cơ hội thi đấu và giao hữu",
+    ],
+    googleForm: "",
   },
   {
     id: 2,
@@ -186,7 +212,7 @@ export const clubs: Club[] = [
     shortIntro: "Nơi những nhịp thở hóa thành chuyển động. FAS theo đuổi múa hiện đại và múa dân gian đương đại, kết hợp yếu tố truyền thống và hơi thở đương thời, tạo nên những phần trình diễn vừa gần gũi, vừa đầy sức sống.",
     description: "💥Tên Câu Lạc Bộ: FAS\nLĩnh vực hoạt động: CLB trình diễn múa nghệ thuật\nNơi những nhịp thở hóa thành chuyển động.\n\nBạn từng thấy trái tim mình rung lên theo từng nhịp nhạc?\nBạn tin rằng múa không chỉ là biểu diễn, mà là cách để bộc lộ bản ngã, giải phóng cảm xúc và kể nên những điều không lời?\n\nChào mừng bạn đến với FAS – một không gian nghệ thuật nơi tự do và cảm xúc là cốt lõi.\nTụi mình theo đuổi múa hiện đại và múa dân gian đương đại, kết hợp yếu tố truyền thống và hơi thở đương thời, tạo nên những phần trình diễn vừa gần gũi, vừa đầy sức sống.\n\n🌿 Ở FAS, bạn sẽ...\n✨ Được chuyển động bằng cảm xúc, không áp lực kỹ thuật, không sợ phán xét – chỉ cần bạn dám bắt đầu.\n✨ Thử nghiệm và khám phá bản thân qua từng chủ đề biểu diễn, từ nhẹ nhàng sâu lắng đến mạnh mẽ bùng nổ.\n✨ Tham gia các sân khấu lớn nhỏ, nơi bạn không chỉ đứng dưới ánh đèn, mà thực sự sống trong từng khoảnh khắc.\n✨ Gắn kết với những người bạn đồng hành cùng chung tình yêu với múa, cùng tạo nên những kỷ niệm không thể lặp lại.\n\n💫 FAS không đặt nặng \"đúng\" hay \"đẹp\"\nThay vào đó, chúng mình tìm kiếm:\n🔥 Cảm xúc thật – Chuyển động thật – Kết nối thật.\nDù bạn từng học múa hay chưa bao giờ nhảy trước đám đông – FAS luôn chừa chỗ cho bạn.\n\nHãy để cơ thể bạn lên tiếng,\nHãy để đam mê được thấy ánh sáng.",
     quote: "Hãy để cơ thể bạn lên tiếng, hãy để đam mê được thấy ánh sáng!",
-    image: "/images/FAS .jpg",
+    image: "/images/FAS.jpg",
     logoImg: "/images/logos/fas-logo.png",
     members: "11 thành viên",
     experience: "Từ 2022",
@@ -207,24 +233,25 @@ export const clubs: Club[] = [
   },
   {
     id: 7,
-    name: "FbaClub",
-    field: "Kinh doanh & Marketing",
-    position: "Tầng 1 - Khu vực Business",
-    looking: "Những người đam mê kinh doanh và marketing",
-    emoji: "📈",
-    shortIntro: "Nơi phát triển tài năng kinh doanh!",
+    name: "🏸 FbaClub",
+    field: "Cầu lông – Rèn luyện thể lực – Phản xạ – Kỷ luật – Kết nối",
+    position: "Sân thể thao - Khu cầu lông",
+    looking: "Những tay vợt trẻ đầy năng lượng ⚡, cháy hết mình trên sân cầu🔥 và không ngại thử thách!",
+    emoji: "🏸",
+    shortIntro:
+      "Chào mừng bạn đến với FbaClub – nơi tụ hội những người yêu cầu lông tại THPT FPT Đà Nẵng!\nĐây không chỉ là nơi luyện tập, mà còn là không gian để bứt phá bản thân, xây tinh thần thép và gắn kết bạn bè.\nDù bạn là “tân binh” hay đã quen vợt, FbaClub luôn sẵn sàng đồng hành cùng bạn!\nKỹ thuật – Tinh thần – Kết nối 💫",
     description:
-      "FbaClub tập trung vào phát triển kỹ năng kinh doanh, marketing và xây dựng thương hiệu.",
-    quote: "Kinh doanh là nghệ thuật tạo ra giá trị!",
+      "🫵🏻 Tại đây, bạn sẽ:\n🏸 Rèn kỹ năng từ cơ bản đến nâng cao\n⚙️ Làm quen chiến thuật hiện đại\n🧠 Rèn phản xạ, thể lực và kỷ luật\n🤝 Gắn bó cùng “đồng đội” nhiều khối lớp\n\nFbaClub chính là nơi để bạn:\n“Vung vợt tự tin – Chinh phục từng điểm số – Gắn kết bằng đam mê!”\nGia nhập Gen mới – Cháy hết mình trên sân cầu cùng FbaClub! 💪🔥",
+    quote: "FbaClub – Tung vợt rực lửa, kết nối đam mê! 💥",
     image: "/images/FbaClub.jpg",
     logoImg: "/images/logos/fba-logo.png",
-    members: "22+ thành viên",
-    experience: "2+ năm hoạt động",
+    members: "20+ thành viên",
+    experience: "4+ năm hoạt động",
     benefits: [
-      "Học kỹ năng marketing thực tế",
-      "Tham gia dự án kinh doanh",
-      "Kết nối với doanh nhân",
-      "Cơ hội thực tập tại công ty marketing",
+      "Kỹ thuật cầu lông từ cơ bản đến nâng cao",
+      "Phản xạ nhanh, thể lực tốt, tinh thần kỷ luật",
+      "Giải tỏa áp lực sau giờ học bằng những trận cầu “căng như dây đàn”",
+      "Gắn kết bạn bè – kỷ niệm tuổi trẻ khó quên",
     ],
     googleForm: "",
   },
@@ -301,17 +328,18 @@ export const clubs: Club[] = [
     shortIntro:
       "FGYM là nơi tụ hội của những con người có khát khao rèn luyện mỗi ngày để trở thành phiên bản tốt nhất của chính mình.\nDù bạn là người mới hay đã tập lâu, chỉ cần có quyết tâm – FGYM sẽ luôn đồng hành cùng bạn.",
     description:
-      "Tại đây, mỗi lần kéo xà, mỗi cú chống đẩy là một bước tiến gần hơn tới sức mạnh – kỷ luật – bản lĩnh.\n\nGia nhập FGYM để:\n💪 Rèn luyện thể chất với động lực bất tận\n🔥 Tự tạo ra phiên bản bản lĩnh – kỷ luật – mạnh mẽ hơn mỗi ngày\n🤝 Gặp gỡ những người cùng chí hướng – cùng khao khát phát triển bản thân\n🏆 Tham gia các buổi workshop, thử thách, thi đấu đầy máu lửa!\n\nFGYM không phải phòng tập – mà là phong cách sống.\nSẵn sàng match với phiên bản mạnh mẽ của chính mình chưa?",
+      "Tại đây, mỗi lần kéo xà, mỗi cú chống đẩy là một bước tiến gần hơn tới sức mạnh – kỷ luật – bản lĩnh.\n\n🔹 Gia nhập FGYM để:\n💪 Rèn luyện thể chất với động lực bất tận\n🔥 Tự tạo ra phiên bản bản lĩnh – kỷ luật – mạnh mẽ hơn mỗi ngày\n🤝 Gặp gỡ những người cùng chí hướng – cùng khao khát phát triển bản thân\n🏆 Tham gia các buổi workshop, thử thách, thi đấu đầy máu lửa!\n\nFGYM không phải phòng tập – mà là phong cách sống.\nSẵn sàng match với phiên bản mạnh mẽ của chính mình chưa?",
     quote: "FGYM không phải phòng tập – mà là phong cách sống.",
     image: "/images/FGym.png",
+    pdfUrl: "/FSRC.pdf",
     logoImg: "/images/logos/fgym-logo.png",
     members: "35+ thành viên",
-    experience: "4+ năm hoạt động",
+    experience: "2+ năm hoạt động",
     benefits: [
-      "Rèn luyện thể chất với động lực bất tận",
-      "Rèn ý chí – định hình bản lĩnh – vượt giới hạn",
-      "Môi trường kỷ luật, năng lượng và tích cực",
-      "Workshop, thử thách, thi đấu nội bộ",
+      "💪 Rèn luyện thể chất với động lực bất tận",
+      "🔥 Rèn ý chí – định hình bản lĩnh – vượt giới hạn",
+      "⚡ Môi trường kỷ luật, năng lượng và tích cực",
+      "🏆 Workshop, thử thách, thi đấu nội bộ",
     ],
     googleForm: "",
   },
@@ -394,7 +422,7 @@ export const clubs: Club[] = [
     shortIntro: "Chào mừng bạn đến với Fvolleyball – ngôi nhà của những trái tim yêu bóng chuyền tại THPT FPT Đà Nẵng.\nĐây không chỉ là nơi tập luyện – mà là nơi tinh thần thể thao được thắp sáng, nơi những:\n💥 cú đập cháy sân\n💥 pha cứu bóng nghẹt thở\n💥 và từng giọt mồ hôi trên sân đấu\n… tất cả hòa quyện tạo nên bản hoà tấu của sức mạnh, bản lĩnh và tinh thần đồng đội.",
     description: "🏐 Tại đây, bạn sẽ:\n✨ Rèn luyện kỹ thuật từ cơ bản đến nâng cao\n🧠 Làm quen với lối chơi chiến thuật hiện đại\n🤝 Kết nối – bứt phá – trưởng thành cùng những người bạn có chung đam mê\n\n💬 Fvolleyball chính là nơi để bạn:\n🔥 \"Bật cao hơn giới hạn – Đập tan mọi nỗi sợ – Và ghi điểm rực rỡ trên hành trình trưởng thành!\"\n\n📢 Bạn đã sẵn sàng trở thành một phần của chúng tôi chưa?\n🚀 Gia nhập Gen 1 – Bật tung năng lượng tuổi trẻ cùng Fvolleyball! 💪🔥",
     quote: "“Bật cao hơn giới hạn – Đập tan mọi nỗi sợ – Và ghi điểm rực rỡ trên hành trình trưởng thành!”",
-    image: "/images/Fvolleyball.jpg",
+    image: "/images/FDN-Events.jpg",
     logoImg: "/images/logos/fvolleyball-logo.png",
     members: "Hơn 20 thành viên",
     experience: "2+ năm hoạt động",
@@ -500,6 +528,31 @@ export const clubs: Club[] = [
       "Làm việc trong môi trường chuyên nghiệp, tôn trọng",
       "Những kỉ niệm đặc biệt của tuổi trẻ",
       "Cơ hội được vinh danh, nhận học bổng ở nhiều trường đại học trên thế giới"
+    ],
+    googleForm: "",
+  },
+  {
+    id: 19,
+    name: "🥋 FVS",
+    field: "Vovinam – Võ thuật Việt – Rèn luyện thể chất – Kỷ luật – Bản lĩnh – Tự vệ",
+    position: "Cập nhật sau",
+    looking:
+      "Những người sẵn sàng vượt giới hạn bản thân\n🔥 Có đam mê, ý chí thép và tinh thần không bỏ cuộc",
+    emoji: "🥋",
+    shortIntro:
+      "FVS là nơi những người trẻ khát khao trở nên mạnh mẽ hơn mỗi ngày thông qua võ thuật Việt Nam – Vovinam.\nKhông cần bạn giỏi, chỉ cần bạn dám bắt đầu – FVS luôn đồng hành cùng bạn rèn luyện thân – tâm – trí một cách toàn diện.",
+    description:
+      "✅ Gia nhập FVS để:\n🥋 Học võ – Rèn kỹ năng tự vệ • Phát triển sức mạnh thể chất\n💪 Tôi luyện bản lĩnh – ý chí – sự kiên trì\n🤝 Gặp gỡ những người bạn cùng chí hướng • Sống có kỷ luật và mục tiêu\n🔥 Tham gia workshop – thử thách – biểu diễn – thi đấu đầy máu lửa!",
+    quote: "FVS – Rèn thân – Luyện tâm – Sống bản lĩnh!",
+    image: "/images/FVS.PNG",
+    logoImg: "/images/logos/fvs-logo.png",
+    members: "20+ thành viên",
+    experience: "6+ năm hoạt động",
+    benefits: [
+      "Học võ và kỹ năng tự vệ an toàn",
+      "Tăng cường thể chất và phản xạ",
+      "Rèn ý chí – kỷ luật – tự chủ",
+      "Môi trường nghiêm túc, giàu năng lượng",
     ],
     googleForm: "",
   },

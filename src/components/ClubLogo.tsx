@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 
 interface ClubLogoProps {
   logoImg?: string
@@ -14,7 +15,7 @@ export default function ClubLogo({ logoImg, clubName, size = "md", className = "
 
   const sizeClasses = {
     sm: "w-6 h-6",
-    md: "w-8 h-8 sm:w-10 sm:h-10", 
+    md: "w-8 h-8 sm:w-10 sm:h-10",
     lg: "w-12 h-12 sm:w-16 sm:h-16"
   }
 
@@ -31,11 +32,13 @@ export default function ClubLogo({ logoImg, clubName, size = "md", className = "
   }
 
   return (
-    <img
+    <Image
       src={logoImg}
       alt={`Logo ${clubName}`}
+      width={64}
+      height={64}
       className={`${sizeClasses[size]} rounded-full object-cover shadow-lg ${className}`}
-      onError={handleImageError}
+      onError={handleImageError as any}
     />
   )
 } 

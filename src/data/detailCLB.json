@@ -718,6 +718,63 @@
         "workingHours": "Cập nhật sau"
       }
     },
+    "7": {
+      "id": 7,
+      "name": "🏸 FbaClub",
+      "field": "Cầu lông – Rèn luyện thể lực – Phản xạ – Kỷ luật – Kết nối",
+      "position": "Sân thể thao - Khu cầu lông",
+      "looking": "Những tay vợt trẻ đầy năng lượng ⚡, cháy hết mình trên sân cầu🔥 và không ngại thử thách!",
+      "emoji": "🏸",
+      "shortIntro": "Chào mừng bạn đến với FbaClub – nơi tụ hội những người yêu cầu lông tại THPT FPT Đà Nẵng! Đây không chỉ là nơi luyện tập, mà còn là không gian để bứt phá bản thân, xây tinh thần thép và gắn kết bạn bè.",
+      "description": "🎯 Mục tiêu hoạt động\n– Tăng cường thể lực, rèn luyện phản xạ và tinh thần kỷ luật\n– Trau dồi kỹ thuật cầu lông và tư duy chiến thuật\n– Kết nối học sinh các khối – cùng cháy hết mình trên sân đấu!\n\n👥 Thành viên: Hơn 20 tay vợt từ các khối lớp – nhiệt huyết, máu lửa, luôn sẵn sàng “bung sức” trên sân!\n\n🗓️ Thâm niên:\nCLB đã hoạt động hơn 4 năm, từng tham gia nhiều giải đấu nội bộ và giao lưu thể thao trong và ngoài trường.\n\n🎁 Gia nhập FbaClub, bạn sẽ nhận được:\n➕ Kỹ thuật cầu lông từ cơ bản đến nâng cao\n➕ Phản xạ nhanh, thể lực tốt, tinh thần tập luyện kỷ luật\n➕ Giải tỏa áp lực sau giờ học bằng những trận cầu “căng như dây đàn”\n➕ Gắn kết bạn bè – tạo nên những kỷ niệm tuổi trẻ không thể nào quên\n\n🔥 FbaClub – Tung vợt rực lửa, kết nối đam mê!\n💥 Tuổi trẻ là để cháy hết mình trên sân đấu!",
+      "quote": "Vung vợt tự tin – Chinh phục từng điểm số – Gắn kết bằng đam mê!",
+      "image": "/images/FbaClub.jpg",
+      "members": "20+ thành viên",
+      "experience": "4+ năm hoạt động",
+      "benefits": [
+        "Kỹ thuật cầu lông từ cơ bản đến nâng cao",
+        "Phản xạ nhanh, thể lực tốt, tinh thần kỷ luật",
+        "Giải tỏa áp lực sau giờ học bằng những trận cầu ‘căng như dây đàn’",
+        "Gắn kết bạn bè – kỷ niệm tuổi trẻ khó quên"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Tham gia nhiều giải giao hữu & giải nội bộ",
+          "description": "Liên tục tổ chức thi đấu rèn luyện"
+        }
+      ],
+      "activities": [
+        "Tập luyện định kỳ kỹ thuật & thể lực",
+        "Sparring, thi đấu nội bộ theo nhóm",
+        "Giao hữu liên chi đoàn/CLB"
+      ],
+      "teamStructure": [
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban kỹ thuật",
+          "count": "6 người"
+        },
+        {
+          "role": "Ban truyền thông",
+          "count": "3 người"
+        }
+      ],
+      "goals2024": [
+        "Tổ chức 3+ giải nội bộ và 2+ giao hữu",
+        "Chuẩn hóa lộ trình kỹ thuật cho tân binh",
+        "Mở rộng cộng đồng cầu lông trong trường"
+      ],
+      "contactInfo": {
+        "email": "fbaclub@fschool.edu.vn",
+        "hotline": "Cập nhật sau",
+        "office": "Sân cầu lông, khu thể thao",
+        "workingHours": "16:00 - 18:00 (T2-T6)"
+      }
+    },
     "15": {
       "id": 15,
       "name": "🤖FSRC - Fschool Stem & Robotics Club",
@@ -1084,6 +1141,63 @@
         "hotline": "0123 456 803",
         "office": "Phòng CLB, Tầng 1",
         "workingHours": "8:00 - 17:00 (T2-T6)"
+      }
+    },
+    "19": {
+      "id": 19,
+      "name": "🥋 FVS",
+      "field": "Vovinam – Võ thuật Việt – Rèn luyện thể chất – Kỷ luật – Bản lĩnh – Tự vệ",
+      "position": "Cập nhật sau",
+      "looking": "Những người sẵn sàng vượt giới hạn bản thân\n🔥 Có đam mê, ý chí thép và tinh thần không bỏ cuộc",
+      "emoji": "🥋",
+      "shortIntro": "FVS là nơi những người trẻ khát khao trở nên mạnh mẽ hơn mỗi ngày thông qua võ thuật Việt Nam – Vovinam. Không cần bạn giỏi, chỉ cần bạn dám bắt đầu – FVS luôn đồng hành với những người muốn rèn luyện thân – tâm – trí một cách toàn diện.",
+      "description": "🌞 Mục tiêu hoạt động\nRèn luyện thể chất, nâng cao sức khỏe và bản lĩnh\nPhát triển kỷ luật – ý chí – sống chủ động và tích cực\nLan tỏa tinh thần võ đạo: ‘Sống mạnh – Sống đẹp – Sống có ích’\n\n📆 Thâm niên\nHơn 6 năm hoạt động, FVS là môi trường võ thuật trẻ trung, nghiêm túc và giàu năng lượng, không ngừng phát triển mỗi ngày.\n\n👊 Gia nhập FVS – bạn sẽ:\n🔹 Nắm vững kỹ thuật Vovinam: đòn tay, chân, vật, tự vệ, phản đòn\n🔹 Được chỉ dẫn bởi HLV và anh chị có kinh nghiệm, tận tâm\n🔹 Tập trong môi trường nghiêm túc – vui vẻ – truyền động lực\n🔹 Thử thách bản thân – vượt giới hạn – trưởng thành trong từng buổi tập\n\n💥 FVS không chỉ là võ – mà là:\n🔥 Hành trình rèn ý chí – bản lĩnh – sự tự chủ\n🔥 Mỗi buổi tập là một bước tiến gần hơn đến phiên bản kiên cường – mạnh mẽ – đầy tự tin của bạn\n🔥 Võ là công cụ – nhưng chính bạn mới là người tạo ra sự thay đổi\n\n🥋 Sẵn sàng ‘match’ với phiên bản chiến binh trong bạn chưa?\n🎯 FVS – Rèn thân – Luyện tâm – Sống bản lĩnh!\nTập võ không phải để đánh bại người khác, mà là chiến thắng chính mình mỗi ngày.",
+      "quote": "Mỗi lần ngã là một bài học, mỗi lần đứng dậy là một bước tiến.",
+      "image": "/images/FVS.PNG",
+      "members": "20+ thành viên",
+      "experience": "6+ năm hoạt động",
+      "benefits": [
+        "Học võ – rèn kỹ năng tự vệ an toàn",
+        "Phát triển sức mạnh, độ bền và phản xạ",
+        "Tôi luyện ý chí – kỷ luật – sự tự chủ",
+        "Môi trường nghiêm túc, tích cực và gắn kết"
+      ],
+      "googleForm": "",
+      "achievements": [
+        {
+          "title": "Tổ chức workshop, biểu diễn và thi đấu nội bộ",
+          "description": "Lan tỏa tinh thần võ đạo trong trường"
+        }
+      ],
+      "activities": [
+        "Tập kỹ thuật Vovinam và tự vệ",
+        "Rèn thể lực, phản xạ, kỷ luật",
+        "Workshop – biểu diễn – thi đấu nội bộ"
+      ],
+      "teamStructure": [
+        {
+          "role": "Ban chủ nhiệm",
+          "count": "2 người"
+        },
+        {
+          "role": "Ban huấn luyện",
+          "count": "5+ người"
+        },
+        {
+          "role": "Thành viên",
+          "count": "15+ người"
+        }
+      ],
+      "goals2024": [
+        "Chuẩn hóa giáo án cho tân binh",
+        "Tổ chức 3+ workshop/biểu diễn",
+        "Mở rộng cộng đồng võ thuật trong trường"
+      ],
+      "contactInfo": {
+        "email": "fvs@fschool.edu.vn",
+        "hotline": "Cập nhật sau",
+        "office": "Cập nhật sau",
+        "workingHours": "16:00 - 18:00 (T2-T6)"
       }
     }
   }
