@@ -82,6 +82,11 @@
     min-width: 44px;
   }
 
+  /* Force real fixed positioning (override iOS sticky fallback when needed) */
+  .force-fixed {
+    position: fixed !important;
+  }
+
   /* Scroll thin utilities */
   .scroll-thin {
     scrollbar-width: thin;

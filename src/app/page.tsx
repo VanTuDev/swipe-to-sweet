@@ -15,7 +15,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setCurrentView("swipe")
-    }, 3000)
+    }, 1800)
 
     return () => clearTimeout(timer)
   }, [])
