@@ -1,3 +1,18 @@
+@layer utilities {
+  .scroll-card::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scroll-card::-webkit-scrollbar-thumb {
+    background-color: rgba(236, 72, 153, 0.4);
+    border-radius: 9999px;
+  }
+
+  .scroll-card::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useCallback } from "react"
+import { useState, useRef, useCallback, useEffect } from "react"
 import { HeartOutlined, CloseOutlined, MessageOutlined } from "@ant-design/icons"
 import { Button } from "@/components/ui/button"
 import { clubs } from "@/data/clubs"
@@ -13,7 +13,11 @@ interface SwipeInterfaceProps {
 }
 
 export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfaceProps) {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState<number>(() => {
+    if (typeof window === 'undefined') return 0
+    const saved = window.sessionStorage.getItem('swipe.currentIndex')
+    return saved ? parseInt(saved, 10) || 0 : 0
+  })
   const [dragOffset, setDragOffset] = useState(0)
   const [isDragging, setIsDragging] = useState(false)
   const [isAnimating, setIsAnimating] = useState(false)
@@ -24,6 +28,25 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
   const animationRef = useRef<number | null>(null)
 
   const currentClub = clubs[currentIndex]
+
+  // Persist index to session storage so when user back from detail, it stays
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.sessionStorage.setItem('swipe.currentIndex', String(currentIndex))
+    }
+  }, [currentIndex])
+
+  // Preload next 2 images to reduce delay when swiping
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const preload = (url?: string) => {
+      if (!url) return
+      const img = new window.Image()
+      img.src = url
+    }
+    preload(clubs[currentIndex + 1]?.image)
+    preload(clubs[currentIndex + 2]?.image)
+  }, [currentIndex])
 
   const handleNext = useCallback(() => {
     if (isAnimating) return
@@ -117,6 +140,7 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
           onDragStart={handleDragStart}
           onDragMove={handleDragMove}
           onDragEnd={handleDragEnd}
+          isCurrent
         />
       </div>
 

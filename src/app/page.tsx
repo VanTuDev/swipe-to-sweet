@@ -10,6 +10,7 @@ import SplashScreen from "@/components/splash-screen"
 export default function Home() {
   const [currentView, setCurrentView] = useState<"splash" | "swipe" | "detail" | "message">("splash")
   const [selectedClub, setSelectedClub] = useState<any>(null)
+  const [savedIndex, setSavedIndex] = useState<number | null>(null)
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -39,7 +40,9 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-pink-400 via-pink-300 to-orange-300 overflow-hidden scroll-thin">
       {currentView === "splash" && <SplashScreen />}
-      {currentView === "swipe" && <SwipeInterface onClubSelect={handleClubSelect} onMessage={handleMessage} />}
+      {currentView === "swipe" && (
+        <SwipeInterface onClubSelect={handleClubSelect} onMessage={handleMessage} />
+      )}
       {currentView === "detail" && selectedClub && (
         <ClubDetail club={selectedClub} onBack={handleBack} onMessage={() => handleMessage(selectedClub)} />
       )}

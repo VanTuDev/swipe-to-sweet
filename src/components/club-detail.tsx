@@ -35,7 +35,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                {/* Main Image - Tối ưu cho mobile */}
                <Card className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden shadow-xl border-0">
                   <div className="h-40 sm:h-48 md:h-64 lg:h-80 relative">
-                     <Image src={club.image || "/placeholder.svg"} alt={club.name} width={1200} height={800} className="w-full h-full object-cover" />
+                     <Image src={club.image || "/placeholder.svg"} alt={club.name} width={1200} height={800} className="w-full h-full object-cover" unoptimized />
                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                      <div className="absolute bottom-2 sm:bottom-3 md:bottom-4 left-2 sm:left-3 md:left-4 right-2 sm:right-3 md:right-4">
                         <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-1 sm:mb-2 truncate">{club.name}</h2>

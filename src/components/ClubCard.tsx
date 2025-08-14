@@ -1,6 +1,6 @@
 "use client"
 
-import { forwardRef, useState } from "react"
+import { forwardRef, useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { CardContent } from "@/components/ui/card"
 import Image from "next/image"
@@ -29,10 +29,11 @@ interface Props {
    onDragStart: (clientX: number) => void
    onDragMove: (clientX: number) => void
    onDragEnd: () => void
+   isCurrent?: boolean
 }
 
 const ClubCard = forwardRef<HTMLDivElement, Props>(
-   ({ club, dragOffset, isDragging, onDragStart, onDragMove, onDragEnd }, ref) => {
+   ({ club, dragOffset, isDragging, onDragStart, onDragMove, onDragEnd, isCurrent }, ref) => {
       const [imageError, setImageError] = useState(false)
       const [imageLoaded, setImageLoaded] = useState(false)
       const rotation = Math.max(-20, Math.min(20, dragOffset * 0.08))
@@ -45,6 +46,12 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
       const handleImageLoad = () => {
          setImageLoaded(true)
       }
+
+      // Reset trạng thái ảnh khi đổi CLB/đổi đường dẫn ảnh
+      useEffect(() => {
+         setImageError(false)
+         setImageLoaded(false)
+      }, [club.image])
 
       return (
          <motion.div
@@ -72,10 +79,10 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
                onDragEnd()
             }}
          >
-            <CardContent className="p-0 h-full bg-gradient-to-br from-white bg-white to-pink-50 animate-in fade-in duration-500">
+            <CardContent className="p-0 h-full bg-gradient-to-br from-white bg-white to-pink-50 animate-in fade-in duration-500 flex flex-col">
 
-               {/* Image section - Cố định form ngang, crop vừa khung */}
-               <div className="relative w-full overflow-hidden aspect-[16/9] bg-gradient-to-br from-pink-100 to-orange-100">
+               {/* Image section - Cố định form ngang, crop vừa khung (tăng chiều cao) */}
+               <div className="relative w-full overflow-hidden aspect-[3/2] bg-gradient-to-br from-pink-100 to-orange-100">
                   {!imageError ? (
                      <Image
                         src={club.image}
@@ -86,7 +93,11 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
                         draggable={false}
                         onError={handleImageError as any}
                         onLoad={handleImageLoad as any}
-                        loading="lazy"
+                        loading={isCurrent ? "eager" : "lazy"}
+                        priority={!!isCurrent}
+                        unoptimized
+                        placeholder="blur"
+                        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
                         style={{
                            objectPosition: 'center',
                            opacity: imageLoaded ? 1 : 0.7
@@ -115,12 +126,14 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
 
                {/* Content section */}
                <div
-                  className={`p-2 sm:p-3 flex flex-col justify-start overflow-y-auto scroll-card flex-1 min-h-0`}
-                  style={{
-                     scrollbarWidth: "thin"
-                  }}
+                  className={`p-2 sm:p-3 flex flex-col justify-start overflow-hidden flex-1 min-h-0`}
                >
-                  <div className="space-y-1 sm:space-y-2">
+                  <div
+                     className="space-y-1 sm:space-y-2 overflow-y-auto scroll-card pr-1 overscroll-contain touch-pan-y h-full"
+                     style={{ WebkitOverflowScrolling: 'touch' as any }}
+                     onTouchStart={(e) => e.stopPropagation()}
+                     onTouchMove={(e) => e.stopPropagation()}
+                  >
                      <div className="flex items-center justify-between">
                         <h2 className="text-sm sm:text-lg font-bold text-gray-800 truncate">{club.name}</h2>
                      </div>
