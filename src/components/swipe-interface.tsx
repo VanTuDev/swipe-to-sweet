@@ -13,11 +13,7 @@ interface SwipeInterfaceProps {
 }
 
 export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfaceProps) {
-  const [currentIndex, setCurrentIndex] = useState<number>(() => {
-    if (typeof window === 'undefined') return 0
-    const saved = window.sessionStorage.getItem('swipe.currentIndex')
-    return saved ? parseInt(saved, 10) || 0 : 0
-  })
+  const [currentIndex, setCurrentIndex] = useState<number>(0)
   const [dragOffset, setDragOffset] = useState(0)
   const [isDragging, setIsDragging] = useState(false)
   const [isAnimating, setIsAnimating] = useState(false)
@@ -28,6 +24,16 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
   const animationRef = useRef<number | null>(null)
 
   const currentClub = clubs[currentIndex]
+
+  // Read index from session storage after mount to avoid hydration mismatch
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const saved = window.sessionStorage.getItem('swipe.currentIndex')
+    if (saved) {
+      const parsed = parseInt(saved, 10)
+      if (!Number.isNaN(parsed)) setCurrentIndex(parsed)
+    }
+  }, [])
 
   // Persist index to session storage so when user back from detail, it stays
   useEffect(() => {
@@ -118,18 +124,18 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 bg-white/70" />
+      <div className="absolute inset-0" />
       <div className="relative z-10 flex flex-col items-center justify-center p-2 sm:p-4 pb-safe min-h-screen">
         {/* Header - Tối ưu cho mobile */}
         <div className="w-full max-w-sm sm:max-w-md mb-2 sm:mb-4 flex-shrink-0 px-2 pt-2 sm:pt-4">
           <div className="flex items-center justify-center mb-2 sm:mb-3">
             <Image
-              src="/images/logoCT.png"
+              src="/images/logoSW.png"
               alt="Logo chương trình"
-              width={240}
-              height={96}
-              className="w-40 h-auto sm:w-60 sm:h-auto object-contain drop-shadow-lg"
-              style={{ maxHeight: 96 }}
+              width={400}
+              height={128}
+              className="w-56 h-auto sm:w-72 md:w-80 sm:h-auto object-contain drop-shadow-lg p-0 m-0"
+              style={{ maxHeight: 128, maxWidth: 400 }}
               priority
             />
           </div>
