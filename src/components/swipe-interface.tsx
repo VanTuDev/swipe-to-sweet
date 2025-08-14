@@ -134,7 +134,7 @@ export default function SwipeInterface({ onClubSelect, onMessage }: SwipeInterfa
               alt="Logo chương trình"
               width={400}
               height={128}
-              className="w-56 h-auto sm:w-72 md:w-80 sm:h-auto object-contain drop-shadow-lg p-0 m-0"
+              className="object-contain drop-shadow-lg p-0 m-0"
               style={{ maxHeight: 128, maxWidth: 400 }}
               priority
             />
