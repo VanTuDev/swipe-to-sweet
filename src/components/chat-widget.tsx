@@ -1,11 +1,13 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import Image from "next/image"
 
 type Msg = { role: "user" | "assistant"; content: string }
 
 export default function ChatWidget() {
    const [open, setOpen] = useState(false)
+   const [isClient, setIsClient] = useState(false)
    const [messages, setMessages] = useState<Msg[]>([{
       role: "assistant",
       content: "Chào bạn! Hãy mô tả sở thích/ngành học/khung giờ để mình gợi ý CLB phù hợp nhé."
@@ -13,6 +15,11 @@ export default function ChatWidget() {
    const [input, setInput] = useState("")
    const sendingRef = useRef(false)
    const scrollRef = useRef<HTMLDivElement>(null)
+
+   // Fix hydration issues by rendering only on client
+   useEffect(() => {
+      setIsClient(true)
+   }, [])
 
    useEffect(() => {
       scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" })
@@ -50,29 +57,47 @@ export default function ChatWidget() {
          })
          const data = await res.json()
          setMessages(prev => [...prev, { role: "assistant", content: data.text ?? "Mình chưa nhận được câu trả lời." }])
-      } catch (e) {
+      } catch {
          setMessages(prev => [...prev, { role: "assistant", content: "Có lỗi xảy ra. Bạn thử lại nhé." }])
       } finally {
          sendingRef.current = false
       }
    }
 
+   // Chỉ render khi đã ở client để tránh lỗi hydration
+   if (!isClient) return null;
+
    return (
       <>
          {!open && (
             <button
                onClick={() => setOpen(true)}
-               className="fixed bottom-4 right-4 z-50 rounded-full bg-slate-400 text-black w-14 h-14 shadow-xl"
+               className="fixed bottom-4 right-4 z-50 rounded-full shadow-xl overflow-hidden w-14 h-14 flex items-center justify-center p-0"
                aria-label="Mở chat tư vấn CLB"
             >
-               BOT CHAT AI
+               <Image
+                  src="/images/iconBotchat.jpg"
+                  alt="BOT CHAT AI"
+                  width={56}
+                  height={56}
+                  className="w-full h-full object-cover"
+               />
             </button>
          )}
 
          {open && (
             <div className="fixed bottom-4 right-4 z-50 w-[320px] max-w-[90vw] rounded-2xl shadow-2xl overflow-hidden border bg-white">
                <div className="flex items-center justify-between bg-pink-600 text-white px-3 py-2">
-                  <span className="font-semibold">Tư vấn CLB (AI)</span>
+                  <div className="flex items-center">
+                     <Image
+                        src="/images/iconBotchat.jpg"
+                        alt="BOT CHAT AI"
+                        width={24}
+                        height={24}
+                        className="w-6 h-6 rounded-full mr-2 object-cover"
+                     />
+                     <span className="font-semibold">Tư vấn CLB (AI)</span>
+                  </div>
                   <button onClick={() => setOpen(false)} aria-label="Đóng">✕</button>
                </div>
 

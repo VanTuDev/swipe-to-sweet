@@ -18,7 +18,7 @@ import { sodesDetail } from "./sodes"
 import { fchineseDetail } from "./fchinese"
 import { fvsDetail } from "./fvs"
 import { fpsDetail } from "./fps"
-import { basketballDetail } from "./basketball"
+// import { basketballDetail } from "./basketball"
 import { footballDetail } from "./football"
 import { mecDetail } from "./mec"
 import { fchemcolorDetail } from "./fchemcolor"
@@ -45,7 +45,7 @@ export const clubDetailsMap: Record<number, ClubDetail> = {
    19: fvsDetail,
    101: fpsDetail,
    102: mecDetail,
-   103: basketballDetail,
+   // 103: basketballDetail,
    104: footballDetail,
    105: fchemcolorDetail,
    106: hoaNoMuaVanDetail,
