@@ -12,7 +12,7 @@ export const fpsDetail: ClubDetail = makeDetail({
    description: "📖 Giới thiệu\nHoạt động chính:\n\nTổ chức giải đấu game định kỳ\nCác buổi workshop học hỏi chiến thuật và kỹ năng\nGiao lưu, kết bạn qua các buổi offline và online\nChia sẻ tin tức, review game mới nhất\n\nThành viên hướng tới:\n\nTất cả các bạn yêu thích game, từ beginners đến pro\nCác bạn muốn nâng cao kỹ năng, chiến thuật chơi game\nNhững ai muốn kết bạn, mở rộng mối quan hệ trong cộng đồng game thủ\n\n🌞 Mục tiêu hoạt động\nTìm kiếm 1 nơi vui chơi giao lưu cùng sở thích và đào tạo một môi trường esport\n\n📆 Thâm niên\n2 năm hoạt đã có những bước tiến lớn nhầm mang lại cho học sinh 1 sân chơi esport tự do và có tính kỷ luật.\n\n💥 FPS không chỉ là game – mà là:\n🔥 Hành trình rèn kỹ năng ý trí tinh thần trách nhiệm của bản thân tìm kiếm những thứ mới lạ.\n\nSẵn sàng chinh phục mọi tựa game mà bạn yêu thích.\n🎯 FPS rèn luyện tinh thần-giải tỏa mọi cảm xúc-mang lại giá trị tinh thần chơi game. Mỗi ngày là 1 niềm vui và cũng là 1 trải nghiệm đáng nhớ.",
    quote: "Game không chỉ là chơi – mà còn là cách để kết nối và phát triển!",
    image: "/images/FPS.jpg",
-   logoImg: "/images/logo/FPS.jpg",
+
    members: "20+ thành viên",
    experience: "2 năm hoạt động",
    benefits: [

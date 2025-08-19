@@ -17,7 +17,7 @@ export const fsrcDetail: ClubDetail = makeDetail({
    quote:
       "FSRC – Nơi đánh thức đam mê STEM & Robotics, nơi mọi thành viên đều có thể tỏa sáng!",
    image: "/images/FSRC.png",
-   logoImg: "/images/logos/fsrc-logo.png",
+
    members: "50+ thành viên",
    experience: "3 năm hoạt động",
    benefits: [
