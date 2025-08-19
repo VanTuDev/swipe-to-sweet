@@ -33,7 +33,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
          <div className="flex-1 overflow-y-auto scroll-club-detail relative">
             <div className="p-2 sm:p-3 md:p-4 space-y-3 sm:space-y-4 md:space-y-6 pb-20 sm:pb-24">
                {/* Main Image - Tối ưu cho mobile */}
-               {/* <Card className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden shadow-xl border-0">
+               <Card className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden shadow-xl border-0">
                   <div className="h-40 sm:h-48 md:h-64 lg:h-80 relative">
                      <Image
                         src={club.image || "/placeholder.svg"}
@@ -41,7 +41,6 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         width={1200}
                         height={800}
                         className="w-full h-full object-cover"
-                        unoptimized
                         priority
                      />
                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -53,7 +52,7 @@ export default function ClubDetail({ club, onBack, onMessage }: ClubDetailProps)
                         </div>
                      </div>
                   </div>
-               </Card> */}
+               </Card>
 
                {/* Basic Info - Tối ưu cho mobile */}
                <Card className="rounded-lg sm:rounded-xl md:rounded-2xl border-0 bg-white/90 backdrop-blur-sm shadow-lg">

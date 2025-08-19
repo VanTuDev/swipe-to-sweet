@@ -129,26 +129,110 @@ const ClubCard = forwardRef<HTMLDivElement, Props>(
                   className={`p-2 sm:p-3 flex flex-col justify-start overflow-hidden flex-1 min-h-0`}
                >
                   <div
-                     className="space-y-1 sm:space-y-2 overflow-y-auto scroll-card pr-1 overscroll-contain touch-pan-y h-full"
+                     className="space-y-1.5 sm:space-y-2 overflow-y-auto scroll-card pr-1 overscroll-contain touch-pan-y h-full"
                      style={{ WebkitOverflowScrolling: 'touch' as any }}
                      onTouchStart={(e) => e.stopPropagation()}
                      onTouchMove={(e) => e.stopPropagation()}
                   >
-                     <div className="flex items-center justify-between">
-                        <h2 className="text-sm sm:text-lg font-bold text-gray-800 truncate">{club.name}</h2>
-                     </div>
-                     <div className="text-xs text-gray-600 space-y-0.5 sm:space-y-1">
-                        <div>🔹 <b>Lĩnh vực hoạt động:</b> <span style={{ whiteSpace: 'pre-line' }}>{club.field}</span></div>
-                        <div className="truncate">🔹 <b>Vị trí gian hàng:</b> {club.position}</div>
-                        <div>🔹 <b>Đang tìm:</b> <span className="text-pink-600 italic" style={{ whiteSpace: 'pre-line' }}>"{club.looking}"</span></div>
-                     </div>
-                     <div className="mt-1 sm:mt-2 text-xs text-gray-700 space-y-1">
-                        <p style={{ whiteSpace: 'pre-line' }}>{club.emoji} {club.shortIntro}</p>
-                        <p className="text-xs" style={{ whiteSpace: 'pre-line' }}>{club.description}</p>
-                        <p className="italic text-pink-700 bg-pink-50 border-l-2 border-pink-500 p-1 sm:p-2 rounded text-xs" style={{ whiteSpace: 'pre-line' }}>
-                           "{club.quote}"
-                        </p>
-                     </div>
+                     {(() => {
+                        const description = (club.description || '').split('\n')
+                        const findListAfter = (header: string): string[] => {
+                           const idx = description.findIndex(line => line.trim().toLowerCase().startsWith(header.toLowerCase()))
+                           if (idx === -1) return []
+                           const items: string[] = []
+                           for (let i = idx + 1; i < description.length; i++) {
+                              const raw = description[i]
+                              const line = raw.trim()
+                              if (!line) continue
+                              // Dừng khi chạm tiêu đề/phần mới
+                              if (line.endsWith(':') || line.startsWith('🌞') || line.startsWith('📆') || line.startsWith('💥')) break
+                              // Bỏ ký tự bullet nếu có
+                              const cleaned = line.replace(/^[-•\u2022]\s*/, '')
+                              items.push(cleaned)
+                           }
+                           return items
+                        }
+                        const activities = findListAfter('Hoạt động chính:')
+                        const audiences = findListAfter('Thành viên hướng tới:')
+                        // Chuẩn bị icon tiêu đề và icon phần Giới thiệu theo CLB
+                        const titleIcon = club.id === 102 ? '🌍' : club.id === 4 ? '🎙️' : club.id === 8 ? '🦋' : '🔷'
+                        const introIcon = club.id === 102 ? '🌐' : club.id === 4 ? '🎙️' : club.id === 8 ? '🦋' : ''
+
+                        // Nếu không có danh sách hoạt động/thành viên, hiển thị vài đoạn giới thiệu đầu từ description
+                        const introParas: string[] = []
+                        if (activities.length === 0 && audiences.length === 0) {
+                           for (let i = 0; i < description.length; i++) {
+                              const line = description[i].trim()
+                              if (!line) continue
+                              if (line.startsWith('🎯') || line.startsWith('👥') || line.startsWith('📆') || line.startsWith('💡')) break
+                              introParas.push(line)
+                              if (introParas.length >= 2) break
+                           }
+                        }
+
+                        return (
+                           <>
+                              <div className="flex items-start">
+                                 <h2 className="text-xs sm:text-sm font-bold text-gray-800">
+                                    {titleIcon} Tên câu lạc bộ: <span className="font-extrabold">{club.name.replace(/^\s*[\u2000-\u3300]\s*/, '')}</span>
+                                 </h2>
+                              </div>
+                              <div className="text-xs text-gray-600 space-y-0.5 sm:space-y-1">
+                                 <div>🗺️ <b>Lĩnh vực hoạt động:</b> <span style={{ whiteSpace: 'pre-line' }}>{club.field}</span></div>
+                                 <div className="truncate">🔹 <b>Vị trí gian hàng:</b> {club.position}</div>
+                                 <div>🔍 <b>Cần tìm:</b> <span className="text-pink-600 italic" style={{ whiteSpace: 'pre-line' }}>🌟 {club.looking}</span></div>
+                              </div>
+                              <div className="mt-1 sm:mt-2 text-xs text-gray-700 space-y-1">
+                                 <p className="font-semibold" style={{ whiteSpace: 'pre-line' }}>{introIcon ? `${introIcon} ` : ''}Giới thiệu:</p>
+                                 <p style={{ whiteSpace: 'pre-line' }}>{club.shortIntro}</p>
+                                 {introParas.map((p, idx) => (
+                                    <p key={`intro-${idx}`} className="text-gray-700 text-xs" style={{ whiteSpace: 'pre-line' }}>{p}</p>
+                                 ))}
+                                 {club.id === 102 && (
+                                    <p className="text-pink-700 font-medium text-xs">👉 Click xem thêm và khởi động chuyến bay MEC ngay hôm nay nhíaaa! 🛫🌍</p>
+                                 )}
+                              </div>
+                              <div className="mt-1 sm:mt-2">
+                                 <p className="text-xs sm:text-sm font-semibold text-gray-800">📖 Giới thiệu</p>
+                                 {activities.length > 0 && (
+                                    <div className="mt-1">
+                                       <p className="text-[11px] sm:text-xs font-medium text-gray-700">Hoạt động chính:</p>
+                                       <ul className="list-disc pl-4 text-[11px] sm:text-xs text-gray-700 space-y-0.5">
+                                          {activities.map((it, idx) => (
+                                             <li key={`act-${idx}`}>{it}</li>
+                                          ))}
+                                       </ul>
+                                    </div>
+                                 )}
+                                 {audiences.length > 0 && (
+                                    <div className="mt-1">
+                                       <p className="text-[11px] sm:text-xs font-medium text-gray-700">Thành viên hướng tới:</p>
+                                       <ul className="list-disc pl-4 text-[11px] sm:text-xs text-gray-700 space-y-0.5">
+                                          {audiences.map((it, idx) => (
+                                             <li key={`aud-${idx}`}>{it}</li>
+                                          ))}
+                                       </ul>
+                                    </div>
+                                 )}
+                              </div>
+                              {club.benefits && club.benefits.length > 0 && (
+                                 <div className="mt-2">
+                                    <p className="text-xs sm:text-sm font-semibold text-gray-800">✅ Gia nhập {club.name.replace(/^\s*🔷\s*/, '').split(' - ')[0]} để:</p>
+                                    <ul className="list-disc pl-4 text-[11px] sm:text-xs text-gray-700 space-y-0.5">
+                                       {club.benefits.map((b, i) => (
+                                          <li key={`benefit-${i}`}>{b}</li>
+                                       ))}
+                                    </ul>
+                                 </div>
+                              )}
+                              {club.quote && (
+                                 <p className="italic text-pink-700 bg-pink-50 border-l-2 border-pink-500 p-1 sm:p-2 rounded text-[11px] sm:text-xs" style={{ whiteSpace: 'pre-line' }}>
+                                    "{club.quote}"
+                                 </p>
+                              )}
+                           </>
+                        )
+                     })()}
                   </div>
                </div>
             </CardContent>
