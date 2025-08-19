@@ -66,7 +66,7 @@ export const clubs: Club[] = [
     description: "📖 Giới thiệu\nHoạt động chính:\n\nTổ chức giải đấu game định kỳ\nCác buổi workshop học hỏi chiến thuật và kỹ năng\nGiao lưu, kết bạn qua các buổi offline và online\nChia sẻ tin tức, review game mới nhất\n\nThành viên hướng tới:\n\nTất cả các bạn yêu thích game, từ beginners đến pro\nCác bạn muốn nâng cao kỹ năng, chiến thuật chơi game\nNhững ai muốn kết bạn, mở rộng mối quan hệ trong cộng đồng game thủ\n\n🌞 Mục tiêu hoạt động\nTìm kiếm 1 nơi vui chơi giao lưu cùng sở thích và đào tạo một môi trường esport\n\n📆 Thâm niên\n2 năm hoạt đã có những bước tiến lớn nhầm mang lại cho học sinh 1 sân chơi esport tự do và có tính kỷ luật.\n\n💥 FPS không chỉ là game – mà là:\n🔥 Hành trình rèn kỹ năng ý trí tinh thần trách nhiệm của bản thân tìm kiếm những thứ mới lạ.\n\nSẵn sàng chinh phục mọi tựa game mà bạn yêu thích.\n🎯 FPS rèn luyện tinh thần-giải tỏa mọi cảm xúc-mang lại giá trị tinh thần chơi game. Mỗi ngày là 1 niềm vui và cũng là 1 trải nghiệm đáng nhớ.",
     quote: "Game không chỉ là chơi – mà còn là cách để kết nối và phát triển!",
     image: "/images/FPS.jpg",
-    logoImg: "/images/logos/fps-logo.png",
+    logoImg: "/images/logo/FPS.jpg",
     members: "20+ thành viên",
     experience: "2 năm hoạt động",
     benefits: [
@@ -89,7 +89,7 @@ export const clubs: Club[] = [
     description: "MEC là nơi bạn bắt đầu chuyến hành trình vòng quanh thế giới – không cần visa, chỉ cần bạn không ngần ngại sử dụng tiếng Anh như một công cụ kết nối với mọi người!\n\nTụi mình cùng debate, chơi game, thuyết trình, và luyện kỹ năng mềm để biến tiếng Anh thành hộ chiếu vững chắc nhất!\n\n🎯 Mục tiêu hoạt động:\nLan tỏa niềm yêu thích tiếng Anh, giúp các bạn học sinh tự tin sử dụng ngôn ngữ trong đời sống thực tế qua các hoạt động vừa học vừa chơi.\nMEC hướng tới việc xây dựng một cộng đồng nói tiếng Anh tự nhiên, đầy nhiệt huyết và có tư duy toàn cầu🌎.\n\n👥 Thành viên:\nHiện tại CLB có 40 thành viên, mỗi người một cá tính, một phong cách – nhưng cùng chung một mục tiêu: bứt phá khả năng tiếng Anh và cùng nhau phát triển!\n\n📆 Thâm niên:\nRa đời từ năm 2021, MEC đã trải qua nhiều mùa hoạt động sôi nổi, gắn bó và không ngừng lớn mạnh – từ một nhóm nhỏ yêu tiếng Anh đến một sân chơi đa dạng màu sắc và năng động hơn qua từng năm!\n\n💡Các giá trị mà MEC đang hướng đến:\n\n🔤 M – Mindset mở rộng:\nMở rộng tư duy, nâng cấp khả năng nói trước đám đông và tự tin thể hiện bản thân bằng tiếng Anh mọi lúc mọi nơi.\n\n🎙️ E – English thật sự:\nEnglish ở MEC sẽ không chỉ là ngữ pháp và từ vựng, mà là công cụ để giao tiếp, chơi, tranh luận, và kết nối với thế giới.\n\n🤝 C – Connection không giới hạn:\nCùng nhau tạo nên một cộng đồng học tập tích cực, nơi bạn tìm được đồng đội là những anh chị đi trước đầy kinh nghiệm và những người bạn \"hợp vibe\" nhất!",
     quote: "Khởi động chuyến bay MEC ngay hôm nay! 🛫🌍",
     image: "/images/MEC.jpg",
-    logoImg: "/images/logos/mec-logo.png",
+    logoImg: "/images/logo/Logo MEC tách nền mới.png",
     members: "40 thành viên",
     experience: "Từ năm 2021",
     benefits: [
@@ -112,7 +112,7 @@ export const clubs: Club[] = [
     description: "FChemColor là câu lạc bộ độc đáo kết hợp giữa khoa học hóa học và nghệ thuật sáng tạo. Chúng mình khám phá các phản ứng hóa học thú vị và ứng dụng chúng vào việc tạo ra các tác phẩm nghệ thuật, thí nghiệm màu sắc và các dự án STEAM. Tại FChemColor, khoa học không còn khô khan mà trở nên đầy màu sắc và hứng thú!",
     quote: "Khoa học không chỉ để hiểu – mà còn để tạo nên cái đẹp!",
     image: "/images/fchemcolor.png",
-    logoImg: "/images/logos/fchemcolor-logo.png",
+    logoImg: "/images/logo/fchemcolor.png",
     members: "15+ thành viên",
     experience: "Mới thành lập",
     benefits: [
@@ -135,7 +135,7 @@ export const clubs: Club[] = [
     description: "✒️ Chúng tôi là ai?\nLà những người yêu cái đẹp của văn chương, đam mê kể chuyện bằng con chữ, rung động trước từng vần thơ và không ngại đối diện với những câu hỏi lớn của cuộc sống qua từng trang văn.\n\n\"Hoa nở mùa Văn\" là nơi bạn sẽ:\n\nViết những điều bạn nghĩ, sống trong thế giới bạn mơ.\n\nCùng nhau đọc – cảm – viết, nuôi dưỡng trí tưởng tượng, tư duy phản biện và sự tinh tế trong cảm xúc.\n\nTham gia các hoạt động: viết sáng tạo, thi viết, diễn thuyết, sân khấu hóa tác phẩm, làm báo tường, tổ chức workshop và nhiều chương trình nghệ thuật độc đáo.\n\n🌱 Tại sao là \"Hoa nở\"?\nVì mỗi tâm hồn đến với Văn đều có thể nở hoa – theo cách riêng của mình.\nDù bạn là đóa hoa mong manh thích viết lặng thầm, hay là bông hoa rực rỡ của sân khấu hóa văn học – chúng tôi luôn có chỗ cho bạn.\n\n📆 Thành lập:\nRa đời năm 2023, \"Hoa nở mùa Văn\" là nơi những tâm hồn yêu chữ gặp nhau, cùng nuôi dưỡng tình yêu văn học bằng cách viết – đọc – cảm – thể hiện.\n\n👥 Thành viên:\nCLB hiện có 15 thành viên – mỗi bạn là một sắc màu riêng biệt: người thích viết, người mê đọc, người yêu diễn xuất… Nhưng tất cả đều có điểm chung: yêu văn chương và muốn sống sâu sắc hơn qua từng con chữ.\n\n🎯 Mục tiêu hoạt động:\nMang văn học đến gần hơn với cuộc sống, biến mỗi trang sách thành một trải nghiệm, và giúp học sinh:\n\nTự do bày tỏ cảm xúc, suy nghĩ qua viết lách\n\nTập diễn thuyết, sân khấu hóa, làm tập san, podcast\n\nNuôi dưỡng tâm hồn và phát triển tư duy phản biện\n\n💡 Giá trị cốt lõi của \"Hoa nở mùa Văn\":\n\n🌱 Chân thật trong cảm xúc\nViết bằng trái tim, không gượng ép, không sáo rỗng – mỗi con chữ là một phần của chính mình.\n\n🎨 Sáng tạo trong thể hiện\nKhông chỉ viết văn – mà còn kể chuyện qua thơ, kịch, tranh, lời nói… Văn chương là một thế giới mở.\n\n💭 Tư duy sâu sắc\nKhông chỉ cảm – mà còn hiểu. Không chỉ hiểu – mà biết đặt câu hỏi và nhìn sự vật bằng nhiều góc nhìn.\n\n🤝 Kết nối bằng cảm xúc\nChúng mình là một cộng đồng an toàn, nơi mỗi bạn đều được lắng nghe, được sẻ chia và được là chính mình.",
     quote: "Tại Hoa nở mùa Văn, bạn không cần giỏi Văn – chỉ cần có điều muốn nói. Hãy để tâm hồn bạn… nở hoa theo cách của riêng mình!",
     image: "/images/hoanomuavan.jpg",
-    logoImg: "/images/logos/hoa-no-mua-van-logo.png",
+    logoImg: "/images/logo/Hoa nở mùa Văn_Logo.png",
     members: "15 thành viên",
     experience: "Từ năm 2023",
     benefits: [
@@ -159,7 +159,7 @@ export const clubs: Club[] = [
       "CLB ECO thúc đẩy ý thức bảo vệ môi trường và phát triển bền vững trong cộng đồng sinh viên.",
     quote: "Trái đất không phải là tài sản của chúng ta, mà là món quà cho thế hệ tương lai!",
     image: "/images/CLB ECO.jpeg",
-    logoImg: "/images/logos/eco-logo.png",
+    logoImg: "/images/logo/ECO-F (60 x 60 cm).png",
     members: "6+ thành viên",
     experience: "2 năm hoạt động",
     benefits: [
@@ -190,7 +190,7 @@ export const clubs: Club[] = [
       "CLB Bóng đá tạo môi trường tập luyện nghiêm túc nhưng vui vẻ, có lịch giao hữu và tham gia các giải phong trào trong trường.",
     quote: "Đã ra sân là cháy hết mình!",
     image: "/images/bongda.png",
-    logoImg: "/images/logos/football-logo.png",
+    logoImg: "/images/logo/Bongda.jpg",
     members: "25+ thành viên",
     experience: "Nhiều mùa giải phong trào",
     benefits: [
@@ -212,7 +212,7 @@ export const clubs: Club[] = [
       "CLB Business là một sân chơi năng động dành cho những bạn trẻ yêu thích kinh doanh, sáng tạo và tư duy chiến lược. Tụi mình không ngồi nói lý thuyết – mà còn có thể tự tay làm sản phẩm, tổ chức hoạt động, tạo game và trải nghiệm mong các bạn sẽ là những mảnh ghép cùng chúng tớ thực hiện lên điều đó!",
     quote: "✨Think Bold. Try Real. Build Different.✨",
     image: "/images/CLB FBIZ.png",
-    logoImg: "/images/logos/fbiz-logo.png",
+    logoImg: "/images/logo/CLB FBIZ.jpg",
     members: "28+ thành viên",
     experience: "3+ năm hoạt động",
     benefits: [
@@ -234,7 +234,7 @@ export const clubs: Club[] = [
     description: "Tụi mình tin rằng:\n🌱 \"Tử tế không cần lý do – chỉ cần bạn muốn Lan tỏa nó.\"\n\n\"Không phải ai sinh ra cũng đủ đầy, nhưng ai cũng có thể là ánh sáng nhỏ trong cuộc đời của người khác.\"\n\"Sunshare không bán nắng, chỉ sưởi ấm lòng người.\"\n\nNếu bạn cũng nghĩ vậy – chào mừng bạn về đội Sunshare. Không cần phải thay đổi cả thế giới, chỉ cần mỗi ngày, mình cùng nhau làm điều nhỏ bé, nhưng thật đẹp.\n\n☀️ SUNSHARE – Nơi những điều tử tế được ươm mầm\nKhông có danh hiệu, không có spotlight. Chỉ có những người trẻ, chọn bước tới thay vì ngoảnh mặt làm ngơ.\nCác bạn có thể thấy chúng tớ ở phòng 105\n\n🌿 Mục tiêu hoạt động của Sunshare:\n• Là một nhóm bạn trẻ không giỏi nói lời hoa mỹ, nhưng tin rằng:\n• Một bữa cơm được chuẩn bị bằng tấm lòng\n• Một chiếc thiệp nhỏ viết bằng tay\n• Một sáng chủ nhật dậy sớm để phát cháo...\n• ... cũng có thể làm ấm một cuộc đời.\n\nSunshare không cần bạn phải \"tốt hoàn hảo\", chỉ cần bạn sẵn lòng làm điều tốt.\nDù là cầm loa, vẽ bảng tên, xếp quà, hay đơn giản là lắng nghe một câu chuyện buồn của ai đó, tụi mình đều trân trọng – vì ở đây, không có ai là thừa cả.\n\n📌 Vài điều tụi mình tự hào:\n• Thành lập vào 24/9/2018 - hơn 7 năm hoạt động - không bỏ một mùa Tết nào.\n• Gây quỹ từ những chiếc bánh tráng nhỏ nhất.\n• Có hơn 40 con người, và từng người đều đáng tin đến lạ.\n\n✨ Gia nhập Sunshare – Bạn sẽ có gì?\n• Không phải \"kỹ năng mềm\", mà là một trái tim cứng cáp hơn sau từng lần giúp đỡ người khác.\n• Không chỉ là \"trải nghiệm thiện nguyện\", mà là những khoảnh khắc khiến bạn rơi nước mắt – vì xúc động.\n• Không chỉ \"thêm vào CV\", mà là bớt đi sự vô cảm.\n\nBạn sẽ học được cách:\n• Tự tay tạo nên một dự án vì người khác.\n• Đứng trước khó khăn, không lùi bước.\n• Yêu quý từng nụ cười mà mình góp phần mang đến.",
     quote: "“Sunshare không bán nắng, chỉ sưởi ấm lòng người.”",
     image: "/images/CLB Sunshare.jpg",
-    logoImg: "/images/logos/sunshare-logo.png",
+    logoImg: "/images/logo/LOGO SUNSHARE.PNG",
     members: "40+ thành viên",
     experience: "7+ năm hoạt động",
     benefits: [
@@ -258,7 +258,7 @@ export const clubs: Club[] = [
     description: "✨ Nói nhỏ cho bạn biết nhé đây là : \"Nơi Fschoolers cất giọng và tỏa sáng\"\n\n📌Mái nhà \"Ếp-êm-ai-xi\" ở đây nè : (cập nhập sau)\n\n✨ Mục tiêu hoạt động:\n• Không đơn thuần là kỹ năng dẫn chương trình, F-MIC giúp bạn phát triển tư duy ngôn ngữ, phong thái sân khấu và khả năng kết nối cảm xúc với khán giả – để mỗi lần cầm mic không chỉ là thể hiện, mà là chạm tới trái tim người nghe.\n\n💕 Ngoan xinh iu:\n• Là ngôi nhà nhỏ của 15 thành viên đầy đam mê và khát vọng\n• Dù chỉ mới được thành lập trong thời gian vừa qua nhưng với hướng đi bền bỉ và mục đích to lớn, chúng tớ sẽ là một chỗ dựa tiềm năng cùng bạn \"vượt ngàn chông gai\"\n\n🍓Những quả ngọt khi bạn là một mảnh ghép của F-MIC:\n• 🎤 Tự tin toả sáng trước đám đông\n• 🎤 Phong thái sân khấu chuyên nghiệp, phát triển kĩ năng giao tiếp, kết nối\n• 🎤 Cơ hội được chọn làm MC cho các sự kiện lớn\n• 🎤 Một gia đình \"thực thụ\" năng động - vui vẻ - cá tính",
     quote: "Nơi Fschoolers cất giọng và tỏa sáng",
     image: "/images/F-MIC.jpg",
-    logoImg: "/images/logos/fmic-logo.png",
+    logoImg: "/images/logo/F - MIC (7).png ( nền trong suốt ).png",
     members: "15 thành viên",
     experience: "Mới thành lập",
     benefits: [
@@ -280,8 +280,8 @@ export const clubs: Club[] = [
     shortIntro: "Chúng tớ không chỉ là câu lạc bộ về học thuật, mà còn kết hợp cả một số sự kiện của nhà trường. Đến với chúng tớ, các bạn vừa được học thêm những kĩ năng mới, không những thế, các bạn được vui chơi, tìm kiếm những thế mạnh khác của bản thân mình. Đây là mái nhà chung giúp các bạn phát triển bản thân, đồng thời gióp các bạn không cảm thấy quá gò bó nếu chỉ tập trung vào học thuật hay sự kiện.",
     description: "",
     quote: "Đến với F-Skill, bạn có thể đắm chìm vào những điều mới mẻ, những hoạt động bổ ích mà bản thân bạn chưa từng được trải nghiệm!",
-    image: "/images/F-SKILL.jpg",
-    logoImg: "/images/logos/fskill-logo.png",
+    image: "/images/F-SKILL.JPG",
+    logoImg: "/images/logo/F-SKILL.png",
     members: "25+ thành viên",
     experience: "3+ năm hoạt động",
     benefits: [
@@ -305,7 +305,7 @@ export const clubs: Club[] = [
     description: "💥Tên Câu Lạc Bộ: FAS\nLĩnh vực hoạt động: CLB trình diễn múa nghệ thuật\nNơi những nhịp thở hóa thành chuyển động.\n\nBạn từng thấy trái tim mình rung lên theo từng nhịp nhạc?\nBạn tin rằng múa không chỉ là biểu diễn, mà là cách để bộc lộ bản ngã, giải phóng cảm xúc và kể nên những điều không lời?\n\nChào mừng bạn đến với FAS – một không gian nghệ thuật nơi tự do và cảm xúc là cốt lõi.\nTụi mình theo đuổi múa hiện đại và múa dân gian đương đại, kết hợp yếu tố truyền thống và hơi thở đương thời, tạo nên những phần trình diễn vừa gần gũi, vừa đầy sức sống.\n\n🌿 Ở FAS, bạn sẽ...\n✨ Được chuyển động bằng cảm xúc, không áp lực kỹ thuật, không sợ phán xét – chỉ cần bạn dám bắt đầu.\n✨ Thử nghiệm và khám phá bản thân qua từng chủ đề biểu diễn, từ nhẹ nhàng sâu lắng đến mạnh mẽ bùng nổ.\n✨ Tham gia các sân khấu lớn nhỏ, nơi bạn không chỉ đứng dưới ánh đèn, mà thực sự sống trong từng khoảnh khắc.\n✨ Gắn kết với những người bạn đồng hành cùng chung tình yêu với múa, cùng tạo nên những kỷ niệm không thể lặp lại.\n\n💫 FAS không đặt nặng \"đúng\" hay \"đẹp\"\nThay vào đó, chúng mình tìm kiếm:\n🔥 Cảm xúc thật – Chuyển động thật – Kết nối thật.\nDù bạn từng học múa hay chưa bao giờ nhảy trước đám đông – FAS luôn chừa chỗ cho bạn.\n\nHãy để cơ thể bạn lên tiếng,\nHãy để đam mê được thấy ánh sáng.",
     quote: "Hãy để cơ thể bạn lên tiếng, hãy để đam mê được thấy ánh sáng!",
     image: "/images/FAS.jpg",
-    logoImg: "/images/logos/fas-logo.png",
+    logoImg: "/images/logo/LOGO FAS (1).png",
     members: "11 thành viên",
     experience: "Từ 2022",
     benefits: [
@@ -336,7 +336,7 @@ export const clubs: Club[] = [
       "🫵🏻 Tại đây, bạn sẽ:\n🏸 Rèn kỹ năng từ cơ bản đến nâng cao\n⚙️ Làm quen chiến thuật hiện đại\n🧠 Rèn phản xạ, thể lực và kỷ luật\n🤝 Gắn bó cùng “đồng đội” nhiều khối lớp\n\nFbaClub chính là nơi để bạn:\n“Vung vợt tự tin – Chinh phục từng điểm số – Gắn kết bằng đam mê!”\nGia nhập Gen mới – Cháy hết mình trên sân cầu cùng FbaClub! 💪🔥",
     quote: "FbaClub – Tung vợt rực lửa, kết nối đam mê! 💥",
     image: "/images/FbaClub.jpg",
-    logoImg: "/images/logos/fba-logo.png",
+    logoImg: "/images/logo/FBaClub.png",
     members: "20+ thành viên",
     experience: "4+ năm hoạt động",
     benefits: [
@@ -361,7 +361,7 @@ export const clubs: Club[] = [
       "Bạn yêu âm nhạc đến mức đôi chân không thể đứng yên? Bạn tin rằng mỗi bước nhảy là một cách để kể câu chuyện của riêng mình? Nếu có, bạn chính là mảnh ghép hoàn hảo của FDANX!\n\nFDANX không chỉ nhảy để biểu diễn, mà còn nhảy cho chính mình – để giải tỏa năng lượng, để kết nối với người khác, và để sống thật với niềm đam mê của bản thân.\n\nTụi mình tin rằng: Không cần phải là dancer chuyên nghiệp, bạn chỉ cần có đam mê thật sự. Những điều còn lại – kỹ thuật, thần thái, sự tự tin – hãy để FDANX cùng bạn rèn luyện và cải thiện nha!",
     quote: "Không cần là dancer chuyên nghiệp – chỉ cần đam mê thật sự!",
     image: "/images/FDANX.jpg",
-    logoImg: "/images/logos/fdanx-logo.png",
+    logoImg: "/images/logo/FDANX.png",
     members: "15 thành viên",
     experience: "Từ 2020",
     benefits: [
@@ -392,7 +392,7 @@ export const clubs: Club[] = [
       "FDN-Events không chỉ là một câu lạc bộ chạy sự kiện – mà còn là nơi tụi mình biến ý tưởng thành trải nghiệm có thật. Từ các chương trình hoành tráng đến sự kiện nhỏ, học thuật hay giải trí, bọn mình luôn cháy hết mình để mỗi chương trình đều trở thành spotlight!\n\nĐây là mái nhà của những bạn trẻ năng động, thích ứng nhanh và không ngại thử thách – đúng chất ‘Crew sự kiện’.\n\nChúng mình tin rằng:\n✨ Không có sự kiện nào là giống nhau – vì chính bạn là nhân tố tạo nên sự khác biệt!\n\nChúng mình ở: (cập nhật sau)",
     quote: "Không có sự kiện nào là giống nhau – vì bạn chính là nhân tố tạo nên sự khác biệt!",
     image: "/images/FDN-Events.jpg",
-    logoImg: "/images/logos/fdn-events-logo.png",
+    logoImg: "/images/logo/FDN EVENT.png",
     members: "100+ thành viên",
     experience: "7+ năm hoạt động",
     benefits: [
@@ -610,7 +610,7 @@ export const clubs: Club[] = [
     shortIntro: "📩 Chúng tôi là một đội ngũ CLB làm việc chuyên nghiệp, là 1 CLB robotics tiêu biểu trong cộng đồng VSU (cộng đồng robotics có hơn 30 CLB trên cả nước).\nỞ đây các bạn sẽ được phát triển và nuôi dưỡng bản thân mình khi được học những kỹ năng mới: code, thiết kế 3D trên phần mềm Onshape và đặc biệt vô cùng quan trọng là những thành viên nữ được học về truyền thông, tài chính, v.v...\nNhững thành viên đã đem về cho CLB và trường vô số giải thưởng, là nôi sản sinh ra những khủng long tài năng, tiêu biểu, đặc biệt xuất sắc của trường.",
     description: "🎯 Mục tiêu hoạt động:\n• Xây dựng và phát triển CLB toàn diện, là chìa khóa đánh thức niềm đam mê với STEM & robotics cho các bạn trẻ, phát triển cộng đồng.\n\n👥 Thành viên:\nHiện có hơn 50 thành viên năng động, kỹ năng tốt, luôn sẵn sàng hỗ trợ, với 6 tiêu chí của FIRST.\n\n⏳ Thâm niên:\n3 năm hoạt động chính thức, tham gia và mang về hàng trăm giải thưởng to nhỏ trong nước và thế giới, được đăng lên báo, vinh danh khủng long,...\n\n🎁 Gia nhập bạn sẽ nhận được:\n• Cơ hội phát triển bản thân toàn diện\n• Cơ hội tham gia và giành giải thưởng các cuộc thi lớn như FIRST, ENJOY AI, VEX, ROBO G, ORC,... (được đi chơi xa, được trải nghiệm từ teamwork, cho đến những tri kỉ, giành nhiều giải thưởng được vinh danh cấp học bổng ở nhiều trường đại học trên thế giới)\n• Làm việc trong môi trường chuyên nghiệp, tôn trọng, v.v...\n• Những kỉ niệm đặc biệt của tuổi trẻ mà không phải tham gia CLB nào cũng được như vậy.\n\n💡 Note: CLB thấy rằng những bạn nữ thường rất e dè khi tham gia một CLB liên quan đến kỹ thuật STEM và robotics vì sợ không hợp nhưng thật ra CLB rất muốn tìm những bạn có thế mạnh về truyền thông, các bạn sẽ trở thành những cá nhân tiêu biểu của CLB trong phong trào Women in STEM.",
     quote: "FSRC – Nơi đánh thức đam mê STEM & Robotics, nơi mọi thành viên đều có thể tỏa sáng!",
-    image: "/images/FGym.png",
+    image: "/images/FSRC.png",
     logoImg: "/images/logos/fsrc-logo.png",
     members: "50+ thành viên",
     experience: "3 năm hoạt động",
