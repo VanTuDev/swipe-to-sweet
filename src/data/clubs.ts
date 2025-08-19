@@ -282,7 +282,7 @@ export const clubs: Club[] = [
     shortIntro: "Chúng tớ không chỉ là câu lạc bộ về học thuật, mà còn kết hợp cả một số sự kiện của nhà trường. Đến với chúng tớ, các bạn vừa được học thêm những kĩ năng mới, không những thế, các bạn được vui chơi, tìm kiếm những thế mạnh khác của bản thân mình. Đây là mái nhà chung giúp các bạn phát triển bản thân, đồng thời gióp các bạn không cảm thấy quá gò bó nếu chỉ tập trung vào học thuật hay sự kiện.",
     description: "Chúng mình tin rằng: Đến với F-Skill, bạn có thể đắm chìm vào những điều mới mẻ, những hoạt động bổ ích mà bản thân bạn chưa từng được trải nghiệm!",
     quote: "Đến với F-Skill, bạn có thể đắm chìm vào những điều mới mẻ, những hoạt động bổ ích mà bản thân bạn chưa từng được trải nghiệm!",
-    image: "/images/F-SKILL.JPG",
+    image: "/images/FSKILL.jpg",
     logoImg: "/images/logo/F-SKILL.png",
     members: "25+ thành viên",
     experience: "3+ năm hoạt động",
