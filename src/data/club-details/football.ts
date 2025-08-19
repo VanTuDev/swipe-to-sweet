@@ -5,7 +5,7 @@ export const footballDetail: ClubDetail = makeDetail({
    id: 104,
    name: "⚽ CLB Bóng đá",
    field: "Bóng đá – Thể thao – Teamwork – Kỷ luật – Sức bền",
-   position: "Sân thể thao",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "Những bạn đam mê bóng đá, ưa vận động, kỷ luật và tinh thần đồng đội. Không cần giỏi – chỉ cần chịu khó luyện tập.",
    emoji: "⚽",
@@ -38,7 +38,7 @@ export const footballDetail: ClubDetail = makeDetail({
       "Tổ chức giải nội bộ theo quý",
       "Tham gia 2+ giải phong trào cấp trường/khu vực",
    ],
-   contactInfo: { email: "", hotline: "", office: "Sân thể thao", workingHours: "Sau giờ học" },
+   contactInfo: { email: "", hotline: "", office: "Sảnh FPT SCHOOL", workingHours: "Sau giờ học" },
 })
 
 export default footballDetail

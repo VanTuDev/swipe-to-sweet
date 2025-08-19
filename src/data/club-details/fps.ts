@@ -5,7 +5,7 @@ export const fpsDetail: ClubDetail = makeDetail({
    id: 101,
    name: "🔷 FPS - FPT Play Station",
    field: "Game online và offline - Hỗ trợ làm việc nhóm",
-   position: "Phòng Game – Tầng 1",
+   position: "Sảnh FPT SCHOOL",
    looking: "Những người bạn có cùng đam mê game",
    emoji: "🎮",
    shortIntro: "FPS là nơi hội tụ của những game thủ đam mê, nơi game không chỉ là giải trí mà còn là cách để rèn luyện tư duy chiến thuật, phản xạ nhanh và tinh thần đồng đội.",

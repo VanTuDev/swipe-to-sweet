@@ -6,7 +6,7 @@ export const fsrcDetail: ClubDetail = makeDetail({
    name: "🤖FSRC - Fschool Stem & Robotics Club",
    field:
       "Chia sẻ kiến thức về STEM, robotics; tạo cơ hội tham gia các cuộc thi robotics toàn quốc và thế giới.",
-   position: "Phòng lab stem 111",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "Những bạn dám thử thách, có đam mê, muốn được thử sức và phát triển bản thân mình.",
    emoji: "🤖",

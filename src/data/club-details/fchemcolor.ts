@@ -5,7 +5,7 @@ export const fchemcolorDetail: ClubDetail = makeDetail({
    id: 105,
    name: "🧪 FChemColor",
    field: "Hóa học – Nghệ thuật – Thí nghiệm – Sáng tạo",
-   position: "Phòng thí nghiệm – Tầng 2",
+   position: "Sảnh FPT SCHOOL",
    looking: "Những người yêu thích khoa học, hóa học và nghệ thuật sáng tạo",
    emoji: "🧪",
    shortIntro:

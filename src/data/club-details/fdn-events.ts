@@ -5,7 +5,7 @@ export const fdnEventsDetail: ClubDetail = makeDetail({
    id: 9,
    name: "FDN-Events",
    field: "Tổ chức sự kiện, truyền thông & sáng tạo",
-   position: "Cập nhật sau",
+   position: "Sảnh FPT SCHOOL",
    looking: "🎤 Cộng sự cháy hết mình - bạn đồng hành rực rỡ",
    emoji: "🎤",
    shortIntro:

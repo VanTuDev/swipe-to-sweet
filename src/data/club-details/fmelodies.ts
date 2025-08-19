@@ -5,7 +5,7 @@ export const fmelodiesDetail: ClubDetail = makeDetail({
    id: 12,
    name: "🎼FMelodies 🫶🏻",
    field: "Biểu diễn ca nhạc, trải nghiệm nghệ thuật🎤",
-   position: "Phòng âm nhạc - Tầng 2",
+   position: "Sảnh FPT SCHOOL",
    looking: "Người ‘❤️‍🔥Yêu nhạc đong đầy - bùng cháy từng ngày❤️‍🔥’",
    emoji: "🎵",
    shortIntro:

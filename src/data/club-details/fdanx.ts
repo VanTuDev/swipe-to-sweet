@@ -5,7 +5,7 @@ export const fdanxDetail: ClubDetail = makeDetail({
    id: 8,
    name: "🦋FDANX🦋",
    field: "Biểu diễn nhảy múa 💃🏻",
-   position: "Phòng dance - Tầng 2",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "– Yêu thích sự tự do và nhảy múa🩷\n– Không ngại thử thách, không ngại \"nhảy sai\"💜\n– Sẵn sàng dành thời gian và trái tim cho những giây phút biểu diễn!❤️‍🔥",
    emoji: "💃",

@@ -5,7 +5,7 @@ export const fbizDetail: ClubDetail = makeDetail({
    id: 2,
    name: "💼 CLB FBIZ – FPT ĐÀ NẴNG",
    field: "Kinh doanh – Tài chính cá nhân – Khởi nghiệp – Phát triển tư duy sáng tạo",
-   position: "Tầng 1 - Khu vực Business",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "Những bạn trẻ có nhiều “ý tưởng lạ lạ”, muốn làm thử điều gì đó, không sợ sai – chỉ sợ… không được làm!",
    emoji: "💼",

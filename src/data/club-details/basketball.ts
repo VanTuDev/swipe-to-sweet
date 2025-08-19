@@ -5,7 +5,7 @@ export const basketballDetail: ClubDetail = makeDetail({
    id: 103,
    name: "🏀 FPT-Rex",
    field: "Tập luyện thể chất – Nhanh nhẹn – Phản xạ – Tốc độ – Độ bền – Bóng rổ",
-   position: "Sân bóng rổ",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "Những người sẵn sàng hết mình vì trái bóng cam, vượt qua mọi giới hạn để tiến bộ và biết yêu quý đồng đội.",
    emoji: "🏀",

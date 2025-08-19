@@ -5,7 +5,7 @@ export const volleyballDetail: ClubDetail = makeDetail({
    id: 14,
    name: "🏐 Fvolleyball 🏐",
    field: "🏃‍♂️ Bóng chuyền – Rèn luyện thể lực – Tinh thần đồng đội",
-   position: "Sân bóng chuyền",
+   position: "Sảnh FPT SCHOOL",
    looking: "🔥 Những chiến binh mang trong mình ngọn lửa đam mê – sẵn sàng bứt phá mọi giới hạn 🔥",
    emoji: "🏐",
    shortIntro:

@@ -5,7 +5,7 @@ export const hoaNoMuaVanDetail: ClubDetail = makeDetail({
    id: 106,
    name: "🌸 HOA NỞ MÙA VĂN",
    field: "Văn học – Sáng tác – Đọc sách – Nghệ thuật ngôn từ",
-   position: "Thư viện – Tầng 1",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "Một trái tim nhạy cảm với cái đẹp? Một bộ óc sắc sảo thích phản biện? Hay đơn giản, là người từng được một câu văn chạm tới tim?",
    emoji: "📖",

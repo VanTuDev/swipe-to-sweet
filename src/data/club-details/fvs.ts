@@ -5,7 +5,7 @@ export const fvsDetail: ClubDetail = makeDetail({
    id: 19,
    name: "🥋 FVS",
    field: "Vovinam – Võ thuật Việt – Rèn luyện thể chất – Kỷ luật – Bản lĩnh – Tự vệ",
-   position: "Cập nhật sau",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "Những người sẵn sàng vượt giới hạn bản thân\n🔥 Có đam mê, ý chí thép và tinh thần không bỏ cuộc",
    emoji: "🥋",

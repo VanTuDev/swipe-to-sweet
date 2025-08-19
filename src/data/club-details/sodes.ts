@@ -5,7 +5,7 @@ export const sodesDetail: ClubDetail = makeDetail({
    id: 17,
    name: "☀️Soleil Debate Station – SODES",
    field: "Tư duy phản biện - Khoa học xã hội - Pháp quyền - Ngoại giao - Văn hóa - Tình cảm - Nhân cách.",
-   position: "Trường THPT FPT Đà Nẵng",
+   position: "Sảnh FPT SCHOOL",
    looking:
       "Người thiếu vốn từ vựng – Người ngoại giao tốt.\nHướng nội – Hướng ngoại.\nTinh thần làm việc.\nTrách nhiệm với đồng đội và công việc.\nĐam mê về tranh biện(Học thuật)\nMuốn phát triển/trao dồi kỹ năng: tự tin, học thuật, nói lách,….",
    emoji: "☀️",

@@ -5,7 +5,7 @@ export const mecDetail: ClubDetail = makeDetail({
    id: 102,
    name: "🌍 MEC - Master English Club",
    field: "Tiếng Anh giao tiếp • Trò chơi sáng tạo • Kỹ năng mềm qua hoạt động vui",
-   position: "Phòng học ngoại ngữ - Tầng 2",
+   position: "Sảnh FPT SCHOOL",
    looking: "Những \"hành tinh nhí\" yêu thích khám phá thế giới bằng tiếng Anh, thích kết nối và không ngại bật chế độ global citizen!",
    emoji: "🌐",
    shortIntro:
